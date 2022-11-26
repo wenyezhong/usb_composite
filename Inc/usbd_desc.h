@@ -135,6 +135,7 @@ static void Get_SerialNum(void);
 /**
   * @}
   */
+uint8_t * USBD_UsrStrDescriptor(struct _USBD_HandleTypeDef *pdev, uint8_t index,  uint16_t *length);  
 
 #ifdef __cplusplus
 }

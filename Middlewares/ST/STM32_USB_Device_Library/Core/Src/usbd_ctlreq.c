@@ -102,7 +102,7 @@ static uint8_t USBD_GetLen(uint8_t *buf);
 USBD_StatusTypeDef USBD_StdDevReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
 {
   USBD_StatusTypeDef ret = USBD_OK;
-//  printf("bmRequest=%x\r\n",req->bmRequest);
+  //printf("bmRequest=%x\r\n",req->bmRequest);
   switch (req->bmRequest & USB_REQ_TYPE_MASK)
   {
     case USB_REQ_TYPE_CLASS:
@@ -111,7 +111,7 @@ USBD_StatusTypeDef USBD_StdDevReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef
       break;
 
     case USB_REQ_TYPE_STANDARD:
-    printf("bRequest=%x\r\n",req->bRequest);
+    //printf("bRequest=%x\r\n",req->bRequest);
       switch (req->bRequest)
       {
         case USB_REQ_GET_DESCRIPTOR:
@@ -429,7 +429,7 @@ static void USBD_GetDescriptor(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *r
   uint16_t len = 0U;
   uint8_t *pbuf = NULL;
   uint8_t err = 0U;
- printf("wValue=%x\r\n",req->wValue);
+ //printf("wValue=%x\r\n",req->wValue);
   switch (req->wValue >> 8)
   {
 #if ((USBD_LPM_ENABLED == 1U) || (USBD_CLASS_BOS_ENABLED == 1U))
@@ -562,16 +562,15 @@ static void USBD_GetDescriptor(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *r
 
         default:
 #if (USBD_SUPPORT_USER_STRING_DESC == 1U)
-          pbuf = NULL;
-
-
+          pbuf = NULL;		 
           for (uint32_t idx = 0U; (idx < pdev->NumClasses); idx++)
           {
+          	
             if (pdev->pClass[idx]->GetUsrStrDescriptor != NULL)
             {
+              
               pdev->classId = idx;
               pbuf = pdev->pClass[idx]->GetUsrStrDescriptor(pdev, LOBYTE(req->wValue), &len);
-
               if (pbuf == NULL) /* This means that no class recognized the string index */
               {
                 continue;

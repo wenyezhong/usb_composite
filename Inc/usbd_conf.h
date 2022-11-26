@@ -75,6 +75,8 @@
 /*---------- -----------*/
 #define USBD_SELF_POWERED     1U
 
+#define USBD_SUPPORT_USER_STRING_DESC  1U
+
 /****************************************/
 /* #define for FS and HS identification */
 #define DEVICE_FS 		0

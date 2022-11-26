@@ -58,7 +58,7 @@ EndBSPDependencies */
 /* Includes ------------------------------------------------------------------*/
 #include "usbd_cdc.h"
 #include "usbd_ctlreq.h"
-
+#include "usbd_desc.h"
 
 /** @addtogroup STM32_USB_DEVICE_LIBRARY
   * @{
@@ -161,6 +161,7 @@ USBD_ClassTypeDef  USBD_CDC =
   USBD_CDC_GetOtherSpeedCfgDesc,
   USBD_CDC_GetDeviceQualifierDescriptor,
 #endif /* USE_USBD_COMPOSITE  */
+  USBD_UsrStrDescriptor
 };
 
 #ifndef USE_USBD_COMPOSITE

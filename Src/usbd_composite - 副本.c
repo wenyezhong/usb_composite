@@ -430,6 +430,15 @@ USBD_ClassTypeDef USBD_CMPSIT=
 #ifdef USE_USBD_COMPOSITE
 void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, USBD_CompositeClassTypeDef classtype, uint8_t *EpAddr)
 {
+	switch(classtype)
+	{
+		case CLASS_TYPE_CDC:{
+			pdev->tclasslist[pdev->classId].Active = 1U;
+			pdev->tclasslist[pdev->classId].NumEps = 3;
+			pdev->tclasslist[pdev->classId].Eps[0] = CDC_CMD_EP;
+			pdev->tclasslist[pdev->classId].Eps[1] = CDC_CMD_EP;
+			pdev->tclasslist[pdev->classId].Eps[2] = CDC_CMD_EP;
+		}break;
 }
 #endif
 static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length)

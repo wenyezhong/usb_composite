@@ -40,6 +40,7 @@ EndBSPDependencies */
 
 /* Includes ------------------------------------------------------------------*/
 #include "usbd_msc.h"
+#include "usbd_desc.h"
 
 
 /** @addtogroup STM32_USB_DEVICE_LIBRARY
@@ -125,6 +126,7 @@ USBD_ClassTypeDef  USBD_MSC =
   USBD_MSC_GetOtherSpeedCfgDesc,
   USBD_MSC_GetDeviceQualifierDescriptor,
 #endif /* USE_USBD_COMPOSITE */
+  USBD_UsrStrDescriptor
 };
 
 /* USB Mass storage device Configuration Descriptor */

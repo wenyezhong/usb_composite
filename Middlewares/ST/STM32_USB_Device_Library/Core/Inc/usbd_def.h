@@ -106,6 +106,10 @@ extern "C" {
 #define  USBD_IDX_CONFIG_STR                            0x04U
 #define  USBD_IDX_INTERFACE_STR                         0x05U
 
+#define  USBD_IDX_CDC_INTF_STR                    0x06
+#define  USBD_IDX_MSC_INTF_STR                    0x07
+
+
 #define  USB_REQ_TYPE_STANDARD                          0x00U
 #define  USB_REQ_TYPE_CLASS                             0x20U
 #define  USB_REQ_TYPE_VENDOR                            0x40U

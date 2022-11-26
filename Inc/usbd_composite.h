@@ -3,7 +3,7 @@
 #include "usbd_def.h"
 
 
-#define USB_CMPSIT_CONFIG_DESC_SIZ                     67U+39U
+#define USB_CMPSIT_CONFIG_DESC_SIZ                    67U+39U
 
 extern USBD_ClassTypeDef USBD_CMPSIT;
 extern USBD_DescriptorsTypeDef usbCmpsitFS_Desc;

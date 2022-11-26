@@ -1,9 +1,7 @@
----- USBD_MAX_NUM_CONFIGURATION Matches (8 in 5 files) ----
-usbd_composite.c (Src) line 76 : 	USBD_MAX_NUM_CONFIGURATION  /*bNumConfigurations*/
-usbd_conf.h (Inc) line 68 : #define USBD_MAX_NUM_CONFIGURATION     1U
-USBD_SetConfig in usbd_ctlreq.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :   if (cfgidx > USBD_MAX_NUM_CONFIGURATION)
-usbd_def.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) line 49 : #endif /* USBD_MAX_NUM_CONFIGURATION */
-usbd_def.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) line 51 : #ifndef USBD_MAX_NUM_CONFIGURATION
-usbd_def.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) line 52 : #define USBD_MAX_NUM_CONFIGURATION                      1U
-usbd_def.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) line 53 : #endif /* USBD_MAX_NUM_CONFIGURATION */
-usbd_desc.c (Src) line 181 :   USBD_MAX_NUM_CONFIGURATION  /*bNumConfigurations*/
+---- Ifs Matches (6 in 3 files) ----
+USBD_CMPSIT_AddClass in usbd_composite.c (Src) : 			pdev->tclasslist[pdev->classId].Ifs[0] = 0;
+USBD_CMPSIT_AddClass in usbd_composite.c (Src) : 			pdev->tclasslist[pdev->classId].Ifs[1] = 1;	
+USBD_CMPSIT_AddClass in usbd_composite.c (Src) : 			pdev->tclasslist[pdev->classId].Ifs[0] = 2;						
+USBD_UnRegisterClassComposite in usbd_core.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :         pdev->tclasslist[pdev->classId].Ifs[idx2] = 0U;
+USBD_CoreFindIF in usbd_core.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :         if (pdev->tclasslist[i].Ifs[j] == index)
+{anonUSBD_CompositeElementTypeDef} in usbd_def.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) :   uint8_t                      Ifs[USBD_MAX_CLASS_INTERFACES];

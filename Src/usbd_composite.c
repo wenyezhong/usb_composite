@@ -16,9 +16,11 @@
 #define USBD_CMPSIT_MANUFACTURER_STRING     "wenyz@wolfGroup"
 #define USBD_CMPSIT_PID_FS     22336
 #define USBD_CMPSIT_PRODUCT_STRING_FS     "STM32 composite product"
-#define USBD_CMPSIT_CONFIGURATION_STRING_FS     "CDC Config"
-#define USBD_CMPSIT_INTERFACE_STRING_FS     "CDC Interface"
+#define USBD_CMPSIT_CONFIGURATION_STRING_FS     "Composite Config"
+#define USBD_CMPSIT_INTERFACE_STRING_FS     "Composite Interface"
 
+#define USBD_CDC_INTERFACE_STRING_FS     "CDC Interface"
+#define USBD_MSC_INTERFACE_STRING_FS     "MSC Interface"
 
 
 uint8_t * USBD_CMPSIT_FS_DeviceDescriptor(USBD_SpeedTypeDef speed, uint16_t *length);
@@ -272,7 +274,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x02,   /* bFunctionClass: Communication Interface Class */
   0x02,   /* bFunctionSubClass: Abstract Control Model */
   0x01,   /* bFunctionProtocol: Common AT commands */
-  0x00,   /* iFunction */
+  0x06,   /* iFunction */
   //17
   /* Interface Descriptor */
   0x09,                                       /* bLength: Interface Descriptor size */
@@ -284,7 +286,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x02,                                       /* bInterfaceClass: Communication Interface Class */
   0x02,                                       /* bInterfaceSubClass: Abstract Control Model */
   0x01,                                       /* bInterfaceProtocol: Common AT commands */
-  0x00,                                       /* iInterface */
+  0x06,                                       /* iInterface */
   //26
   /* Header Functional Descriptor */
   0x05,                                       /* bLength: Endpoint Descriptor size */
@@ -332,7 +334,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x0A,                                       /* bInterfaceClass: CDC */
   0x00,                                       /* bInterfaceSubClass */
   0x00,                                       /* bInterfaceProtocol */
-  0x00,                                       /* iInterface */
+  0x06,                                       /* iInterface */
   //61
   /* Endpoint OUT Descriptor */
   0x07,                                       /* bLength: Endpoint Descriptor size */
@@ -360,7 +362,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x08,   /* bFunctionClass: */
   0x06,   /* bFunctionSubClass: */
   0x50,   /* bFunctionProtocol: */
-  0x05,   /* iFunction */
+  0x07,   /* iFunction */
   //83
   /********************  Mass Storage interface ********************/
   0x09,                                            /* bLength: Interface Descriptor size */
@@ -371,7 +373,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x08,                                            /* bInterfaceClass: MSC Class */
   0x06,                                            /* bInterfaceSubClass : SCSI transparent*/
   0x50,                                            /* nInterfaceProtocol */
-  0x05,                                            /* iInterface: */
+  0x07,                                            /* iInterface: */
   /********************  Mass Storage Endpoints ********************/
   //92
   0x07,                                            /* Endpoint descriptor length = 7 */
@@ -427,14 +429,92 @@ USBD_ClassTypeDef USBD_CMPSIT=
   USBD_CMPSIT_GetHSCfgDesc,
   USBD_CMPSIT_GetFSCfgDesc,  
   USBD_CMPSIT_GetOtherSpeedCfgDesc,
-  USBD_CMPSIT_GetDeviceQualifierDescriptor
+  USBD_CMPSIT_GetDeviceQualifierDescriptor  
 };
 
 #ifdef USE_USBD_COMPOSITE
 void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, USBD_CompositeClassTypeDef classtype, uint8_t *EpAddr)
 {
+	switch(classtype)
+	{
+		case CLASS_TYPE_CDC:{
+			pdev->tclasslist[pdev->classId].ClassType = CLASS_TYPE_CDC;
+			
+			pdev->tclasslist[pdev->classId].Active = 1U;
+			pdev->tclasslist[pdev->classId].NumEps = 3;
+			
+			pdev->tclasslist[pdev->classId].Eps[0].add = CDC_CMD_EP;
+			pdev->tclasslist[pdev->classId].Eps[0].type = USBD_EP_TYPE_INTR;
+			pdev->tclasslist[pdev->classId].Eps[0].size = CDC_CMD_PACKET_SIZE;
+			pdev->tclasslist[pdev->classId].Eps[0].is_used = 1U;
+			
+			pdev->tclasslist[pdev->classId].Eps[1].add = CDC_OUT_EP;
+			pdev->tclasslist[pdev->classId].Eps[1].type = USBD_EP_TYPE_BULK;
+			pdev->tclasslist[pdev->classId].Eps[1].size = CDC_DATA_FS_MAX_PACKET_SIZE;
+			pdev->tclasslist[pdev->classId].Eps[1].is_used = 1U;
+			
+			pdev->tclasslist[pdev->classId].Eps[2].add = CDC_IN_EP;
+			pdev->tclasslist[pdev->classId].Eps[2].type = USBD_EP_TYPE_BULK;
+			pdev->tclasslist[pdev->classId].Eps[2].size = CDC_DATA_FS_MAX_PACKET_SIZE;
+			pdev->tclasslist[pdev->classId].Eps[2].is_used = 1U;
+
+			pdev->tclasslist[pdev->classId].NumIf = 2;
+			pdev->tclasslist[pdev->classId].Ifs[0] = 0;
+			pdev->tclasslist[pdev->classId].Ifs[1] = 1;	
+			
+		}break;
+
+		case CLASS_TYPE_MSC:{
+			pdev->tclasslist[pdev->classId].ClassType = CLASS_TYPE_MSC;
+			
+			pdev->tclasslist[pdev->classId].Active = 1U;
+			pdev->tclasslist[pdev->classId].NumEps = 2;
+			
+			pdev->tclasslist[pdev->classId].Eps[0].add = MSC_EPIN_ADDR;
+			pdev->tclasslist[pdev->classId].Eps[0].type = USBD_EP_TYPE_BULK;
+			pdev->tclasslist[pdev->classId].Eps[0].size = MSC_MAX_FS_PACKET;
+			pdev->tclasslist[pdev->classId].Eps[0].is_used = 1U;
+			
+			pdev->tclasslist[pdev->classId].Eps[1].add = MSC_EPOUT_ADDR;
+			pdev->tclasslist[pdev->classId].Eps[1].type = USBD_EP_TYPE_BULK;
+			pdev->tclasslist[pdev->classId].Eps[1].size = MSC_MAX_FS_PACKET;
+			pdev->tclasslist[pdev->classId].Eps[1].is_used = 1U;
+			
+
+			pdev->tclasslist[pdev->classId].NumIf = 1;
+			pdev->tclasslist[pdev->classId].Ifs[0] = 2;						
+			
+		}break;
+		default:break;
+	}
+	pdev->tclasslist[pdev->classId].CurrPcktSze = 0U;
+		
 }
+
 #endif
+
+uint8_t * USBD_UsrStrDescriptor(struct _USBD_HandleTypeDef *pdev, uint8_t index,  uint16_t *length)
+{
+  *length = 0;
+  printf("index=%d\r\n",index);
+ /*  if (USBD_IDX_MICROSOFT_DESC_STR == index) {
+    *length = sizeof (USBD_MS_OS_StringDescriptor);
+    return USBD_MS_OS_StringDescriptor;
+  } else if (USBD_IDX_ODRIVE_INTF_STR == index) {
+    USBD_GetString((uint8_t *)USBD_PRODUCT_XSTR(NATIVE_STRING), USBD_StrDesc, length);
+    return USBD_StrDesc;
+  }  */
+  if (USBD_IDX_CDC_INTF_STR == index) {
+    USBD_GetString((uint8_t *)USBD_CDC_INTERFACE_STRING_FS, USBD_CMPSIT_StrDesc, length);
+    return USBD_CMPSIT_StrDesc;
+  }  
+  else if (USBD_IDX_MSC_INTF_STR == index) {    
+    USBD_GetString((uint8_t *)USBD_MSC_INTERFACE_STRING_FS, USBD_CMPSIT_StrDesc, length);
+    return USBD_CMPSIT_StrDesc;
+  }  
+  return NULL;
+}
+
 static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length)
 {
 	// printf("%s:%s:%d",__FILE__,__FUNCTION__,__LINE__);
@@ -446,6 +526,8 @@ static uint8_t *USBD_CMPSIT_GetHSCfgDesc(uint16_t *length)
 }
 static uint8_t *USBD_CMPSIT_GetOtherSpeedCfgDesc(uint16_t *length)
 {
+  *length = (uint16_t)sizeof(USBD_CMPSIT_CfgDesc);
+  return USBD_CMPSIT_CfgDesc;
 }
 uint8_t *USBD_CMPSIT_GetDeviceQualifierDescriptor(uint16_t *length)
 {

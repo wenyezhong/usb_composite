@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "usbd_desc.h": "c"
+    }
+}
