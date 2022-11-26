@@ -102,7 +102,7 @@ static uint8_t USBD_GetLen(uint8_t *buf);
 USBD_StatusTypeDef USBD_StdDevReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
 {
   USBD_StatusTypeDef ret = USBD_OK;
-  //printf("bmRequest=%x\r\n",req->bmRequest);
+  
   switch (req->bmRequest & USB_REQ_TYPE_MASK)
   {
     case USB_REQ_TYPE_CLASS:
@@ -183,6 +183,7 @@ USBD_StatusTypeDef USBD_StdItfReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef
           {
             /* Get the class index relative to this interface */
             idx = USBD_CoreFindIF(pdev, LOBYTE(req->wIndex));
+           
             if (((uint8_t)idx != 0xFFU) && (idx < USBD_MAX_SUPPORTED_CLASS))
             {
               /* Call the class data out function to manage the request */
@@ -429,7 +430,7 @@ static void USBD_GetDescriptor(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *r
   uint16_t len = 0U;
   uint8_t *pbuf = NULL;
   uint8_t err = 0U;
- //printf("wValue=%x\r\n",req->wValue);
+
   switch (req->wValue >> 8)
   {
 #if ((USBD_LPM_ENABLED == 1U) || (USBD_CLASS_BOS_ENABLED == 1U))
@@ -731,13 +732,13 @@ static USBD_StatusTypeDef USBD_SetConfig(USBD_HandleTypeDef *pdev, USBD_SetupReq
   static uint8_t cfgidx;
 
   cfgidx = (uint8_t)(req->wValue);
-
+  printf("idx=%d--%d\r\n",cfgidx,pdev->dev_state);
   if (cfgidx > USBD_MAX_NUM_CONFIGURATION)
   {
     USBD_CtlError(pdev, req);
     return USBD_FAIL;
   }
-
+  
   switch (pdev->dev_state)
   {
     case USBD_STATE_ADDRESSED:
@@ -746,7 +747,7 @@ static USBD_StatusTypeDef USBD_SetConfig(USBD_HandleTypeDef *pdev, USBD_SetupReq
         pdev->dev_config = cfgidx;
 
         ret = USBD_SetClassConfig(pdev, cfgidx);
-
+		
         if (ret != USBD_OK)
         {
           USBD_CtlError(pdev, req);

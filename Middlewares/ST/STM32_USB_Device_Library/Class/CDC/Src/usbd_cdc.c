@@ -59,7 +59,7 @@ EndBSPDependencies */
 #include "usbd_cdc.h"
 #include "usbd_ctlreq.h"
 #include "usbd_desc.h"
-
+#include <stdio.h>
 /** @addtogroup STM32_USB_DEVICE_LIBRARY
   * @{
   */
@@ -289,14 +289,15 @@ static uint8_t USBD_CDC_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
 {
   UNUSED(cfgidx);
   USBD_CDC_HandleTypeDef *hcdc;
-
+  
   hcdc = (USBD_CDC_HandleTypeDef *)USBD_malloc(sizeof(USBD_CDC_HandleTypeDef));
-
+  
   if (hcdc == NULL)
   {
     pdev->pClassDataCmsit[pdev->classId] = NULL;
     return (uint8_t)USBD_EMEM;
   }
+  
 
   (void)USBD_memset(hcdc, 0, sizeof(USBD_CDC_HandleTypeDef));
 
@@ -309,7 +310,7 @@ static uint8_t USBD_CDC_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
   CDCOutEpAdd = USBD_CoreGetEPAdd(pdev, USBD_EP_OUT, USBD_EP_TYPE_BULK);
   CDCCmdEpAdd = USBD_CoreGetEPAdd(pdev, USBD_EP_IN, USBD_EP_TYPE_INTR);
 #endif /* USE_USBD_COMPOSITE */
-
+	
   if (pdev->dev_speed == USBD_SPEED_HIGH)
   {
     /* Open EP IN */
@@ -350,9 +351,11 @@ static uint8_t USBD_CDC_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
   pdev->ep_in[CDCCmdEpAdd & 0xFU].is_used = 1U;
 
   hcdc->RxBuffer = NULL;
+ 
 
   /* Init  physical Interface components */
   ((USBD_CDC_ItfTypeDef *)pdev->pUserData[pdev->classId])->Init();
+  
 
   /* Init Xfer states */
   hcdc->TxState = 0U;
@@ -362,7 +365,7 @@ static uint8_t USBD_CDC_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
   {
     return (uint8_t)USBD_EMEM;
   }
-
+ 
   if (pdev->dev_speed == USBD_SPEED_HIGH)
   {
     /* Prepare Out endpoint to receive next packet */
@@ -375,7 +378,7 @@ static uint8_t USBD_CDC_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
     (void)USBD_LL_PrepareReceive(pdev, CDCOutEpAdd, hcdc->RxBuffer,
                                  CDC_DATA_FS_OUT_PACKET_SIZE);
   }
-
+ 
   return (uint8_t)USBD_OK;
 }
 
@@ -438,7 +441,7 @@ static uint8_t USBD_CDC_Setup(USBD_HandleTypeDef *pdev,
   uint8_t ifalt = 0U;
   uint16_t status_info = 0U;
   USBD_StatusTypeDef ret = USBD_OK;
-
+  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   if (hcdc == NULL)
   {
     return (uint8_t)USBD_FAIL;
@@ -538,7 +541,7 @@ static uint8_t USBD_CDC_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
 {
   USBD_CDC_HandleTypeDef *hcdc;
   PCD_HandleTypeDef *hpcd = (PCD_HandleTypeDef *)pdev->pData;
-
+  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   if (pdev->pClassDataCmsit[pdev->classId] == NULL)
   {
     return (uint8_t)USBD_FAIL;
@@ -583,7 +586,7 @@ static uint8_t USBD_CDC_DataOut(USBD_HandleTypeDef *pdev, uint8_t epnum)
   {
     return (uint8_t)USBD_FAIL;
   }
-
+ printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   /* Get the received data length */
   hcdc->RxLength = USBD_LL_GetRxDataSize(pdev, epnum);
 
@@ -740,9 +743,10 @@ uint8_t USBD_CDC_RegisterInterface(USBD_HandleTypeDef *pdev,
   {
     return (uint8_t)USBD_FAIL;
   }
-
+  pdev->classId --;
+  
   pdev->pUserData[pdev->classId] = fops;
-
+  pdev->classId ++;
   return (uint8_t)USBD_OK;
 }
 

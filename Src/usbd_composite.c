@@ -11,6 +11,7 @@
 #define USBD_PRODUCT_XSTR(s) USBD_PRODUCT_STR(s)
 #define USBD_PRODUCT_STR(s) #s
 
+#if 1
 #define USBD_CMPSIT_VID     1155
 #define USBD_CMPSIT_LANGID_STRING     1033
 #define USBD_CMPSIT_MANUFACTURER_STRING     "wenyz@wolfGroup"
@@ -18,6 +19,15 @@
 #define USBD_CMPSIT_PRODUCT_STRING_FS     "STM32 composite product"
 #define USBD_CMPSIT_CONFIGURATION_STRING_FS     "Composite Config"
 #define USBD_CMPSIT_INTERFACE_STRING_FS     "Composite Interface"
+#else
+#define USBD_CMPSIT_VID     1155
+#define USBD_CMPSIT_LANGID_STRING     1033
+#define USBD_CMPSIT_MANUFACTURER_STRING     "STMicroelectronics"
+#define USBD_CMPSIT_PID_FS     22336
+#define USBD_CMPSIT_PRODUCT_STRING_FS     "STM32 Virtual ComPort"
+#define USBD_CMPSIT_CONFIGURATION_STRING_FS     "CDC Config"
+#define USBD_CMPSIT_INTERFACE_STRING_FS     "CDC Interface"
+#endif
 
 #define USBD_CDC_INTERFACE_STRING_FS     "CDC Interface"
 #define USBD_MSC_INTERFACE_STRING_FS     "MSC Interface"
@@ -71,7 +81,7 @@ __ALIGN_BEGIN uint8_t USBD_CMPSIT_FS_DeviceDesc[USB_LEN_DEV_DESC] __ALIGN_END =
 	LOBYTE(USBD_CMPSIT_PID_FS),		  /*idProduct*/
 	HIBYTE(USBD_CMPSIT_PID_FS),		  /*idProduct*/
 	0x00, 					  /*bcdDevice rel. 2.00*/
-	0x03, 					  /* bNumInterfaces */
+	0x02, 					  /* bNumInterfaces */
 	USBD_IDX_MFC_STR, 		  /*Index of manufacturer  string*/
 	USBD_IDX_PRODUCT_STR, 	  /*Index of product string*/
 	USBD_IDX_SERIAL_STR,		  /*Index of serial number string*/
@@ -435,6 +445,7 @@ USBD_ClassTypeDef USBD_CMPSIT=
 #ifdef USE_USBD_COMPOSITE
 void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, USBD_CompositeClassTypeDef classtype, uint8_t *EpAddr)
 {
+	printf("classId=%d  : %d\r\n",pdev->classId,classtype);
 	switch(classtype)
 	{
 		case CLASS_TYPE_CDC:{
@@ -517,7 +528,7 @@ uint8_t * USBD_UsrStrDescriptor(struct _USBD_HandleTypeDef *pdev, uint8_t index,
 
 static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length)
 {
-	// printf("%s:%s:%d",__FILE__,__FUNCTION__,__LINE__);
+	
 	*length = (uint16_t)sizeof(USBD_CMPSIT_CfgDesc);
 	return USBD_CMPSIT_CfgDesc;
 }

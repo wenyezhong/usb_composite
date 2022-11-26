@@ -1,7 +1,5 @@
----- Ifs Matches (6 in 3 files) ----
-USBD_CMPSIT_AddClass in usbd_composite.c (Src) : 			pdev->tclasslist[pdev->classId].Ifs[0] = 0;
-USBD_CMPSIT_AddClass in usbd_composite.c (Src) : 			pdev->tclasslist[pdev->classId].Ifs[1] = 1;	
-USBD_CMPSIT_AddClass in usbd_composite.c (Src) : 			pdev->tclasslist[pdev->classId].Ifs[0] = 2;						
-USBD_UnRegisterClassComposite in usbd_core.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :         pdev->tclasslist[pdev->classId].Ifs[idx2] = 0U;
-USBD_CoreFindIF in usbd_core.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :         if (pdev->tclasslist[i].Ifs[j] == index)
-{anonUSBD_CompositeElementTypeDef} in usbd_def.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) :   uint8_t                      Ifs[USBD_MAX_CLASS_INTERFACES];
+---- USBD_StdEPReq Matches (4 in 3 files) ----
+USBD_LL_SetupStage in usbd_core.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :       ret = USBD_StdEPReq(pdev, &pdev->request);
+usbd_ctlreq.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) line 233 :   * @brief  USBD_StdEPReq
+usbd_ctlreq.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) line 239 : USBD_StatusTypeDef USBD_StdEPReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
+usbd_ctlreq.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) line 77 : USBD_StatusTypeDef USBD_StdEPReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req);

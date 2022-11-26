@@ -22,7 +22,7 @@
 #ifdef USE_USBD_COMPOSITE
 #include "usbd_composite.h"
 #endif /* USE_USBD_COMPOSITE */
-
+#include <stdio.h>
 /** @addtogroup STM32_USBD_DEVICE_LIBRARY
   * @{
   */
@@ -457,11 +457,14 @@ USBD_StatusTypeDef USBD_SetClassConfig(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
   /* Parse the table of classes in use */
   for (uint32_t i = 0U; i < USBD_MAX_SUPPORTED_CLASS; i++)
   {
+  	
     /* Check if current class is in use */
     if ((pdev->tclasslist[i].Active) == 1U)
     {
+    	
       if (pdev->pClass[i] != NULL)
       {
+      	
         pdev->classId = i;
         /* Set configuration  and Start the Class*/
         if (pdev->pClass[i]->Init(pdev, cfgidx) != 0U)
@@ -601,10 +604,12 @@ USBD_StatusTypeDef USBD_LL_DataOutStage(USBD_HandleTypeDef *pdev,
 
           case USB_REQ_RECIPIENT_INTERFACE:
             idx = USBD_CoreFindIF(pdev, LOBYTE(pdev->request.wIndex));
+            
             break;
 
-          case USB_REQ_RECIPIENT_ENDPOINT:
+          case USB_REQ_RECIPIENT_ENDPOINT:          
             idx = USBD_CoreFindEP(pdev, LOBYTE(pdev->request.wIndex));
+           
             break;
 
           default:
@@ -747,7 +752,7 @@ USBD_StatusTypeDef USBD_LL_DataInStage(USBD_HandleTypeDef *pdev,
   {
     /* Get the class index relative to this interface */
     idx = USBD_CoreFindEP(pdev, ((uint8_t)epnum | 0x80U));
-
+	
     if (((uint16_t)idx != 0xFFU) && (idx < USBD_MAX_SUPPORTED_CLASS))
     {
       /* Call the class data out function to manage the request */

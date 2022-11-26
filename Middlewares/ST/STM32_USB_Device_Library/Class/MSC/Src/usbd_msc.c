@@ -41,6 +41,7 @@ EndBSPDependencies */
 /* Includes ------------------------------------------------------------------*/
 #include "usbd_msc.h"
 #include "usbd_desc.h"
+#include <stdio.h>
 
 
 /** @addtogroup STM32_USB_DEVICE_LIBRARY
@@ -217,15 +218,15 @@ uint8_t USBD_MSC_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
 {
   UNUSED(cfgidx);
   USBD_MSC_BOT_HandleTypeDef *hmsc;
-
+  
   hmsc = (USBD_MSC_BOT_HandleTypeDef *)USBD_malloc(sizeof(USBD_MSC_BOT_HandleTypeDef));
-
+ 
   if (hmsc == NULL)
   {
     pdev->pClassDataCmsit[pdev->classId] = NULL;
     return (uint8_t)USBD_EMEM;
   }
-
+	
   pdev->pClassDataCmsit[pdev->classId] = (void *)hmsc;
   pdev->pClassData = pdev->pClassDataCmsit[pdev->classId];
 
@@ -312,7 +313,7 @@ uint8_t USBD_MSC_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->classId];
   USBD_StatusTypeDef ret = USBD_OK;
   uint16_t status_info = 0U;
-
+  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
 #ifdef USE_USBD_COMPOSITE
   /* Get the Endpoints addresses allocated for this class instance */
   MSCInEpAdd  = USBD_CoreGetEPAdd(pdev, USBD_EP_IN, USBD_EP_TYPE_BULK);
@@ -442,6 +443,7 @@ uint8_t USBD_MSC_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
   */
 uint8_t USBD_MSC_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
 {
+  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   MSC_BOT_DataIn(pdev, epnum);
 
   return (uint8_t)USBD_OK;
@@ -456,6 +458,7 @@ uint8_t USBD_MSC_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
   */
 uint8_t USBD_MSC_DataOut(USBD_HandleTypeDef *pdev, uint8_t epnum)
 {
+  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   MSC_BOT_DataOut(pdev, epnum);
 
   return (uint8_t)USBD_OK;
@@ -559,9 +562,9 @@ uint8_t USBD_MSC_RegisterStorage(USBD_HandleTypeDef *pdev, USBD_StorageTypeDef *
   {
     return (uint8_t)USBD_FAIL;
   }
-
+  pdev->classId --;  
   pdev->pUserData[pdev->classId] = fops;
-
+  pdev->classId ++;
   return (uint8_t)USBD_OK;
 }
 
