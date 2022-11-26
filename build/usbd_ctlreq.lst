@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
   28:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   * @{
   29:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   */
   30:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 2
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 2
 
 
   31:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
   85:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** /**
   86:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   * @}
   87:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 3
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 3
 
 
   88:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  142:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           USBD_ClrFeature(pdev, req);
  143:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           break;
  144:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 4
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 4
 
 
  145:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         default:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  199:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             }
  200:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             else
  201:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 5
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 5
 
 
  202:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               /* No relative interface found */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  256:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         /* Call the class data out function to manage the request */
  257:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         if (pdev->pClass[idx]->Setup != NULL)
  258:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 6
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 6
 
 
  259:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           ret = (USBD_StatusTypeDef)pdev->pClass[idx]->Setup(pdev, req);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  313:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               }
  314:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
  315:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 7
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 7
 
 
  316:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             case USBD_STATE_CONFIGURED:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  370:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               }
  371:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               else
  372:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 8
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 8
 
 
  373:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                 if (pdev->ep_out[ep_addr & 0xFU].is_used == 0U)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  427:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** static void USBD_GetDescriptor(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
  428:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** {
  429:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint16_t len = 0U;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 9
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 9
 
 
  430:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint8_t *pbuf = NULL;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  484:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         pbuf[1] = USB_DESC_TYPE_CONFIGURATION;
  485:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
  486:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 10
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 10
 
 
  487:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  541:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
  542:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             pbuf = pdev->pDesc->GetConfigurationStrDescriptor(pdev->dev_speed, &len);
  543:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 11
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 11
 
 
  544:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           else
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  598:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** #endif /* USBD_SUPPORT_USER_STRING_DESC  */
  599:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  600:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** #if ((USBD_CLASS_USER_STRING_DESC == 0U) && (USBD_SUPPORT_USER_STRING_DESC == 0U))
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 12
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 12
 
 
  601:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           USBD_CtlError(pdev, req);
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  655:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   }
  656:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  657:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   if (err != 0U)
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 13
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 13
 
 
  658:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  712:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         pdev->dev_state = USBD_STATE_DEFAULT;
  713:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
  714:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 14
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 14
 
 
  715:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  769:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       if (cfgidx == 0U)
  770:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       {
  771:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         pdev->dev_state = USBD_STATE_ADDRESSED;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 15
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 15
 
 
  772:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         pdev->dev_config = cfgidx;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  826:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   else
  827:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
  828:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     switch (pdev->dev_state)
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 16
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 16
 
 
  829:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     {
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  883:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
  884:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   }
  885:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 17
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 17
 
 
  886:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  940:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  941:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  942:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** /**
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 18
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 18
 
 
  943:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   * @brief  USBD_ParseSetupRequest
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  997:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint8_t idx = 0U;
  998:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint8_t *pdesc;
  999:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 19
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 19
 
 
 1000:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   if (desc == NULL)
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
   45              	.LVL3:
   46              	.L3:
 1037:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 20
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 20
 
 
 1038:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     len++;
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  953:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
   90              		.loc 1 953 18 view .LVU21
   91 0002 0370     		strb	r3, [r0]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 21
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 21
 
 
  955:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   req->bRequest = *(uint8_t *)(pbuff);
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
   36:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   * @{
   37:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   */
   38:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 22
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 22
 
 
   39:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** /** @defgroup USB_DEF_Exported_Defines
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
   93:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define  USB_LEN_DEV_QUALIFIER_DESC                     0x0AU
   94:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define  USB_LEN_DEV_DESC                               0x12U
   95:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define  USB_LEN_CFG_DESC                               0x09U
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 23
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 23
 
 
   96:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define  USB_LEN_IF_DESC                                0x09U
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  150:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define USB_CONF_DESC_SIZE                              0x09U
  151:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define USB_IF_DESC_SIZE                                0x09U
  152:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define USB_EP_DESC_SIZE                                0x07U
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 24
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 24
 
 
  153:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #define USB_IAD_DESC_SIZE                               0x08U
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  207:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** {
  208:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   uint8_t   bLength;
  209:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   uint8_t   bDescriptorType;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 25
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 25
 
 
  210:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   uint16_t  wTotalLength;
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  264:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #if (USBD_SUPPORT_USER_STRING_DESC == 1U)
  265:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   uint8_t  *(*GetUsrStrDescriptor)(struct _USBD_HandleTypeDef *pdev, uint8_t index,  uint16_t *leng
  266:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** #endif /* USBD_SUPPORT_USER_STRING_DESC  */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 26
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 26
 
 
  267:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  321:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   CLASS_TYPE_CDC     = 2,
  322:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   CLASS_TYPE_MSC     = 3,
  323:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   CLASS_TYPE_DFU     = 4,
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 27
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 27
 
 
  324:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   CLASS_TYPE_CHID    = 5,
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  378:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** 
  379:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   USBD_SetupReqTypedef    request;
  380:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   USBD_DescriptorsTypeDef *pDesc;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 28
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 28
 
 
  381:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h ****   USBD_ClassTypeDef       *pClass[USBD_MAX_SUPPORTED_CLASS];
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  115              		.loc 2 424 12 is_stmt 0 view .LVU35
  116 000a CA78     		ldrb	r2, [r1, #3]	@ zero_extendqisi2
  117              	.LVL11:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 29
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 29
 
 
  425:Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  154              	.LBE10:
  963:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  155              		.loc 1 963 15 view .LVU56
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 30
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 30
 
 
  156 001a 8380     		strh	r3, [r0, #4]	@ movhi
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  196              		.thumb
  197              		.thumb_func
  199              	USBD_CtlError:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 31
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 31
 
 
  200              	.LVL22:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  244              	.LVL26:
  245              	.LFB137:
  428:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint16_t len = 0U;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 32
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 32
 
 
  246              		.loc 1 428 1 is_stmt 1 view -0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  288              	.L10:
  289 0026 0700     		.2byte	(.L14-.L10)/2
  290 0028 2200     		.2byte	(.L13-.L10)/2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 33
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 33
 
 
  291 002a 4800     		.2byte	(.L12-.L10)/2
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  667:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     }
  330              		.loc 1 667 7 is_stmt 1 view .LVU112
  667:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 34
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 34
 
 
  331              		.loc 1 667 13 is_stmt 0 view .LVU113
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  372 0080 4370     		strb	r3, [r0, #1]
  657:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
  373              		.loc 1 657 3 is_stmt 1 view .LVU127
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 35
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 35
 
 
  374 0082 DEE7     		b	.L15
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  482:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         }
  413              		.loc 1 482 43 is_stmt 0 view .LVU143
  414 00a8 D5F8B832 		ldr	r3, [r5, #696]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 36
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 36
 
 
  482:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         }
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  498:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****             err++;
  457              		.loc 1 498 13 view .LVU156
  458 00d8 2146     		mov	r1, r4
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 37
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 37
 
 
  459 00da 2846     		mov	r0, r5
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  498 0102 DB68     		ldr	r3, [r3, #12]
  516:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
  499              		.loc 1 516 14 view .LVU172
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 38
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 38
 
 
  500 0104 23B1     		cbz	r3, .L32
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  540 012e 2846     		mov	r0, r5
  541 0130 FFF7FEFF 		bl	USBD_CtlError
  542              	.LVL57:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 39
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 39
 
 
  535:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  581 0158 23B1     		cbz	r3, .L35
  554:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
  582              		.loc 1 554 13 is_stmt 1 view .LVU203
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 40
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 40
 
 
  554:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           }
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  622 0180 2BB1     		cbz	r3, .L37
  614:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         }
  623              		.loc 1 614 11 is_stmt 1 view .LVU219
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 41
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 41
 
 
  614:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         }
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  663              		.loc 1 633 9 is_stmt 1 view .LVU234
  633:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         {
  664              		.loc 1 633 13 is_stmt 0 view .LVU235
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 42
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 42
 
 
  665 01aa 95F8FC32 		ldrb	r3, [r5, #764]	@ zero_extendqisi2
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  704              		.loc 1 657 3 view .LVU250
  705 01d6 46E7     		b	.L7
  706              	.LVL80:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 43
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 43
 
 
  707              	.L8:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  753              	.LVL88:
  754              	.LFB138:
  689:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   uint8_t  dev_addr;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 44
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 44
 
 
  755              		.loc 1 689 1 is_stmt 1 view -0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  794              		.loc 1 702 7 is_stmt 1 view .LVU276
  702:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       (void)USBD_LL_SetUSBAddress(pdev, dev_addr);
  795              		.loc 1 702 25 is_stmt 0 view .LVU277
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 45
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 45
 
 
  796 0020 80F89E52 		strb	r5, [r0, #670]
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  835              		.loc 1 718 5 is_stmt 0 view .LVU292
  836 004a FFF7FEFF 		bl	USBD_CtlError
  837              	.LVL97:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 46
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 46
 
 
  838              	.L48:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  742:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
  882              		.loc 1 742 15 is_stmt 0 view .LVU305
  883 0010 90F89C32 		ldrb	r3, [r0, #668]	@ zero_extendqisi2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 47
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 47
 
 
  884 0014 DBB2     		uxtb	r3, r3
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  747:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  924              		.loc 1 747 26 is_stmt 0 view .LVU320
  925 003c 4560     		str	r5, [r0, #4]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 48
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 48
 
 
  749:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  965              		.loc 1 764 9 is_stmt 1 view .LVU335
  764:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       }
  966              		.loc 1 764 15 is_stmt 0 view .LVU336
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 49
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 49
 
 
  967 0066 FFF7FEFF 		bl	USBD_CtlSendStatus
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  788:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           (void)USBD_ClrClassConfig(pdev, (uint8_t)pdev->dev_config);
  1006              		.loc 1 788 11 is_stmt 0 view .LVU352
  1007 008e FFF7FEFF 		bl	USBD_CtlError
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 50
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 50
 
 
  1008              	.LVL120:
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1047              	.LVL127:
  794:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         }
  1048              		.loc 1 794 17 view .LVU368
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 51
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 51
 
 
  1049 00ba FFF7FEFF 		bl	USBD_CtlSendStatus
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1095 0008 90F89C32 		ldrb	r3, [r0, #668]	@ zero_extendqisi2
  1096 000c DBB2     		uxtb	r3, r3
  828:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****     {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 52
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 52
 
 
  1097              		.loc 1 828 5 view .LVU379
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1138              		.loc 1 832 34 view .LVU392
  1139 0032 0023     		movs	r3, #0
  1140 0034 41F8083F 		str	r3, [r1, #8]!
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 53
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 53
 
 
  833:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         break;
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1184              		.loc 1 868 31 is_stmt 0 view .LVU405
  1185 0012 0123     		movs	r3, #1
  1186 0014 C360     		str	r3, [r0, #12]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 54
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 54
 
 
  873:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       {
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1227              		.section	.text.USBD_SetFeature,"ax",%progbits
  1228              		.align	1
  1229              		.syntax unified
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 55
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 55
 
 
  1230              		.thumb
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1271              		.loc 1 900 11 view .LVU434
  1272 001a F9E7     		b	.L90
  1273              	.LVL152:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 56
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 56
 
 
  1274              	.L96:
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1317              		.loc 1 928 14 is_stmt 0 view .LVU447
  1318 000c 4B88     		ldrh	r3, [r1, #2]
  928:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 57
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 57
 
 
  1319              		.loc 1 928 10 view .LVU448
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  103:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   USBD_StatusTypeDef ret = USBD_OK;
  1363              		.loc 1 103 1 is_stmt 1 view -0
  1364              		.cfi_startproc
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 58
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 58
 
 
  1365              		@ args = 0, pretend = 0, frame = 0
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  110:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
  1407              		.loc 1 110 60 view .LVU471
  1408 0028 9B68     		ldr	r3, [r3, #8]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 59
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 59
 
 
  110:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****       break;
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1452 0050 15       		.byte	(.L110-.L109)/2
  1453 0051 0F       		.byte	(.L108-.L109)/2
  1454              		.p2align 1
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 60
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 60
 
 
  1455              	.L111:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  104:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** //  printf("bmRequest=%x\r\n",req->bmRequest);
  1498              		.loc 1 104 22 is_stmt 0 view .LVU494
  1499 0084 3C46     		mov	r4, r7
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 61
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 61
 
 
  135:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1547              		.loc 1 167 1 is_stmt 0 view .LVU503
  1548 0000 70B5     		push	{r4, r5, r6, lr}
  1549              	.LCFI12:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 62
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 62
 
 
  1550              		.cfi_def_cfa_offset 16
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  182:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
  1591              		.loc 1 182 15 is_stmt 0 view .LVU517
  1592 002a 2179     		ldrb	r1, [r4, #4]	@ zero_extendqisi2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 63
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 63
 
 
  1593              	.LVL187:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  192:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               }
  1631              		.loc 1 192 44 view .LVU534
  1632 0054 00E0     		b	.L126
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 64
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 64
 
 
  1633              	.LVL193:
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1675              	.LVL201:
  218:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           break;
  1676              		.loc 1 218 11 is_stmt 0 view .LVU547
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 65
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 65
 
 
  1677 007c 2846     		mov	r0, r5
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  245:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
  1722              		.loc 1 245 13 is_stmt 0 view .LVU559
  1723 0008 8B88     		ldrh	r3, [r1, #4]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 66
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 66
 
 
  245:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c **** 
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1763 0030 0328     		cmp	r0, #3
  1764 0032 00F2F780 		bhi	.L164
  255:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****         /* Call the class data out function to manage the request */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 67
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 67
 
 
  1765              		.loc 1 255 9 is_stmt 1 view .LVU575
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1806              	.L137:
  268:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
  1807              		.loc 1 268 11 discriminator 3 view .LVU589
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 68
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 68
 
 
  268:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****           {
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  274:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               }
  1849              		.loc 1 274 23 is_stmt 0 view .LVU603
  1850 0098 8021     		movs	r1, #128
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 69
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 69
 
 
  1851 009a 3046     		mov	r0, r6
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1890              	.LVL233:
  287:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                 }
  1891              		.loc 1 287 25 view .LVU619
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 70
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 70
 
 
  1892 00be F7E7     		b	.L144
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1933              		.loc 1 307 23 view .LVU632
  1934 00e6 FFF7FEFF 		bl	USBD_LL_StallEP
  1935              	.LVL242:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 71
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 71
 
 
  308:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               }
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  1974              		.loc 1 329 33 is_stmt 0 view .LVU648
  1975 0112 C6F8F802 		str	r0, [r6, #760]
  331:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                   {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 72
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 72
 
 
  1976              		.loc 1 331 19 is_stmt 1 view .LVU649
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  2017 0142 27D0     		beq	.L151
  400:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
  2018              		.loc 1 400 15 is_stmt 1 view .LVU663
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 73
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 73
 
 
  2019 0144 FFF7FEFF 		bl	USBD_CtlError
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  359:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
  2059              		.loc 1 359 15 is_stmt 1 discriminator 4 view .LVU678
  359:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               break;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 74
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 74
 
 
  2060              		.loc 1 359 21 is_stmt 0 discriminator 4 view .LVU679
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  363:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****               {
  2101              		.loc 1 363 18 view .LVU693
  2102 0196 002B     		cmp	r3, #0
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 75
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 75
 
 
  2103 0198 1FDB     		blt	.L180
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  2142              		.loc 1 396 21 is_stmt 0 view .LVU708
  2143 01cc 0222     		movs	r2, #2
  2144 01ce 2146     		mov	r1, r4
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 76
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 76
 
 
  2145 01d0 3046     		mov	r0, r6
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  2184              	.LVL278:
  2185              	.L182:
  380:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****                     &pdev->ep_out[ep_addr & 0x7FU];
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 77
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 77
 
 
  2186              		.loc 1 380 73 discriminator 1 view .LVU724
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  2228 0228 0024     		movs	r4, #0
  2229 022a FAE6     		b	.L135
  2230              		.cfi_endproc
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 78
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 78
 
 
  2231              	.LFE136:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  2275              		.loc 1 1008 3 is_stmt 1 view .LVU748
 1008:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   idx++;
  2276              		.loc 1 1008 16 is_stmt 0 view .LVU749
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 79
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 79
 
 
  2277 0016 2B70     		strb	r3, [r5]
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  2314              	.L185:
 1013:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
  2315              		.loc 1 1013 9 is_stmt 1 view .LVU767
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 80
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 80
 
 
 1013:Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c ****   {
@@ -4776,52 +4776,52 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 1
  2347              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
  2348              		.file 7 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h"
  2349              		.file 8 "e:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 81
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 81
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_ctlreq.c
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:20     .text.USBD_GetLen:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:25     .text.USBD_GetLen:00000000 USBD_GetLen
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:72     .text.USBD_ParseSetupRequest:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:78     .text.USBD_ParseSetupRequest:00000000 USBD_ParseSetupRequest
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:193    .text.USBD_CtlError:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:199    .text.USBD_CtlError:00000000 USBD_CtlError
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:234    .rodata.USBD_GetDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:238    .text.USBD_GetDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:243    .text.USBD_GetDescriptor:00000000 USBD_GetDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:289    .text.USBD_GetDescriptor:00000026 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:296    .text.USBD_GetDescriptor:00000034 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:432    .text.USBD_GetDescriptor:000000c0 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:438    .text.USBD_GetDescriptor:000000c6 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:741    .text.USBD_GetDescriptor:000001f4 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:747    .text.USBD_SetAddress:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:752    .text.USBD_SetAddress:00000000 USBD_SetAddress
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:846    .text.USBD_SetConfig:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:851    .text.USBD_SetConfig:00000000 USBD_SetConfig
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1064   .text.USBD_SetConfig:000000c8 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1069   .text.USBD_GetConfig:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1074   .text.USBD_GetConfig:00000000 USBD_GetConfig
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1152   .text.USBD_GetStatus:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1157   .text.USBD_GetStatus:00000000 USBD_GetStatus
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1228   .text.USBD_SetFeature:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1233   .text.USBD_SetFeature:00000000 USBD_SetFeature
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1291   .text.USBD_ClrFeature:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1296   .text.USBD_ClrFeature:00000000 USBD_ClrFeature
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1350   .rodata.USBD_StdDevReq.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1354   .text.USBD_StdDevReq:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1360   .text.USBD_StdDevReq:00000000 USBD_StdDevReq
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1444   .text.USBD_StdDevReq:00000048 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1454   .text.USBD_StdDevReq:00000052 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1529   .text.USBD_StdDevReq:000000a8 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1534   .text.USBD_StdItfReq:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1540   .text.USBD_StdItfReq:00000000 USBD_StdItfReq
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1691   .text.USBD_StdEPReq:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:1697   .text.USBD_StdEPReq:00000000 USBD_StdEPReq
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:2234   .text.USBD_GetString:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:2240   .text.USBD_GetString:00000000 USBD_GetString
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:2340   .bss.cfgidx.0:00000000 cfgidx.0
-C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s:2341   .bss.cfgidx.0:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:20     .text.USBD_GetLen:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:25     .text.USBD_GetLen:00000000 USBD_GetLen
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:72     .text.USBD_ParseSetupRequest:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:78     .text.USBD_ParseSetupRequest:00000000 USBD_ParseSetupRequest
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:193    .text.USBD_CtlError:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:199    .text.USBD_CtlError:00000000 USBD_CtlError
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:234    .rodata.USBD_GetDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:238    .text.USBD_GetDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:243    .text.USBD_GetDescriptor:00000000 USBD_GetDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:289    .text.USBD_GetDescriptor:00000026 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:296    .text.USBD_GetDescriptor:00000034 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:432    .text.USBD_GetDescriptor:000000c0 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:438    .text.USBD_GetDescriptor:000000c6 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:741    .text.USBD_GetDescriptor:000001f4 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:747    .text.USBD_SetAddress:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:752    .text.USBD_SetAddress:00000000 USBD_SetAddress
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:846    .text.USBD_SetConfig:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:851    .text.USBD_SetConfig:00000000 USBD_SetConfig
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1064   .text.USBD_SetConfig:000000c8 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1069   .text.USBD_GetConfig:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1074   .text.USBD_GetConfig:00000000 USBD_GetConfig
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1152   .text.USBD_GetStatus:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1157   .text.USBD_GetStatus:00000000 USBD_GetStatus
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1228   .text.USBD_SetFeature:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1233   .text.USBD_SetFeature:00000000 USBD_SetFeature
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1291   .text.USBD_ClrFeature:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1296   .text.USBD_ClrFeature:00000000 USBD_ClrFeature
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1350   .rodata.USBD_StdDevReq.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1354   .text.USBD_StdDevReq:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1360   .text.USBD_StdDevReq:00000000 USBD_StdDevReq
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1444   .text.USBD_StdDevReq:00000048 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1454   .text.USBD_StdDevReq:00000052 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1529   .text.USBD_StdDevReq:000000a8 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1534   .text.USBD_StdItfReq:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1540   .text.USBD_StdItfReq:00000000 USBD_StdItfReq
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1691   .text.USBD_StdEPReq:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:1697   .text.USBD_StdEPReq:00000000 USBD_StdEPReq
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:2234   .text.USBD_GetString:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:2240   .text.USBD_GetString:00000000 USBD_GetString
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:2340   .bss.cfgidx.0:00000000 cfgidx.0
+C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s:2341   .bss.cfgidx.0:00000000 $d
 
 UNDEFINED SYMBOLS
 USBD_LL_StallEP
@@ -4836,6 +4836,6 @@ USBD_CoreFindIF
 USBD_CoreFindEP
 USBD_LL_ClearStallEP
 USBD_LL_IsStallEP
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccZwCmRR.s 			page 82
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc2rhSTm.s 			page 82
 
 

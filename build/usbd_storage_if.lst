@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
   28:Src/usbd_storage_if.c **** /* Private typedef -----------------------------------------------------------*/
   29:Src/usbd_storage_if.c **** /* Private define ------------------------------------------------------------*/
   30:Src/usbd_storage_if.c **** /* Private macro -------------------------------------------------------------*/
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 2
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 2
 
 
   31:Src/usbd_storage_if.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
   85:Src/usbd_storage_if.c **** 
   86:Src/usbd_storage_if.c **** /**
   87:Src/usbd_storage_if.c ****   * @}
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 3
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 3
 
 
   88:Src/usbd_storage_if.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
  142:Src/usbd_storage_if.c **** 
  143:Src/usbd_storage_if.c **** static int8_t STORAGE_Init_FS(uint8_t lun);
  144:Src/usbd_storage_if.c **** static int8_t STORAGE_GetCapacity_FS(uint8_t lun, uint32_t *block_num, uint16_t *block_size);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 4
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 4
 
 
  145:Src/usbd_storage_if.c **** static int8_t STORAGE_IsReady_FS(uint8_t lun);
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
   44              		.section	.text.STORAGE_GetCapacity_FS,"ax",%progbits
   45              		.align	1
   46              		.syntax unified
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 5
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 5
 
 
   47              		.thumb
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
  204:Src/usbd_storage_if.c **** /**
  205:Src/usbd_storage_if.c ****   * @brief   Checks whether the medium is ready.
  206:Src/usbd_storage_if.c ****   * @param  lun:  Logical unit number.
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 6
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 6
 
 
  207:Src/usbd_storage_if.c ****   * @retval USBD_OK if all operations are OK else USBD_FAIL
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
  117 0000 0020     		movs	r0, #0
  118              	.LVL7:
  119              		.loc 1 230 1 view .LVU23
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 7
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 7
 
 
  120 0002 7047     		bx	lr
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
  158              	.LVL10:
  159              	.LFB139:
  251:Src/usbd_storage_if.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 8
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 8
 
 
  252:Src/usbd_storage_if.c **** /**
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
  189              		@ frame_needed = 0, uses_anonymous_args = 0
  190              		@ link register save eliminated.
  279:Src/usbd_storage_if.c ****   /* USER CODE BEGIN 8 */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 9
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 9
 
 
  280:Src/usbd_storage_if.c ****   return (STORAGE_LUN_NBR - 1);
@@ -521,28 +521,28 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 1
  224              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc.h"
  225              		.file 5 "Inc/usbd_storage_if.h"
  226              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s 			page 10
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_storage_if.c
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:20     .text.STORAGE_Init_FS:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:25     .text.STORAGE_Init_FS:00000000 STORAGE_Init_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:45     .text.STORAGE_GetCapacity_FS:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:50     .text.STORAGE_GetCapacity_FS:00000000 STORAGE_GetCapacity_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:77     .text.STORAGE_IsReady_FS:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:82     .text.STORAGE_IsReady_FS:00000000 STORAGE_IsReady_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:101    .text.STORAGE_IsWriteProtected_FS:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:106    .text.STORAGE_IsWriteProtected_FS:00000000 STORAGE_IsWriteProtected_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:125    .text.STORAGE_Read_FS:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:130    .text.STORAGE_Read_FS:00000000 STORAGE_Read_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:152    .text.STORAGE_Write_FS:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:157    .text.STORAGE_Write_FS:00000000 STORAGE_Write_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:179    .text.STORAGE_GetMaxLun_FS:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:184    .text.STORAGE_GetMaxLun_FS:00000000 STORAGE_GetMaxLun_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:204    .data.USBD_Storage_Interface_fops_FS:00000000 USBD_Storage_Interface_fops_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:217    .rodata.STORAGE_Inquirydata_FS:00000000 STORAGE_Inquirydata_FS
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:201    .data.USBD_Storage_Interface_fops_FS:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\cc8BqzxE.s:214    .rodata.STORAGE_Inquirydata_FS:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:20     .text.STORAGE_Init_FS:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:25     .text.STORAGE_Init_FS:00000000 STORAGE_Init_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:45     .text.STORAGE_GetCapacity_FS:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:50     .text.STORAGE_GetCapacity_FS:00000000 STORAGE_GetCapacity_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:77     .text.STORAGE_IsReady_FS:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:82     .text.STORAGE_IsReady_FS:00000000 STORAGE_IsReady_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:101    .text.STORAGE_IsWriteProtected_FS:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:106    .text.STORAGE_IsWriteProtected_FS:00000000 STORAGE_IsWriteProtected_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:125    .text.STORAGE_Read_FS:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:130    .text.STORAGE_Read_FS:00000000 STORAGE_Read_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:152    .text.STORAGE_Write_FS:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:157    .text.STORAGE_Write_FS:00000000 STORAGE_Write_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:179    .text.STORAGE_GetMaxLun_FS:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:184    .text.STORAGE_GetMaxLun_FS:00000000 STORAGE_GetMaxLun_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:204    .data.USBD_Storage_Interface_fops_FS:00000000 USBD_Storage_Interface_fops_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:217    .rodata.STORAGE_Inquirydata_FS:00000000 STORAGE_Inquirydata_FS
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:201    .data.USBD_Storage_Interface_fops_FS:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccosoWF4.s:214    .rodata.STORAGE_Inquirydata_FS:00000000 $d
 
 NO UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -47,8 +47,8 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
   16:Src/usbd_composite.c **** #define USBD_CMPSIT_MANUFACTURER_STRING     "wenyz@wolfGroup"
   17:Src/usbd_composite.c **** #define USBD_CMPSIT_PID_FS     22336
   18:Src/usbd_composite.c **** #define USBD_CMPSIT_PRODUCT_STRING_FS     "STM32 composite product"
-  19:Src/usbd_composite.c **** #define USBD_CMPSIT_CONFIGURATION_STRING_FS     "Composite Config"
-  20:Src/usbd_composite.c **** #define USBD_CMPSIT_INTERFACE_STRING_FS     "Composite Interface"
+  19:Src/usbd_composite.c **** #define USBD_CMPSIT_CONFIGURATION_STRING_FS     "CDC Config"
+  20:Src/usbd_composite.c **** #define USBD_CMPSIT_INTERFACE_STRING_FS     "CDC Interface"
   21:Src/usbd_composite.c **** 
   22:Src/usbd_composite.c **** 
   23:Src/usbd_composite.c **** 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
   27:Src/usbd_composite.c **** uint8_t * USBD_CMPSIT_FS_ProductStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length);
   28:Src/usbd_composite.c **** uint8_t * USBD_CMPSIT_FS_SerialStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length);
   29:Src/usbd_composite.c **** uint8_t * USBD_CMPSIT_FS_ConfigStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 2
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 2
 
 
   30:Src/usbd_composite.c **** uint8_t * USBD_CMPSIT_FS_InterfaceStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length);
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
   84:Src/usbd_composite.c ****   USB_DESC_TYPE_BOS,
   85:Src/usbd_composite.c ****   0xC,
   86:Src/usbd_composite.c ****   0x0,
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 3
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 3
 
 
   87:Src/usbd_composite.c ****   0x1,  /* 1 device capability*/
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
   46              	.L3:
   47              		.align	2
   48              	.L2:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 4
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 4
 
 
   49 0008 00000000 		.word	.LANCHOR0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  137:Src/usbd_composite.c **** }
  138:Src/usbd_composite.c **** 
  139:Src/usbd_composite.c **** uint8_t * USBD_CMPSIT_FS_ProductStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length)
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 5
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 5
 
 
  140:Src/usbd_composite.c **** {
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  167:Src/usbd_composite.c ****     value = value << 4;
  121              		.loc 1 167 5 is_stmt 1 discriminator 2 view .LVU24
  122              		.loc 1 167 11 is_stmt 0 discriminator 2 view .LVU25
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 6
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 6
 
 
  123 0012 0001     		lsls	r0, r0, #4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  162              		.cfi_def_cfa_offset 0
  163              		.cfi_restore 14
  164              		.loc 1 171 1 view .LVU42
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 7
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 7
 
 
  165 0044 7047     		bx	lr
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  210              	.L17:
  183:Src/usbd_composite.c ****   {
  184:Src/usbd_composite.c ****     IntToUnicode(deviceserial0, &USBD_CMPSIT_StringSerial[2], 8);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 8
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 8
 
 
  185:Src/usbd_composite.c ****     IntToUnicode(deviceserial1, &USBD_CMPSIT_StringSerial[18], 4);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  258              		.loc 1 191 3 view .LVU62
  259              		.loc 1 191 11 is_stmt 0 view .LVU63
  260 0002 1A23     		movs	r3, #26
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 9
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 9
 
 
  261 0004 0B80     		strh	r3, [r1]	@ movhi
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  224:Src/usbd_composite.c ****     USBD_GetString((uint8_t *)USBD_CMPSIT_CONFIGURATION_STRING_FS, USBD_CMPSIT_StrDesc, length);
  225:Src/usbd_composite.c ****   }
  226:Src/usbd_composite.c ****   return USBD_CMPSIT_StrDesc;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 10
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 10
 
 
  227:Src/usbd_composite.c **** }
@@ -563,224 +563,227 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  246:Src/usbd_composite.c **** __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __ALIGN_END =
  247:Src/usbd_composite.c **** {
  248:Src/usbd_composite.c ****   /* Configuration Descriptor */
- 249:Src/usbd_composite.c ****   0x09,                                       /* bLength: Configuration Descriptor size */
- 250:Src/usbd_composite.c ****   USB_DESC_TYPE_CONFIGURATION,                /* bDescriptorType: Configuration */
- 251:Src/usbd_composite.c ****   USB_CDC_CONFIG_DESC_SIZ,                    /* wTotalLength */
- 252:Src/usbd_composite.c ****   0x00,
- 253:Src/usbd_composite.c ****   0x02,                                       /* bNumInterfaces: 2 interfaces */
- 254:Src/usbd_composite.c ****   0x01,                                       /* bConfigurationValue: Configuration value */
- 255:Src/usbd_composite.c ****   0x00,                                       /* iConfiguration: Index of string descriptor
- 256:Src/usbd_composite.c ****                                                  describing the configuration */
- 257:Src/usbd_composite.c **** #if (USBD_SELF_POWERED == 1U)
- 258:Src/usbd_composite.c ****   0xC0,                                       /* bmAttributes: Bus Powered according to user config
- 259:Src/usbd_composite.c **** #else
- 260:Src/usbd_composite.c ****   0x80,                                       /* bmAttributes: Bus Powered according to user config
- 261:Src/usbd_composite.c **** #endif /* USBD_SELF_POWERED */
- 262:Src/usbd_composite.c ****   USBD_MAX_POWER,                             /* MaxPower (mA) */
- 263:Src/usbd_composite.c **** 
- 264:Src/usbd_composite.c ****   /*---------------------------------------------------------------------------*/
- 265:Src/usbd_composite.c **** 
- 266:Src/usbd_composite.c ****   /* Interface Association Descriptor: CDC device (virtual com port) */
- 267:Src/usbd_composite.c ****   0x08,   /* bLength: IAD size */
- 268:Src/usbd_composite.c ****   0x0B,   /* bDescriptorType: Interface Association Descriptor */
- 269:Src/usbd_composite.c ****   0x00,   /* bFirstInterface */
- 270:Src/usbd_composite.c ****   0x02,   /* bInterfaceCount */
- 271:Src/usbd_composite.c ****   0x02,   /* bFunctionClass: Communication Interface Class */
- 272:Src/usbd_composite.c ****   0x02,   /* bFunctionSubClass: Abstract Control Model */
- 273:Src/usbd_composite.c ****   0x01,   /* bFunctionProtocol: Common AT commands */
- 274:Src/usbd_composite.c ****   0x00,   /* iFunction */
- 275:Src/usbd_composite.c **** 
- 276:Src/usbd_composite.c ****   /* Interface Descriptor */
- 277:Src/usbd_composite.c ****   0x09,                                       /* bLength: Interface Descriptor size */
- 278:Src/usbd_composite.c ****   USB_DESC_TYPE_INTERFACE,                    /* bDescriptorType: Interface */
- 279:Src/usbd_composite.c ****   /* Interface descriptor type */
- 280:Src/usbd_composite.c ****   0x00,                                       /* bInterfaceNumber: Number of Interface */
- 281:Src/usbd_composite.c ****   0x00,                                       /* bAlternateSetting: Alternate setting */
- 282:Src/usbd_composite.c ****   0x01,                                       /* bNumEndpoints: One endpoint used */
- 283:Src/usbd_composite.c ****   0x02,                                       /* bInterfaceClass: Communication Interface Class */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 11
+ 249:Src/usbd_composite.c ****   //0
+ 250:Src/usbd_composite.c ****   0x09,                                       /* bLength: Configuration Descriptor size */
+ 251:Src/usbd_composite.c ****   USB_DESC_TYPE_CONFIGURATION,                /* bDescriptorType: Configuration */
+ 252:Src/usbd_composite.c ****   USB_CMPSIT_CONFIG_DESC_SIZ,                    /* wTotalLength */
+ 253:Src/usbd_composite.c ****   0x00,
+ 254:Src/usbd_composite.c ****   0x03,                                       /* bNumInterfaces: 2 interfaces */
+ 255:Src/usbd_composite.c ****   0x01,                                       /* bConfigurationValue: Configuration value */
+ 256:Src/usbd_composite.c ****   0x00,                                       /* iConfiguration: Index of string descriptor
+ 257:Src/usbd_composite.c ****                                                  describing the configuration */
+ 258:Src/usbd_composite.c **** #if (USBD_SELF_POWERED == 1U)
+ 259:Src/usbd_composite.c ****   0xC0,                                       /* bmAttributes: Bus Powered according to user config
+ 260:Src/usbd_composite.c **** #else
+ 261:Src/usbd_composite.c ****   0x80,                                       /* bmAttributes: Bus Powered according to user config
+ 262:Src/usbd_composite.c **** #endif /* USBD_SELF_POWERED */
+ 263:Src/usbd_composite.c ****   USBD_MAX_POWER,                             /* MaxPower (mA) */
+ 264:Src/usbd_composite.c **** 
+ 265:Src/usbd_composite.c ****   /*---------------------------------------------------------------------------*/
+ 266:Src/usbd_composite.c ****   //9
+ 267:Src/usbd_composite.c ****   /* Interface Association Descriptor: CDC device (virtual com port) */
+ 268:Src/usbd_composite.c ****   0x08,   /* bLength: IAD size */
+ 269:Src/usbd_composite.c ****   0x0B,   /* bDescriptorType: Interface Association Descriptor */
+ 270:Src/usbd_composite.c ****   0x00,   /* bFirstInterface */
+ 271:Src/usbd_composite.c ****   0x02,   /* bInterfaceCount */
+ 272:Src/usbd_composite.c ****   0x02,   /* bFunctionClass: Communication Interface Class */
+ 273:Src/usbd_composite.c ****   0x02,   /* bFunctionSubClass: Abstract Control Model */
+ 274:Src/usbd_composite.c ****   0x01,   /* bFunctionProtocol: Common AT commands */
+ 275:Src/usbd_composite.c ****   0x00,   /* iFunction */
+ 276:Src/usbd_composite.c ****   //17
+ 277:Src/usbd_composite.c ****   /* Interface Descriptor */
+ 278:Src/usbd_composite.c ****   0x09,                                       /* bLength: Interface Descriptor size */
+ 279:Src/usbd_composite.c ****   USB_DESC_TYPE_INTERFACE,                    /* bDescriptorType: Interface */
+ 280:Src/usbd_composite.c ****   /* Interface descriptor type */
+ 281:Src/usbd_composite.c ****   0x00,                                       /* bInterfaceNumber: Number of Interface */
+ 282:Src/usbd_composite.c ****   0x00,                                       /* bAlternateSetting: Alternate setting */
+ 283:Src/usbd_composite.c ****   0x01,                                       /* bNumEndpoints: One endpoint used */
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 11
 
 
- 284:Src/usbd_composite.c ****   0x02,                                       /* bInterfaceSubClass: Abstract Control Model */
- 285:Src/usbd_composite.c ****   0x01,                                       /* bInterfaceProtocol: Common AT commands */
- 286:Src/usbd_composite.c ****   0x00,                                       /* iInterface */
- 287:Src/usbd_composite.c **** 
- 288:Src/usbd_composite.c ****   /* Header Functional Descriptor */
- 289:Src/usbd_composite.c ****   0x05,                                       /* bLength: Endpoint Descriptor size */
- 290:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
- 291:Src/usbd_composite.c ****   0x00,                                       /* bDescriptorSubtype: Header Func Desc */
- 292:Src/usbd_composite.c ****   0x10,                                       /* bcdCDC: spec release number */
- 293:Src/usbd_composite.c ****   0x01,
- 294:Src/usbd_composite.c **** 
- 295:Src/usbd_composite.c ****   /* Call Management Functional Descriptor */
- 296:Src/usbd_composite.c ****   0x05,                                       /* bFunctionLength */
- 297:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
- 298:Src/usbd_composite.c ****   0x01,                                       /* bDescriptorSubtype: Call Management Func Desc */
- 299:Src/usbd_composite.c ****   0x00,                                       /* bmCapabilities: D0+D1 */
- 300:Src/usbd_composite.c ****   0x01,                                       /* bDataInterface */
- 301:Src/usbd_composite.c **** 
- 302:Src/usbd_composite.c ****   /* ACM Functional Descriptor */
- 303:Src/usbd_composite.c ****   0x04,                                       /* bFunctionLength */
- 304:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
- 305:Src/usbd_composite.c ****   0x02,                                       /* bDescriptorSubtype: Abstract Control Management de
- 306:Src/usbd_composite.c ****   0x02,                                       /* bmCapabilities */
- 307:Src/usbd_composite.c **** 
- 308:Src/usbd_composite.c ****   /* Union Functional Descriptor */
- 309:Src/usbd_composite.c ****   0x05,                                       /* bFunctionLength */
- 310:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
- 311:Src/usbd_composite.c ****   0x06,                                       /* bDescriptorSubtype: Union func desc */
- 312:Src/usbd_composite.c ****   0x00,                                       /* bMasterInterface: Communication class interface */
- 313:Src/usbd_composite.c ****   0x01,                                       /* bSlaveInterface0: Data Class Interface */
- 314:Src/usbd_composite.c **** 
- 315:Src/usbd_composite.c ****   /* Endpoint 2 Descriptor */
- 316:Src/usbd_composite.c ****   0x07,                                       /* bLength: Endpoint Descriptor size */
- 317:Src/usbd_composite.c ****   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
- 318:Src/usbd_composite.c ****   CDC_CMD_EP,                                 /* bEndpointAddress */
- 319:Src/usbd_composite.c ****   0x03,                                       /* bmAttributes: Interrupt */
- 320:Src/usbd_composite.c ****   LOBYTE(CDC_CMD_PACKET_SIZE),                /* wMaxPacketSize */
- 321:Src/usbd_composite.c ****   HIBYTE(CDC_CMD_PACKET_SIZE),
- 322:Src/usbd_composite.c ****   CDC_FS_BINTERVAL,                           /* bInterval */
- 323:Src/usbd_composite.c ****   /*---------------------------------------------------------------------------*/
- 324:Src/usbd_composite.c **** 
- 325:Src/usbd_composite.c ****   /* Data class interface descriptor */
- 326:Src/usbd_composite.c ****   0x09,                                       /* bLength: Endpoint Descriptor size */
- 327:Src/usbd_composite.c ****   USB_DESC_TYPE_INTERFACE,                    /* bDescriptorType: */
- 328:Src/usbd_composite.c ****   0x01,                                       /* bInterfaceNumber: Number of Interface */
- 329:Src/usbd_composite.c ****   0x00,                                       /* bAlternateSetting: Alternate setting */
- 330:Src/usbd_composite.c ****   0x02,                                       /* bNumEndpoints: Two endpoints used */
- 331:Src/usbd_composite.c ****   0x0A,                                       /* bInterfaceClass: CDC */
- 332:Src/usbd_composite.c ****   0x00,                                       /* bInterfaceSubClass */
- 333:Src/usbd_composite.c ****   0x00,                                       /* bInterfaceProtocol */
- 334:Src/usbd_composite.c ****   0x00,                                       /* iInterface */
- 335:Src/usbd_composite.c **** 
- 336:Src/usbd_composite.c ****   /* Endpoint OUT Descriptor */
- 337:Src/usbd_composite.c ****   0x07,                                       /* bLength: Endpoint Descriptor size */
- 338:Src/usbd_composite.c ****   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
- 339:Src/usbd_composite.c ****   CDC_OUT_EP,                                 /* bEndpointAddress */
- 340:Src/usbd_composite.c ****   0x02,                                       /* bmAttributes: Bulk */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 12
+ 284:Src/usbd_composite.c ****   0x02,                                       /* bInterfaceClass: Communication Interface Class */
+ 285:Src/usbd_composite.c ****   0x02,                                       /* bInterfaceSubClass: Abstract Control Model */
+ 286:Src/usbd_composite.c ****   0x01,                                       /* bInterfaceProtocol: Common AT commands */
+ 287:Src/usbd_composite.c ****   0x00,                                       /* iInterface */
+ 288:Src/usbd_composite.c ****   //26
+ 289:Src/usbd_composite.c ****   /* Header Functional Descriptor */
+ 290:Src/usbd_composite.c ****   0x05,                                       /* bLength: Endpoint Descriptor size */
+ 291:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
+ 292:Src/usbd_composite.c ****   0x00,                                       /* bDescriptorSubtype: Header Func Desc */
+ 293:Src/usbd_composite.c ****   0x10,                                       /* bcdCDC: spec release number */
+ 294:Src/usbd_composite.c ****   0x01,
+ 295:Src/usbd_composite.c ****   //31
+ 296:Src/usbd_composite.c ****   /* Call Management Functional Descriptor */
+ 297:Src/usbd_composite.c ****   0x05,                                       /* bFunctionLength */
+ 298:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
+ 299:Src/usbd_composite.c ****   0x01,                                       /* bDescriptorSubtype: Call Management Func Desc */
+ 300:Src/usbd_composite.c ****   0x00,                                       /* bmCapabilities: D0+D1 */
+ 301:Src/usbd_composite.c ****   0x01,                                       /* bDataInterface */
+ 302:Src/usbd_composite.c ****   //36
+ 303:Src/usbd_composite.c ****   /* ACM Functional Descriptor */
+ 304:Src/usbd_composite.c ****   0x04,                                       /* bFunctionLength */
+ 305:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
+ 306:Src/usbd_composite.c ****   0x02,                                       /* bDescriptorSubtype: Abstract Control Management de
+ 307:Src/usbd_composite.c ****   0x02,                                       /* bmCapabilities */
+ 308:Src/usbd_composite.c ****   //40
+ 309:Src/usbd_composite.c ****   /* Union Functional Descriptor */
+ 310:Src/usbd_composite.c ****   0x05,                                       /* bFunctionLength */
+ 311:Src/usbd_composite.c ****   0x24,                                       /* bDescriptorType: CS_INTERFACE */
+ 312:Src/usbd_composite.c ****   0x06,                                       /* bDescriptorSubtype: Union func desc */
+ 313:Src/usbd_composite.c ****   0x00,                                       /* bMasterInterface: Communication class interface */
+ 314:Src/usbd_composite.c ****   0x01,                                       /* bSlaveInterface0: Data Class Interface */
+ 315:Src/usbd_composite.c ****   //45
+ 316:Src/usbd_composite.c ****   /* Endpoint 2 Descriptor */
+ 317:Src/usbd_composite.c ****   0x07,                                       /* bLength: Endpoint Descriptor size */
+ 318:Src/usbd_composite.c ****   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
+ 319:Src/usbd_composite.c ****   CDC_CMD_EP,                                 /* bEndpointAddress */
+ 320:Src/usbd_composite.c ****   0x03,                                       /* bmAttributes: Interrupt */
+ 321:Src/usbd_composite.c ****   LOBYTE(CDC_CMD_PACKET_SIZE),                /* wMaxPacketSize */
+ 322:Src/usbd_composite.c ****   HIBYTE(CDC_CMD_PACKET_SIZE),
+ 323:Src/usbd_composite.c ****   CDC_FS_BINTERVAL,                           /* bInterval */
+ 324:Src/usbd_composite.c ****   /*---------------------------------------------------------------------------*/
+ 325:Src/usbd_composite.c ****   //52
+ 326:Src/usbd_composite.c ****   /* Data class interface descriptor */
+ 327:Src/usbd_composite.c ****   0x09,                                       /* bLength: Endpoint Descriptor size */
+ 328:Src/usbd_composite.c ****   USB_DESC_TYPE_INTERFACE,                    /* bDescriptorType: */
+ 329:Src/usbd_composite.c ****   0x01,                                       /* bInterfaceNumber: Number of Interface */
+ 330:Src/usbd_composite.c ****   0x00,                                       /* bAlternateSetting: Alternate setting */
+ 331:Src/usbd_composite.c ****   0x02,                                       /* bNumEndpoints: Two endpoints used */
+ 332:Src/usbd_composite.c ****   0x0A,                                       /* bInterfaceClass: CDC */
+ 333:Src/usbd_composite.c ****   0x00,                                       /* bInterfaceSubClass */
+ 334:Src/usbd_composite.c ****   0x00,                                       /* bInterfaceProtocol */
+ 335:Src/usbd_composite.c ****   0x00,                                       /* iInterface */
+ 336:Src/usbd_composite.c ****   //61
+ 337:Src/usbd_composite.c ****   /* Endpoint OUT Descriptor */
+ 338:Src/usbd_composite.c ****   0x07,                                       /* bLength: Endpoint Descriptor size */
+ 339:Src/usbd_composite.c ****   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
+ 340:Src/usbd_composite.c ****   CDC_OUT_EP,                                 /* bEndpointAddress */
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 12
 
 
- 341:Src/usbd_composite.c ****   LOBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),        /* wMaxPacketSize */
- 342:Src/usbd_composite.c ****   HIBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),
- 343:Src/usbd_composite.c ****   0x00,                                       /* bInterval */
- 344:Src/usbd_composite.c **** 
- 345:Src/usbd_composite.c ****   /* Endpoint IN Descriptor */
- 346:Src/usbd_composite.c ****   0x07,                                       /* bLength: Endpoint Descriptor size */
- 347:Src/usbd_composite.c ****   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
- 348:Src/usbd_composite.c ****   CDC_IN_EP,                                  /* bEndpointAddress */
- 349:Src/usbd_composite.c ****   0x02,                                       /* bmAttributes: Bulk */
- 350:Src/usbd_composite.c ****   LOBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),        /* wMaxPacketSize */
- 351:Src/usbd_composite.c ****   HIBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),
- 352:Src/usbd_composite.c ****   0x00,                                        /* bInterval */
- 353:Src/usbd_composite.c **** 
- 354:Src/usbd_composite.c ****   /* Interface Association Descriptor: Mass Storage device */
- 355:Src/usbd_composite.c ****   0x08,   /* bLength: IAD size */
- 356:Src/usbd_composite.c ****   0x0B,   /* bDescriptorType: Interface Association Descriptor */
- 357:Src/usbd_composite.c ****   0x02,   /* bFirstInterface */
- 358:Src/usbd_composite.c ****   0x01,   /* bInterfaceCount */
- 359:Src/usbd_composite.c ****   0x08,   /* bFunctionClass: */
- 360:Src/usbd_composite.c ****   0x06,   /* bFunctionSubClass: */
- 361:Src/usbd_composite.c ****   0x50,   /* bFunctionProtocol: */
- 362:Src/usbd_composite.c ****   0x05,   /* iFunction */
- 363:Src/usbd_composite.c **** 
- 364:Src/usbd_composite.c ****   /********************  Mass Storage interface ********************/
- 365:Src/usbd_composite.c ****   0x09,                                            /* bLength: Interface Descriptor size */
- 366:Src/usbd_composite.c ****   0x04,                                            /* bDescriptorType: */
- 367:Src/usbd_composite.c ****   0x02,                                            /* bInterfaceNumber: Number of Interface */
- 368:Src/usbd_composite.c ****   0x00,                                            /* bAlternateSetting: Alternate setting */
- 369:Src/usbd_composite.c ****   0x02,                                            /* bNumEndpoints */
- 370:Src/usbd_composite.c ****   0x08,                                            /* bInterfaceClass: MSC Class */
- 371:Src/usbd_composite.c ****   0x06,                                            /* bInterfaceSubClass : SCSI transparent*/
- 372:Src/usbd_composite.c ****   0x50,                                            /* nInterfaceProtocol */
- 373:Src/usbd_composite.c ****   0x05,                                            /* iInterface: */
- 374:Src/usbd_composite.c ****   /********************  Mass Storage Endpoints ********************/
- 375:Src/usbd_composite.c ****   0x07,                                            /* Endpoint descriptor length = 7 */
- 376:Src/usbd_composite.c ****   0x05,                                            /* Endpoint descriptor type */
- 377:Src/usbd_composite.c ****   MSC_EPIN_ADDR,                                   /* Endpoint address (IN, address 1) */
- 378:Src/usbd_composite.c ****   0x02,                                            /* Bulk endpoint type */
- 379:Src/usbd_composite.c ****   LOBYTE(MSC_MAX_FS_PACKET),
- 380:Src/usbd_composite.c ****   HIBYTE(MSC_MAX_FS_PACKET),
- 381:Src/usbd_composite.c ****   0x00,                                            /* Polling interval in milliseconds */
- 382:Src/usbd_composite.c **** 
- 383:Src/usbd_composite.c ****   0x07,                                            /* Endpoint descriptor length = 7 */
- 384:Src/usbd_composite.c ****   0x05,                                            /* Endpoint descriptor type */
- 385:Src/usbd_composite.c ****   MSC_EPOUT_ADDR,                                  /* Endpoint address (OUT, address 1) */
- 386:Src/usbd_composite.c ****   0x02,                                            /* Bulk endpoint type */
- 387:Src/usbd_composite.c ****   LOBYTE(MSC_MAX_FS_PACKET),
- 388:Src/usbd_composite.c ****   HIBYTE(MSC_MAX_FS_PACKET),
- 389:Src/usbd_composite.c ****   0x00                                             /* Polling interval in milliseconds */
- 390:Src/usbd_composite.c **** };
- 391:Src/usbd_composite.c **** __ALIGN_BEGIN static uint8_t USBD_CMPSIT_DeviceQualifierDesc[USB_LEN_DEV_QUALIFIER_DESC] __ALIGN_EN
- 392:Src/usbd_composite.c **** {
- 393:Src/usbd_composite.c ****   USB_LEN_DEV_QUALIFIER_DESC,
- 394:Src/usbd_composite.c ****   USB_DESC_TYPE_DEVICE_QUALIFIER,
- 395:Src/usbd_composite.c ****   0x00,
- 396:Src/usbd_composite.c ****   0x02,
- 397:Src/usbd_composite.c ****   0x00,
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 13
+ 341:Src/usbd_composite.c ****   0x02,                                       /* bmAttributes: Bulk */
+ 342:Src/usbd_composite.c ****   LOBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),        /* wMaxPacketSize */
+ 343:Src/usbd_composite.c ****   HIBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),
+ 344:Src/usbd_composite.c ****   0x00,                                       /* bInterval */
+ 345:Src/usbd_composite.c ****   //68
+ 346:Src/usbd_composite.c ****   /* Endpoint IN Descriptor */
+ 347:Src/usbd_composite.c ****   0x07,                                       /* bLength: Endpoint Descriptor size */
+ 348:Src/usbd_composite.c ****   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
+ 349:Src/usbd_composite.c ****   CDC_IN_EP,                                  /* bEndpointAddress */
+ 350:Src/usbd_composite.c ****   0x02,                                       /* bmAttributes: Bulk */
+ 351:Src/usbd_composite.c ****   LOBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),        /* wMaxPacketSize */
+ 352:Src/usbd_composite.c ****   HIBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),
+ 353:Src/usbd_composite.c ****   0x00,                                        /* bInterval */
+ 354:Src/usbd_composite.c ****   //75
+ 355:Src/usbd_composite.c ****   /* Interface Association Descriptor: Mass Storage device */
+ 356:Src/usbd_composite.c ****   0x08,   /* bLength: IAD size */
+ 357:Src/usbd_composite.c ****   0x0B,   /* bDescriptorType: Interface Association Descriptor */
+ 358:Src/usbd_composite.c ****   0x02,   /* bFirstInterface */
+ 359:Src/usbd_composite.c ****   0x01,   /* bInterfaceCount */
+ 360:Src/usbd_composite.c ****   0x08,   /* bFunctionClass: */
+ 361:Src/usbd_composite.c ****   0x06,   /* bFunctionSubClass: */
+ 362:Src/usbd_composite.c ****   0x50,   /* bFunctionProtocol: */
+ 363:Src/usbd_composite.c ****   0x05,   /* iFunction */
+ 364:Src/usbd_composite.c ****   //83
+ 365:Src/usbd_composite.c ****   /********************  Mass Storage interface ********************/
+ 366:Src/usbd_composite.c ****   0x09,                                            /* bLength: Interface Descriptor size */
+ 367:Src/usbd_composite.c ****   0x04,                                            /* bDescriptorType: */
+ 368:Src/usbd_composite.c ****   0x02,                                            /* bInterfaceNumber: Number of Interface */
+ 369:Src/usbd_composite.c ****   0x00,                                            /* bAlternateSetting: Alternate setting */
+ 370:Src/usbd_composite.c ****   0x02,                                            /* bNumEndpoints */
+ 371:Src/usbd_composite.c ****   0x08,                                            /* bInterfaceClass: MSC Class */
+ 372:Src/usbd_composite.c ****   0x06,                                            /* bInterfaceSubClass : SCSI transparent*/
+ 373:Src/usbd_composite.c ****   0x50,                                            /* nInterfaceProtocol */
+ 374:Src/usbd_composite.c ****   0x05,                                            /* iInterface: */
+ 375:Src/usbd_composite.c ****   /********************  Mass Storage Endpoints ********************/
+ 376:Src/usbd_composite.c ****   //92
+ 377:Src/usbd_composite.c ****   0x07,                                            /* Endpoint descriptor length = 7 */
+ 378:Src/usbd_composite.c ****   0x05,                                            /* Endpoint descriptor type */
+ 379:Src/usbd_composite.c ****   MSC_EPIN_ADDR,                                   /* Endpoint address (IN, address 1) */
+ 380:Src/usbd_composite.c ****   0x02,                                            /* Bulk endpoint type */
+ 381:Src/usbd_composite.c ****   LOBYTE(MSC_MAX_FS_PACKET),
+ 382:Src/usbd_composite.c ****   HIBYTE(MSC_MAX_FS_PACKET),
+ 383:Src/usbd_composite.c ****   0x00,                                            /* Polling interval in milliseconds */
+ 384:Src/usbd_composite.c ****   //99
+ 385:Src/usbd_composite.c ****   0x07,                                            /* Endpoint descriptor length = 7 */
+ 386:Src/usbd_composite.c ****   0x05,                                            /* Endpoint descriptor type */
+ 387:Src/usbd_composite.c ****   MSC_EPOUT_ADDR,                                  /* Endpoint address (OUT, address 1) */
+ 388:Src/usbd_composite.c ****   0x02,                                            /* Bulk endpoint type */
+ 389:Src/usbd_composite.c ****   LOBYTE(MSC_MAX_FS_PACKET),
+ 390:Src/usbd_composite.c ****   HIBYTE(MSC_MAX_FS_PACKET),
+ 391:Src/usbd_composite.c ****   0x00                                             /* Polling interval in milliseconds */
+ 392:Src/usbd_composite.c ****   //106
+ 393:Src/usbd_composite.c **** };
+ 394:Src/usbd_composite.c **** __ALIGN_BEGIN static uint8_t USBD_CMPSIT_DeviceQualifierDesc[USB_LEN_DEV_QUALIFIER_DESC] __ALIGN_EN
+ 395:Src/usbd_composite.c **** {
+ 396:Src/usbd_composite.c ****   USB_LEN_DEV_QUALIFIER_DESC,
+ 397:Src/usbd_composite.c ****   USB_DESC_TYPE_DEVICE_QUALIFIER,
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 13
 
 
  398:Src/usbd_composite.c ****   0x00,
- 399:Src/usbd_composite.c ****   0x00,
- 400:Src/usbd_composite.c ****   0x40,
- 401:Src/usbd_composite.c ****   0x01,
+ 399:Src/usbd_composite.c ****   0x02,
+ 400:Src/usbd_composite.c ****   0x00,
+ 401:Src/usbd_composite.c ****   0x00,
  402:Src/usbd_composite.c ****   0x00,
- 403:Src/usbd_composite.c **** };
- 404:Src/usbd_composite.c **** 
- 405:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length);
- 406:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetHSCfgDesc(uint16_t *length);
- 407:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetOtherSpeedCfgDesc(uint16_t *length);
- 408:Src/usbd_composite.c **** uint8_t *USBD_CMPSIT_GetDeviceQualifierDescriptor(uint16_t *length);
- 409:Src/usbd_composite.c **** 
- 410:Src/usbd_composite.c **** 
- 411:Src/usbd_composite.c **** 
- 412:Src/usbd_composite.c **** USBD_ClassTypeDef USBD_CMPSIT=
- 413:Src/usbd_composite.c **** {
- 414:Src/usbd_composite.c ****   NULL,
- 415:Src/usbd_composite.c ****   NULL,
- 416:Src/usbd_composite.c ****   NULL,
- 417:Src/usbd_composite.c ****   NULL,                 /* EP0_TxSent */
+ 403:Src/usbd_composite.c ****   0x40,
+ 404:Src/usbd_composite.c ****   0x01,
+ 405:Src/usbd_composite.c ****   0x00,
+ 406:Src/usbd_composite.c **** };
+ 407:Src/usbd_composite.c **** 
+ 408:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length);
+ 409:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetHSCfgDesc(uint16_t *length);
+ 410:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetOtherSpeedCfgDesc(uint16_t *length);
+ 411:Src/usbd_composite.c **** uint8_t *USBD_CMPSIT_GetDeviceQualifierDescriptor(uint16_t *length);
+ 412:Src/usbd_composite.c **** 
+ 413:Src/usbd_composite.c **** 
+ 414:Src/usbd_composite.c **** 
+ 415:Src/usbd_composite.c **** USBD_ClassTypeDef USBD_CMPSIT=
+ 416:Src/usbd_composite.c **** {
+ 417:Src/usbd_composite.c ****   NULL,
  418:Src/usbd_composite.c ****   NULL,
  419:Src/usbd_composite.c ****   NULL,
- 420:Src/usbd_composite.c ****   NULL,
+ 420:Src/usbd_composite.c ****   NULL,                 /* EP0_TxSent */
  421:Src/usbd_composite.c ****   NULL,
  422:Src/usbd_composite.c ****   NULL,
  423:Src/usbd_composite.c ****   NULL,
- 424:Src/usbd_composite.c ****   USBD_CMPSIT_GetHSCfgDesc,
- 425:Src/usbd_composite.c ****   USBD_CMPSIT_GetFSCfgDesc,  
- 426:Src/usbd_composite.c ****   USBD_CMPSIT_GetOtherSpeedCfgDesc,
- 427:Src/usbd_composite.c ****   USBD_CMPSIT_GetDeviceQualifierDescriptor
- 428:Src/usbd_composite.c **** };
- 429:Src/usbd_composite.c **** 
- 430:Src/usbd_composite.c **** #ifdef USE_USBD_COMPOSITE
- 431:Src/usbd_composite.c **** void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, USBD_CompositeClassT
- 432:Src/usbd_composite.c **** {
- 433:Src/usbd_composite.c **** }
- 434:Src/usbd_composite.c **** #endif
- 435:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length)
- 436:Src/usbd_composite.c **** {
- 285              		.loc 1 436 1 is_stmt 1 view -0
+ 424:Src/usbd_composite.c ****   NULL,
+ 425:Src/usbd_composite.c ****   NULL,
+ 426:Src/usbd_composite.c ****   NULL,
+ 427:Src/usbd_composite.c ****   USBD_CMPSIT_GetHSCfgDesc,
+ 428:Src/usbd_composite.c ****   USBD_CMPSIT_GetFSCfgDesc,  
+ 429:Src/usbd_composite.c ****   USBD_CMPSIT_GetOtherSpeedCfgDesc,
+ 430:Src/usbd_composite.c ****   USBD_CMPSIT_GetDeviceQualifierDescriptor
+ 431:Src/usbd_composite.c **** };
+ 432:Src/usbd_composite.c **** 
+ 433:Src/usbd_composite.c **** #ifdef USE_USBD_COMPOSITE
+ 434:Src/usbd_composite.c **** void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, USBD_CompositeClassT
+ 435:Src/usbd_composite.c **** {
+ 436:Src/usbd_composite.c **** }
+ 437:Src/usbd_composite.c **** #endif
+ 438:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length)
+ 439:Src/usbd_composite.c **** {
+ 285              		.loc 1 439 1 is_stmt 1 view -0
  286              		.cfi_startproc
  287              		@ args = 0, pretend = 0, frame = 0
  288              		@ frame_needed = 0, uses_anonymous_args = 0
  289              		@ link register save eliminated.
- 437:Src/usbd_composite.c **** 	// printf("%s:%s:%d",__FILE__,__FUNCTION__,__LINE__);
- 438:Src/usbd_composite.c **** 	*length = (uint16_t)sizeof(USBD_CMPSIT_CfgDesc);
- 290              		.loc 1 438 2 view .LVU68
- 291              		.loc 1 438 10 is_stmt 0 view .LVU69
+ 440:Src/usbd_composite.c **** 	// printf("%s:%s:%d",__FILE__,__FUNCTION__,__LINE__);
+ 441:Src/usbd_composite.c **** 	*length = (uint16_t)sizeof(USBD_CMPSIT_CfgDesc);
+ 290              		.loc 1 441 2 view .LVU68
+ 291              		.loc 1 441 10 is_stmt 0 view .LVU69
  292 0000 6A23     		movs	r3, #106
  293 0002 0380     		strh	r3, [r0]	@ movhi
- 439:Src/usbd_composite.c **** 	return USBD_CMPSIT_CfgDesc;
- 294              		.loc 1 439 2 is_stmt 1 view .LVU70
- 440:Src/usbd_composite.c **** }
- 295              		.loc 1 440 1 is_stmt 0 view .LVU71
+ 442:Src/usbd_composite.c **** 	return USBD_CMPSIT_CfgDesc;
+ 294              		.loc 1 442 2 is_stmt 1 view .LVU70
+ 443:Src/usbd_composite.c **** }
+ 295              		.loc 1 443 1 is_stmt 0 view .LVU71
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 14
+
+
  296 0004 0048     		ldr	r0, .L28
  297              	.LVL20:
- 298              		.loc 1 440 1 view .LVU72
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 14
-
-
+ 298              		.loc 1 443 1 view .LVU72
  299 0006 7047     		bx	lr
  300              	.L29:
  301              		.align	2
@@ -796,17 +799,17 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  313              	USBD_CMPSIT_GetHSCfgDesc:
  314              	.LVL21:
  315              	.LFB145:
- 441:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetHSCfgDesc(uint16_t *length)
- 442:Src/usbd_composite.c **** {
- 316              		.loc 1 442 1 is_stmt 1 view -0
+ 444:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetHSCfgDesc(uint16_t *length)
+ 445:Src/usbd_composite.c **** {
+ 316              		.loc 1 445 1 is_stmt 1 view -0
  317              		.cfi_startproc
  318              		@ args = 0, pretend = 0, frame = 0
  319              		@ frame_needed = 0, uses_anonymous_args = 0
  320              		@ link register save eliminated.
- 443:Src/usbd_composite.c **** }
- 321              		.loc 1 443 1 view .LVU74
+ 446:Src/usbd_composite.c **** }
+ 321              		.loc 1 446 1 view .LVU74
  322              	.LVL22:
- 323              		.loc 1 443 1 is_stmt 0 view .LVU75
+ 323              		.loc 1 446 1 is_stmt 0 view .LVU75
  324 0000 7047     		bx	lr
  325              		.cfi_endproc
  326              	.LFE145:
@@ -818,51 +821,51 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  334              	USBD_CMPSIT_GetOtherSpeedCfgDesc:
  335              	.LVL23:
  336              	.LFB146:
- 444:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetOtherSpeedCfgDesc(uint16_t *length)
- 445:Src/usbd_composite.c **** {
- 337              		.loc 1 445 1 is_stmt 1 view -0
+ 447:Src/usbd_composite.c **** static uint8_t *USBD_CMPSIT_GetOtherSpeedCfgDesc(uint16_t *length)
+ 448:Src/usbd_composite.c **** {
+ 337              		.loc 1 448 1 is_stmt 1 view -0
  338              		.cfi_startproc
  339              		@ args = 0, pretend = 0, frame = 0
  340              		@ frame_needed = 0, uses_anonymous_args = 0
  341              		@ link register save eliminated.
- 446:Src/usbd_composite.c **** }
- 342              		.loc 1 446 1 view .LVU77
+ 449:Src/usbd_composite.c **** }
+ 342              		.loc 1 449 1 view .LVU77
  343              	.LVL24:
- 344              		.loc 1 446 1 is_stmt 0 view .LVU78
+ 344              		.loc 1 449 1 is_stmt 0 view .LVU78
  345 0000 7047     		bx	lr
  346              		.cfi_endproc
  347              	.LFE146:
  349              		.section	.text.USBD_CMPSIT_GetDeviceQualifierDescriptor,"ax",%progbits
  350              		.align	1
  351              		.global	USBD_CMPSIT_GetDeviceQualifierDescriptor
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 15
+
+
  352              		.syntax unified
  353              		.thumb
  354              		.thumb_func
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 15
-
-
  356              	USBD_CMPSIT_GetDeviceQualifierDescriptor:
  357              	.LVL25:
  358              	.LFB147:
- 447:Src/usbd_composite.c **** uint8_t *USBD_CMPSIT_GetDeviceQualifierDescriptor(uint16_t *length)
- 448:Src/usbd_composite.c **** {
- 359              		.loc 1 448 1 is_stmt 1 view -0
+ 450:Src/usbd_composite.c **** uint8_t *USBD_CMPSIT_GetDeviceQualifierDescriptor(uint16_t *length)
+ 451:Src/usbd_composite.c **** {
+ 359              		.loc 1 451 1 is_stmt 1 view -0
  360              		.cfi_startproc
  361              		@ args = 0, pretend = 0, frame = 0
  362              		@ frame_needed = 0, uses_anonymous_args = 0
  363              		@ link register save eliminated.
- 449:Src/usbd_composite.c ****   *length = (uint16_t)sizeof(USBD_CMPSIT_DeviceQualifierDesc);
- 364              		.loc 1 449 3 view .LVU80
- 365              		.loc 1 449 11 is_stmt 0 view .LVU81
+ 452:Src/usbd_composite.c ****   *length = (uint16_t)sizeof(USBD_CMPSIT_DeviceQualifierDesc);
+ 364              		.loc 1 452 3 view .LVU80
+ 365              		.loc 1 452 11 is_stmt 0 view .LVU81
  366 0000 0A23     		movs	r3, #10
  367 0002 0380     		strh	r3, [r0]	@ movhi
- 450:Src/usbd_composite.c ****   return USBD_CMPSIT_DeviceQualifierDesc;
- 368              		.loc 1 450 3 is_stmt 1 view .LVU82
- 451:Src/usbd_composite.c **** }
- 369              		.loc 1 451 1 is_stmt 0 view .LVU83
+ 453:Src/usbd_composite.c ****   return USBD_CMPSIT_DeviceQualifierDesc;
+ 368              		.loc 1 453 3 is_stmt 1 view .LVU82
+ 454:Src/usbd_composite.c **** }
+ 369              		.loc 1 454 1 is_stmt 0 view .LVU83
  370 0004 0048     		ldr	r0, .L33
  371              	.LVL26:
- 372              		.loc 1 451 1 view .LVU84
+ 372              		.loc 1 454 1 view .LVU84
  373 0006 7047     		bx	lr
  374              	.L34:
  375              		.align	2
@@ -895,12 +898,12 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  399              		.loc 1 133 1 is_stmt 0 view .LVU86
  400 0000 10B5     		push	{r4, lr}
  401              	.LCFI4:
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 16
+
+
  402              		.cfi_def_cfa_offset 8
  403              		.cfi_offset 4, -8
  404              		.cfi_offset 14, -4
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 16
-
-
  405 0002 0A46     		mov	r2, r1
  134:Src/usbd_composite.c ****   USBD_GetString((uint8_t *)USBD_CMPSIT_MANUFACTURER_STRING, USBD_CMPSIT_StrDesc, length);
  406              		.loc 1 134 3 is_stmt 1 view .LVU87
@@ -955,12 +958,12 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  140:Src/usbd_composite.c ****   if(speed == 0)
  447              		.loc 1 140 1 is_stmt 0 view .LVU94
  448 0000 08B5     		push	{r3, lr}
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 17
+
+
  449              	.LCFI5:
  450              		.cfi_def_cfa_offset 8
  451              		.cfi_offset 3, -8
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 17
-
-
  452              		.cfi_offset 14, -4
  453 0002 0A46     		mov	r2, r1
  141:Src/usbd_composite.c ****   {
@@ -1014,14 +1017,13 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  492              		.section	.rodata.USBD_CMPSIT_FS_InterfaceStrDescriptor.str1.4,"aMS",%progbits,1
  493              		.align	2
  494              	.LC2:
- 495 0000 436F6D70 		.ascii	"Composite Interface\000"
- 495      6F736974 
- 495      6520496E 
- 495      74657266 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 18
+ 495 0000 43444320 		.ascii	"CDC Interface\000"
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 18
 
 
- 495      61636500 
+ 495      496E7465 
+ 495      72666163 
+ 495      6500
  496              		.section	.text.USBD_CMPSIT_FS_InterfaceStrDescriptor,"ax",%progbits
  497              		.align	1
  498              		.global	USBD_CMPSIT_FS_InterfaceStrDescriptor
@@ -1076,11 +1078,11 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  538              	.LVL44:
  210:Src/usbd_composite.c ****   }
  539              		.loc 1 210 5 is_stmt 0 view .LVU116
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 19
+
+
  540 0014 0248     		ldr	r0, .L49+4
  541              	.LVL45:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 19
-
-
  210:Src/usbd_composite.c ****   }
  542              		.loc 1 210 5 view .LVU117
  543 0016 FFF7FEFF 		bl	USBD_GetString
@@ -1098,11 +1100,9 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  555              		.section	.rodata.USBD_CMPSIT_FS_ConfigStrDescriptor.str1.4,"aMS",%progbits,1
  556              		.align	2
  557              	.LC3:
- 558 0000 436F6D70 		.ascii	"Composite Config\000"
- 558      6F736974 
- 558      6520436F 
- 558      6E666967 
- 558      00
+ 558 0000 43444320 		.ascii	"CDC Config\000"
+ 558      436F6E66 
+ 558      696700
  559              		.section	.text.USBD_CMPSIT_FS_ConfigStrDescriptor,"ax",%progbits
  560              		.align	1
  561              		.global	USBD_CMPSIT_FS_ConfigStrDescriptor
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  586              		.loc 1 220 5 is_stmt 0 view .LVU124
  587 0008 0548     		ldr	r0, .L55+4
  588              	.LVL49:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 20
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 20
 
 
  220:Src/usbd_composite.c ****   }
@@ -1185,20 +1185,20 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  625              	USBD_CMPSIT_AddClass:
  626              	.LVL55:
  627              	.LFB143:
- 432:Src/usbd_composite.c **** }
- 628              		.loc 1 432 1 is_stmt 1 view -0
+ 435:Src/usbd_composite.c **** }
+ 628              		.loc 1 435 1 is_stmt 1 view -0
  629              		.cfi_startproc
  630              		@ args = 0, pretend = 0, frame = 0
  631              		@ frame_needed = 0, uses_anonymous_args = 0
  632              		@ link register save eliminated.
- 433:Src/usbd_composite.c **** #endif
- 633              		.loc 1 433 1 view .LVU133
+ 436:Src/usbd_composite.c **** #endif
+ 633              		.loc 1 436 1 view .LVU133
  634 0000 7047     		bx	lr
  635              		.cfi_endproc
  636              	.LFE143:
  638              		.global	USBD_CMPSIT
  639              		.global	USBD_CMPSIT_StringSerial
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 21
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 21
 
 
  640              		.global	USBD_CMPSIT_StrDesc
@@ -1235,8 +1235,8 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  671              		.align	2
  672              		.set	.LANCHOR3,. + 0
  675              	USBD_CMPSIT_CfgDesc:
- 676 0000 09024300 		.ascii	"\011\002C\000\002\001\000\3002\010\013\000\002\002\002"
- 676      020100C0 
+ 676 0000 09026A00 		.ascii	"\011\002j\000\003\001\000\3002\010\013\000\002\002\002"
+ 676      030100C0 
  676      32080B00 
  676      020202
  677 000f 01000904 		.ascii	"\001\000\011\004\000\000\001\002\002\001\000\005$\000"
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  681 0047 02400000 		.ascii	"\002@\000\000\010\013\002\001\010\006P\005\011\004\002"
  681      080B0201 
  681      08065005 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 22
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 22
 
 
  681      090402
@@ -1316,72 +1316,72 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 1
  730              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
  731              		.file 5 "Inc/usbd_composite.h"
  732              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 23
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_composite.c
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:20     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:26     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 USBD_CMPSIT_FS_DeviceDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:49     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:54     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:60     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 USBD_CMPSIT_FS_LangIDStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:82     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:87     .text.IntToUnicode:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:92     .text.IntToUnicode:00000000 IntToUnicode
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:170    .text.Get_CMPSIT_SerialNum:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:175    .text.Get_CMPSIT_SerialNum:00000000 Get_CMPSIT_SerialNum
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:232    .text.Get_CMPSIT_SerialNum:00000030 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:238    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:244    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 USBD_CMPSIT_FS_SerialStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:272    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000010 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:277    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:282    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 USBD_CMPSIT_GetFSCfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:303    .text.USBD_CMPSIT_GetFSCfgDesc:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:308    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:313    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 USBD_CMPSIT_GetHSCfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:329    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:334    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 USBD_CMPSIT_GetOtherSpeedCfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:350    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:356    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 USBD_CMPSIT_GetDeviceQualifierDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:377    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:382    .rodata.USBD_CMPSIT_FS_ManufacturerStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:386    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:392    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 USBD_CMPSIT_FS_ManufacturerStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:424    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000014 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:430    .rodata.USBD_CMPSIT_FS_ProductStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:434    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:440    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 USBD_CMPSIT_FS_ProductStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:487    .text.USBD_CMPSIT_FS_ProductStrDescriptor:0000001c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:493    .rodata.USBD_CMPSIT_FS_InterfaceStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:497    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:503    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 USBD_CMPSIT_FS_InterfaceStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:550    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:0000001c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:556    .rodata.USBD_CMPSIT_FS_ConfigStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:560    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:566    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 USBD_CMPSIT_FS_ConfigStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:613    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:0000001c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:619    .text.USBD_CMPSIT_AddClass:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:625    .text.USBD_CMPSIT_AddClass:00000000 USBD_CMPSIT_AddClass
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:655    .data.USBD_CMPSIT:00000000 USBD_CMPSIT
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:711    .data.USBD_CMPSIT_StringSerial:00000000 USBD_CMPSIT_StringSerial
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:649    .bss.USBD_CMPSIT_StrDesc:00000000 USBD_CMPSIT_StrDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:704    .data.USBD_CMPSIT_LangIDDesc:00000000 USBD_CMPSIT_LangIDDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:696    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 USBD_CMPSIT_FS_DeviceDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:718    .data.usbCmpsitFS_Desc:00000000 usbCmpsitFS_Desc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:645    .bss.USBD_CMPSIT_StrDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:652    .data.USBD_CMPSIT:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:671    .data.USBD_CMPSIT_CfgDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:675    .data.USBD_CMPSIT_CfgDesc:00000000 USBD_CMPSIT_CfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:685    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:689    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 USBD_CMPSIT_DeviceQualifierDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:692    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 $d
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s 			page 24
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:20     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:26     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 USBD_CMPSIT_FS_DeviceDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:49     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:54     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:60     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 USBD_CMPSIT_FS_LangIDStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:82     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:87     .text.IntToUnicode:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:92     .text.IntToUnicode:00000000 IntToUnicode
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:170    .text.Get_CMPSIT_SerialNum:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:175    .text.Get_CMPSIT_SerialNum:00000000 Get_CMPSIT_SerialNum
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:232    .text.Get_CMPSIT_SerialNum:00000030 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:238    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:244    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 USBD_CMPSIT_FS_SerialStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:272    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000010 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:277    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:282    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 USBD_CMPSIT_GetFSCfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:303    .text.USBD_CMPSIT_GetFSCfgDesc:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:308    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:313    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 USBD_CMPSIT_GetHSCfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:329    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:334    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 USBD_CMPSIT_GetOtherSpeedCfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:350    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:356    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 USBD_CMPSIT_GetDeviceQualifierDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:377    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:382    .rodata.USBD_CMPSIT_FS_ManufacturerStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:386    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:392    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 USBD_CMPSIT_FS_ManufacturerStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:424    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000014 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:430    .rodata.USBD_CMPSIT_FS_ProductStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:434    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:440    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 USBD_CMPSIT_FS_ProductStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:487    .text.USBD_CMPSIT_FS_ProductStrDescriptor:0000001c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:493    .rodata.USBD_CMPSIT_FS_InterfaceStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:497    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:503    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 USBD_CMPSIT_FS_InterfaceStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:550    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:0000001c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:556    .rodata.USBD_CMPSIT_FS_ConfigStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:560    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:566    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 USBD_CMPSIT_FS_ConfigStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:613    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:0000001c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:619    .text.USBD_CMPSIT_AddClass:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:625    .text.USBD_CMPSIT_AddClass:00000000 USBD_CMPSIT_AddClass
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:655    .data.USBD_CMPSIT:00000000 USBD_CMPSIT
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:711    .data.USBD_CMPSIT_StringSerial:00000000 USBD_CMPSIT_StringSerial
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:649    .bss.USBD_CMPSIT_StrDesc:00000000 USBD_CMPSIT_StrDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:704    .data.USBD_CMPSIT_LangIDDesc:00000000 USBD_CMPSIT_LangIDDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:696    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 USBD_CMPSIT_FS_DeviceDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:718    .data.usbCmpsitFS_Desc:00000000 usbCmpsitFS_Desc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:645    .bss.USBD_CMPSIT_StrDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:652    .data.USBD_CMPSIT:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:671    .data.USBD_CMPSIT_CfgDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:675    .data.USBD_CMPSIT_CfgDesc:00000000 USBD_CMPSIT_CfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:685    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:689    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 USBD_CMPSIT_DeviceQualifierDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:692    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 $d
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s 			page 24
 
 
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:700    .data.USBD_CMPSIT_LangIDDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:707    .data.USBD_CMPSIT_StringSerial:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccqzcoSo.s:715    .data.usbCmpsitFS_Desc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:700    .data.USBD_CMPSIT_LangIDDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:707    .data.USBD_CMPSIT_StringSerial:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccOhdnwU.s:715    .data.usbCmpsitFS_Desc:00000000 $d
 
 UNDEFINED SYMBOLS
 USBD_GetString

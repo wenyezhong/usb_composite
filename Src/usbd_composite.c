@@ -16,8 +16,8 @@
 #define USBD_CMPSIT_MANUFACTURER_STRING     "wenyz@wolfGroup"
 #define USBD_CMPSIT_PID_FS     22336
 #define USBD_CMPSIT_PRODUCT_STRING_FS     "STM32 composite product"
-#define USBD_CMPSIT_CONFIGURATION_STRING_FS     "Composite Config"
-#define USBD_CMPSIT_INTERFACE_STRING_FS     "Composite Interface"
+#define USBD_CMPSIT_CONFIGURATION_STRING_FS     "CDC Config"
+#define USBD_CMPSIT_INTERFACE_STRING_FS     "CDC Interface"
 
 
 
@@ -246,11 +246,12 @@ uint8_t * USBD_CMPSIT_FS_USR_BOSDescriptor(USBD_SpeedTypeDef speed, uint16_t *le
 __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __ALIGN_END =
 {
   /* Configuration Descriptor */
+  //0
   0x09,                                       /* bLength: Configuration Descriptor size */
   USB_DESC_TYPE_CONFIGURATION,                /* bDescriptorType: Configuration */
-  USB_CDC_CONFIG_DESC_SIZ,                    /* wTotalLength */
+  USB_CMPSIT_CONFIG_DESC_SIZ,                    /* wTotalLength */
   0x00,
-  0x02,                                       /* bNumInterfaces: 2 interfaces */
+  0x03,                                       /* bNumInterfaces: 2 interfaces */
   0x01,                                       /* bConfigurationValue: Configuration value */
   0x00,                                       /* iConfiguration: Index of string descriptor
                                                  describing the configuration */
@@ -262,7 +263,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   USBD_MAX_POWER,                             /* MaxPower (mA) */
 
   /*---------------------------------------------------------------------------*/
-
+  //9
   /* Interface Association Descriptor: CDC device (virtual com port) */
   0x08,   /* bLength: IAD size */
   0x0B,   /* bDescriptorType: Interface Association Descriptor */
@@ -272,7 +273,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x02,   /* bFunctionSubClass: Abstract Control Model */
   0x01,   /* bFunctionProtocol: Common AT commands */
   0x00,   /* iFunction */
-
+  //17
   /* Interface Descriptor */
   0x09,                                       /* bLength: Interface Descriptor size */
   USB_DESC_TYPE_INTERFACE,                    /* bDescriptorType: Interface */
@@ -284,34 +285,34 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x02,                                       /* bInterfaceSubClass: Abstract Control Model */
   0x01,                                       /* bInterfaceProtocol: Common AT commands */
   0x00,                                       /* iInterface */
-
+  //26
   /* Header Functional Descriptor */
   0x05,                                       /* bLength: Endpoint Descriptor size */
   0x24,                                       /* bDescriptorType: CS_INTERFACE */
   0x00,                                       /* bDescriptorSubtype: Header Func Desc */
   0x10,                                       /* bcdCDC: spec release number */
   0x01,
-
+  //31
   /* Call Management Functional Descriptor */
   0x05,                                       /* bFunctionLength */
   0x24,                                       /* bDescriptorType: CS_INTERFACE */
   0x01,                                       /* bDescriptorSubtype: Call Management Func Desc */
   0x00,                                       /* bmCapabilities: D0+D1 */
   0x01,                                       /* bDataInterface */
-
+  //36
   /* ACM Functional Descriptor */
   0x04,                                       /* bFunctionLength */
   0x24,                                       /* bDescriptorType: CS_INTERFACE */
   0x02,                                       /* bDescriptorSubtype: Abstract Control Management desc */
   0x02,                                       /* bmCapabilities */
-
+  //40
   /* Union Functional Descriptor */
   0x05,                                       /* bFunctionLength */
   0x24,                                       /* bDescriptorType: CS_INTERFACE */
   0x06,                                       /* bDescriptorSubtype: Union func desc */
   0x00,                                       /* bMasterInterface: Communication class interface */
   0x01,                                       /* bSlaveInterface0: Data Class Interface */
-
+  //45
   /* Endpoint 2 Descriptor */
   0x07,                                       /* bLength: Endpoint Descriptor size */
   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
@@ -321,7 +322,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   HIBYTE(CDC_CMD_PACKET_SIZE),
   CDC_FS_BINTERVAL,                           /* bInterval */
   /*---------------------------------------------------------------------------*/
-
+  //52
   /* Data class interface descriptor */
   0x09,                                       /* bLength: Endpoint Descriptor size */
   USB_DESC_TYPE_INTERFACE,                    /* bDescriptorType: */
@@ -332,7 +333,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x00,                                       /* bInterfaceSubClass */
   0x00,                                       /* bInterfaceProtocol */
   0x00,                                       /* iInterface */
-
+  //61
   /* Endpoint OUT Descriptor */
   0x07,                                       /* bLength: Endpoint Descriptor size */
   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
@@ -341,7 +342,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   LOBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),        /* wMaxPacketSize */
   HIBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),
   0x00,                                       /* bInterval */
-
+  //68
   /* Endpoint IN Descriptor */
   0x07,                                       /* bLength: Endpoint Descriptor size */
   USB_DESC_TYPE_ENDPOINT,                     /* bDescriptorType: Endpoint */
@@ -350,7 +351,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   LOBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),        /* wMaxPacketSize */
   HIBYTE(CDC_DATA_FS_MAX_PACKET_SIZE),
   0x00,                                        /* bInterval */
-
+  //75
   /* Interface Association Descriptor: Mass Storage device */
   0x08,   /* bLength: IAD size */
   0x0B,   /* bDescriptorType: Interface Association Descriptor */
@@ -360,7 +361,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x06,   /* bFunctionSubClass: */
   0x50,   /* bFunctionProtocol: */
   0x05,   /* iFunction */
-
+  //83
   /********************  Mass Storage interface ********************/
   0x09,                                            /* bLength: Interface Descriptor size */
   0x04,                                            /* bDescriptorType: */
@@ -372,6 +373,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   0x50,                                            /* nInterfaceProtocol */
   0x05,                                            /* iInterface: */
   /********************  Mass Storage Endpoints ********************/
+  //92
   0x07,                                            /* Endpoint descriptor length = 7 */
   0x05,                                            /* Endpoint descriptor type */
   MSC_EPIN_ADDR,                                   /* Endpoint address (IN, address 1) */
@@ -379,7 +381,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   LOBYTE(MSC_MAX_FS_PACKET),
   HIBYTE(MSC_MAX_FS_PACKET),
   0x00,                                            /* Polling interval in milliseconds */
-
+  //99
   0x07,                                            /* Endpoint descriptor length = 7 */
   0x05,                                            /* Endpoint descriptor type */
   MSC_EPOUT_ADDR,                                  /* Endpoint address (OUT, address 1) */
@@ -387,6 +389,7 @@ __ALIGN_BEGIN static uint8_t USBD_CMPSIT_CfgDesc[USB_CMPSIT_CONFIG_DESC_SIZ] __A
   LOBYTE(MSC_MAX_FS_PACKET),
   HIBYTE(MSC_MAX_FS_PACKET),
   0x00                                             /* Polling interval in milliseconds */
+  //106
 };
 __ALIGN_BEGIN static uint8_t USBD_CMPSIT_DeviceQualifierDesc[USB_LEN_DEV_QUALIFIER_DESC] __ALIGN_END =
 {

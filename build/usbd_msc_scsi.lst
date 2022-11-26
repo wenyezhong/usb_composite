@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
   28:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** #include "usbd_msc.h"
   29:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** #include "usbd_msc_data.h"
   30:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 2
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 2
 
 
   31:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
   85:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_RequestSense(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params);
   86:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_StartStopUnit(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params);
   87:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_AllowPreventRemovable(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 3
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 3
 
 
   88:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_ModeSense6(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  142:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       ret = SCSI_Inquiry(pdev, lun, cmd);
  143:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       break;
  144:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 4
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 4
 
 
  145:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     case SCSI_START_STOP_UNIT:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  199:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  200:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   return ret;
  201:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 5
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 5
 
 
  202:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  256:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_Inquiry(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params)
  257:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** {
  258:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   uint8_t *pPage;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 6
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 6
 
 
  259:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   uint16_t len;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  313:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @param  params: Command parameters
  314:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @retval status
  315:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 7
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 7
 
 
  316:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_ReadCapacity10(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  370:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  371:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   ret = ((USBD_StorageTypeDef *)pdev->pUserData[pdev->classId])->GetCapacity(lun, &hmsc->scsi_blk_n
  372:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 8
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 8
 
 
  373:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   if ((ret != 0) || (hmsc->scsi_medium_state == SCSI_MEDIUM_EJECTED))
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  427:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
  428:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  429:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   ret = ((USBD_StorageTypeDef *)pdev->pUserData[pdev->classId])->GetCapacity(lun, &blk_nbr, &blk_si
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 9
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 9
 
 
  430:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  484:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   return 0;
  485:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** }
  486:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 10
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 10
 
 
  487:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  541:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   for (i = 0U; i < REQUEST_SENSE_DATA_LEN; i++)
  542:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  543:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     hmsc->bot_data[i] = 0U;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 11
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 11
 
 
  544:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  598:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  599:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     hmsc->scsi_sense_tail = 0U;
  600:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 12
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 12
 
 
  601:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** }
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  655:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @retval status
  656:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   */
  657:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_AllowPreventRemovable(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params)
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 13
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 13
 
 
  658:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** {
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
   62              		.loc 1 678 3 is_stmt 1 view .LVU15
   63              		.loc 1 678 10 is_stmt 0 view .LVU16
   64 001a 7047     		bx	lr
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 14
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 14
 
 
   65              	.L3:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  708:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
  709:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       SCSI_SenseCode(pdev, lun, NOT_READY, MEDIUM_NOT_PRESENT);
  710:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 15
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 15
 
 
  711:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       return -1;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  765:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  766:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     /* case 10 : Ho <> Di */
  767:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     if ((hmsc->cbw.bmFlags & 0x80U) != 0x80U)
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 16
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 16
 
 
  768:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  822:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   */
  823:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** static int8_t SCSI_Write10(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *params)
  824:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 17
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 17
 
 
  825:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->clas
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  879:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       return -1; /* error */
  880:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     }
  881:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 18
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 18
 
 
  882:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     len = hmsc->scsi_blk_len * hmsc->scsi_blk_size;
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  936:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     if ((hmsc->cbw.bmFlags & 0x80U) == 0x80U)
  937:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
  938:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       SCSI_SenseCode(pdev, hmsc->cbw.bLUN, ILLEGAL_REQUEST, INVALID_CDB);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 19
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 19
 
 
  939:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       return -1;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  993:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
  994:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  995:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   return 0;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 20
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 20
 
 
  996:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** }
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
 1050:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
 1051:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     SCSI_SenseCode(pdev, lun, ILLEGAL_REQUEST, ADDRESS_OUT_OF_RANGE);
 1052:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     return -1;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 21
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 21
 
 
 1053:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
 1107:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** /**
 1108:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @brief  SCSI_ProcessWrite
 1109:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   *         Handle Write Process
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 22
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 22
 
 
 1110:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @param  lun: Logical unit number
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
 1164:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   *         fill the requested Data to transmit buffer
 1165:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @param  hmsc handler
 1166:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @param  pBuff: Data buffer
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 23
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 23
 
 
 1167:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   * @param  length: Data length
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  123 0016 F7D1     		bne	.L9
 1186:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
 1187:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 24
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 24
 
 
 1188:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   return 0;
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  168              		.loc 1 472 3 view .LVU47
  472:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  169              		.loc 1 472 6 is_stmt 0 view .LVU48
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 25
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 25
 
 
  170 000e 48B1     		cbz	r0, .L14
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  213              		.thumb
  214              		.thumb_func
  216              	SCSI_ModeSense10:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 26
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 26
 
 
  217              	.LVL20:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  256              		.loc 1 511 3 is_stmt 1 view .LVU75
  511:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  257              		.loc 1 511 9 is_stmt 0 view .LVU76
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 27
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 27
 
 
  258 001a 0449     		ldr	r1, .L23
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  303              		.loc 1 585 31 view .LVU87
  304 0004 B231     		adds	r1, r1, #178
  305 0006 00EB8100 		add	r0, r0, r1, lsl #2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 28
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 28
 
 
  306              	.LVL31:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  343              		.loc 1 601 1 view .LVU104
  344 0030 7047     		bx	lr
  345              	.L27:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 29
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 29
 
 
  599:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  222:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  391              		.loc 1 222 3 is_stmt 1 view .LVU116
  222:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 30
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 30
 
 
  392              		.loc 1 222 16 is_stmt 0 view .LVU117
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  431 003e 95F81D12 		ldrb	r1, [r5, #541]	@ zero_extendqisi2
  432              	.LVL44:
  224:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 31
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 31
 
 
  433              		.loc 1 224 5 is_stmt 0 view .LVU133
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  474              	.LVL50:
  218:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
  475              		.loc 1 218 12 view .LVU147
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 32
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 32
 
 
  476 0076 DFE7     		b	.L29
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  519 0018 0023     		movs	r3, #0
  520 001a 0DE0     		b	.L40
  521              	.L47:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 33
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 33
 
 
  537:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     return -1;
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  547:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  561              		.loc 1 547 3 is_stmt 1 view .LVU176
  547:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 34
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 34
 
 
  562              		.loc 1 547 21 is_stmt 0 view .LVU177
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  599              	.L42:
  562:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  600              		.loc 1 562 3 is_stmt 1 view .LVU195
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 35
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 35
 
 
  562:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  643              		.syntax unified
  644              		.thumb
  645              		.thumb_func
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 36
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 36
 
 
  647              	SCSI_Inquiry:
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  275:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
  686              		.loc 1 275 5 is_stmt 1 view .LVU224
  275:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 37
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 37
 
 
  687              		.loc 1 275 15 is_stmt 0 view .LVU225
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  727              	.LVL75:
  728              	.L59:
  277:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 38
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 38
 
 
  729              		.loc 1 277 7 is_stmt 1 view .LVU240
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  294:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     len = (uint16_t)pPage[4] + 5U;
  770              		.loc 1 294 82 view .LVU254
  771 0076 DB69     		ldr	r3, [r3, #28]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 39
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 39
 
 
  294:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     len = (uint16_t)pPage[4] + 5U;
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  811              	.L61:
  812 009a 00BF     		.align	2
  813              	.L60:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 40
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 40
 
 
  814 009c 00000000 		.word	MSC_Page80_Inquiry_Data
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  628:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  858              		.loc 1 628 14 is_stmt 0 view .LVU282
  859 0018 1379     		ldrb	r3, [r2, #4]	@ zero_extendqisi2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 41
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 41
 
 
  860 001a 03F00303 		and	r3, r3, #3
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  899 004a 0023     		movs	r3, #0
  900 004c 84F86232 		strb	r3, [r4, #610]
  901              	.L66:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 42
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 42
 
 
  643:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   hmsc->bot_data_length = 0U;
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  946              		.cfi_offset 4, -16
  947              		.cfi_offset 5, -12
  948              		.cfi_offset 6, -8
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 43
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 43
 
 
  949              		.cfi_offset 14, -4
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  987              	.LVL107:
  429:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  988              		.loc 1 429 10 view .LVU326
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 44
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 44
 
 
  989 002c 9847     		blx	r3
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1029              	.LVL113:
  1030              	.L76:
  437:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 45
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 45
 
 
  1031              		.loc 1 437 16 is_stmt 1 discriminator 1 view .LVU341
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1066 0078 0223     		movs	r3, #2
  1067 007a 2376     		strb	r3, [r4, #24]
  449:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   hmsc->bot_data[10] = (uint8_t)(blk_size >>  8);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 46
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 46
 
 
  1068              		.loc 1 449 3 is_stmt 1 view .LVU361
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1109              		.section	.text.SCSI_ReadCapacity10,"ax",%progbits
  1110              		.align	1
  1111              		.syntax unified
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 47
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 47
 
 
  1112              		.thumb
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  327:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  1154              		.loc 1 327 10 view .LVU389
  1155 0020 04F51972 		add	r2, r4, #612
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 48
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 48
 
 
  1156 0024 04F51A71 		add	r1, r4, #616
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  338:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  1192              		.loc 1 338 23 is_stmt 0 view .LVU408
  1193 004c 013A     		subs	r2, r2, #1
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 49
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 49
 
 
  338:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  331:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     return -1;
  1231              		.loc 1 331 5 is_stmt 0 view .LVU426
  1232 006e FFF7FEFF 		bl	SCSI_SenseCode
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 50
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 50
 
 
  1233              	.LVL127:
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  364:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  1278              		.loc 1 364 31 view .LVU438
  1279 0008 03F1B202 		add	r2, r3, #178
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 51
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 51
 
 
  1280              	.LVL131:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1319 003c AB7A     		ldrb	r3, [r5, #10]	@ zero_extendqisi2
  380:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                           ((uint32_t)params[12] <<  8) |
  1320              		.loc 1 380 44 view .LVU454
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 52
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 52
 
 
  1321 003e E97A     		ldrb	r1, [r5, #11]	@ zero_extendqisi2
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  386:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
  1360              		.loc 1 386 25 is_stmt 0 discriminator 3 view .LVU470
  1361 0068 E218     		adds	r2, r4, r3
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 53
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 53
 
 
  1362 006a 4FF0000C 		mov	ip, #0
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1398 0090 013A     		subs	r2, r2, #1
  392:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  1399              		.loc 1 392 21 view .LVU489
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 54
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 54
 
 
  1400 0092 E275     		strb	r2, [r4, #23]
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1434              		.loc 1 401 56 view .LVU509
  1435 00b6 1343     		orrs	r3, r3, r2
  399:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                           ((uint32_t)params[11] << 16) |
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 55
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 55
 
 
  1436              		.loc 1 399 25 view .LVU510
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
 1049:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  1482              		.loc 1 1049 19 is_stmt 0 view .LVU521
  1483 0014 1A44     		add	r2, r2, r3
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 56
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 56
 
 
  1484              	.LVL148:
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1530              		@ frame_needed = 0, uses_anonymous_args = 0
 1065:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->clas
  1531              		.loc 1 1065 1 is_stmt 0 view .LVU532
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 57
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 57
 
 
  1532 0000 2DE9F843 		push	{r3, r4, r5, r6, r7, r8, r9, lr}
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1573              	.LVL159:
 1078:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** #endif /* USE_USBD_COMPOSITE */
  1574              		.loc 1 1078 15 view .LVU546
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 58
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 58
 
 
  1575 002c 254B     		ldr	r3, .L108
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1616              	.LVL162:
 1093:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   hmsc->scsi_blk_len -= (len / hmsc->scsi_blk_size);
  1617              		.loc 1 1093 3 is_stmt 1 view .LVU560
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 59
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 59
 
 
 1093:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   hmsc->scsi_blk_len -= (len / hmsc->scsi_blk_size);
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
 1088:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
  1658              		.loc 1 1088 5 view .LVU575
 1088:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 60
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 60
 
 
  1659              		.loc 1 1088 12 is_stmt 0 view .LVU576
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  691:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  1708              		.loc 1 691 31 view .LVU584
  1709 0008 03F1B202 		add	r2, r3, #178
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 61
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 61
 
 
  1710              	.LVL170:
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  714:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
  1748              		.loc 1 714 10 view .LVU601
  1749 003a 9847     		blx	r3
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 62
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 62
 
 
  1750              	.LVL173:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1786 0068 FFF7FEFF 		bl	SCSI_CheckAddressRange
  1787              	.LVL174:
  727:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                                hmsc->scsi_blk_len) < 0)
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 63
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 63
 
 
  1788              		.loc 1 727 8 view .LVU620
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  703:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       return -1;
  1828              		.loc 1 703 7 is_stmt 0 view .LVU635
  1829 00a0 FFF7FEFF 		bl	SCSI_SenseCode
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 64
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 64
 
 
  1830              	.LVL178:
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1872 00dc 4FF0FF30 		mov	r0, #-1
  1873              	.LVL184:
  695:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 65
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 65
 
 
  1874              		.loc 1 695 12 view .LVU648
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1921 0014 69D0     		beq	.L131
  1922 0016 0646     		mov	r6, r0
  1923 0018 0F46     		mov	r7, r1
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 66
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 66
 
 
  764:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  786:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                           ((uint32_t)params[4] <<  8) |
  1961              		.loc 1 786 44 view .LVU675
  1962 0044 EA78     		ldrb	r2, [r5, #3]	@ zero_extendqisi2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 67
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 67
 
 
  786:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                           ((uint32_t)params[4] <<  8) |
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  1998 0072 3946     		mov	r1, r7
  1999 0074 3046     		mov	r0, r6
  2000 0076 FFF7FEFF 		bl	SCSI_CheckAddressRange
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 68
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 68
 
 
  2001              	.LVL191:
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2040 00aa 94F81D12 		ldrb	r1, [r4, #541]	@ zero_extendqisi2
  2041              	.LVL194:
  769:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       return -1;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 69
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 69
 
 
  2042              		.loc 1 769 7 is_stmt 0 view .LVU710
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  761:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
  2085              		.loc 1 761 12 view .LVU722
  2086 00ea 4FF0FF30 		mov	r0, #-1
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 70
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 70
 
 
  2087              	.LVL201:
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2133              		.loc 1 1118 6 is_stmt 0 view .LVU732
  2134 0010 002C     		cmp	r4, #0
  2135 0012 5BD0     		beq	.L142
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 71
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 71
 
 
  2136 0014 0546     		mov	r5, r0
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2174              		.loc 1 1134 81 view .LVU748
  2175 004e B4F86432 		ldrh	r3, [r4, #612]
 1134:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 72
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 72
 
 
  2176              		.loc 1 1134 75 view .LVU749
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2216 0096 0020     		movs	r0, #0
  2217              	.LVL211:
  2218              	.L139:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 73
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 73
 
 
 1159:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2261              	.LVL219:
 1120:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
  2262              		.loc 1 1120 12 view .LVU776
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 74
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 74
 
 
  2263 00d0 E2E7     		b	.L139
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2310              		.loc 1 835 3 is_stmt 1 view .LVU785
  835:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** #endif /* USE_USBD_COMPOSITE */
  2311              		.loc 1 835 17 is_stmt 0 view .LVU786
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 75
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 75
 
 
  2312 001c 0222     		movs	r2, #2
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  854:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
  2350              		.loc 1 854 10 view .LVU803
  2351 004e 3846     		mov	r0, r7
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 76
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 76
 
 
  2352 0050 9847     		blx	r3
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2390 0080 1A43     		orrs	r2, r2, r3
  867:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                           ((uint32_t)params[3] << 16) |
  2391              		.loc 1 867 25 view .LVU820
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 77
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 77
 
 
  2392 0082 C5F86C22 		str	r2, [r5, #620]
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2428              		.loc 1 894 21 is_stmt 0 view .LVU838
  2429 00b2 0122     		movs	r2, #1
  2430 00b4 2A72     		strb	r2, [r5, #8]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 78
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 78
 
 
  895:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2474              	.L160:
  856:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       return -1;
  2475              		.loc 1 856 7 is_stmt 1 view .LVU850
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 79
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 79
 
 
  2476 00fc 3A23     		movs	r3, #58
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2519              	.LVL240:
  2520 013c 8046     		mov	r8, r0
  2521 013e C6E7     		b	.L148
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 80
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 80
 
 
  2522              	.LVL241:
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2570              		.loc 1 916 3 is_stmt 1 view .LVU869
  918:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  2571              		.loc 1 918 3 view .LVU870
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 81
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 81
 
 
  918:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  943:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
  2610              		.loc 1 943 53 is_stmt 0 view .LVU887
  2611 0040 D4F8F832 		ldr	r3, [r4, #760]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 82
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 82
 
 
  943:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****     {
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  960:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                           (uint32_t)params[5];
  2651              		.loc 1 960 44 view .LVU903
  2652 0078 3379     		ldrb	r3, [r6, #4]	@ zero_extendqisi2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 83
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 83
 
 
  959:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****                           ((uint32_t)params[4] << 8) |
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2689              		.loc 1 975 5 is_stmt 1 view .LVU921
  975:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c **** 
  2690              		.loc 1 975 15 is_stmt 0 view .LVU922
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 84
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 84
 
 
  2691 00aa D5F87032 		ldr	r3, [r5, #624]
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2731 00e2 0522     		movs	r2, #5
  2732 00e4 95F81D12 		ldrb	r1, [r5, #541]	@ zero_extendqisi2
  2733 00e8 2046     		mov	r0, r4
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 85
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 85
 
 
  2734 00ea FFF7FEFF 		bl	SCSI_SenseCode
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2776              		.loc 1 954 7 view .LVU948
  954:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       return -1;
  2777              		.loc 1 954 23 is_stmt 0 view .LVU949
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 86
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 86
 
 
  2778 012a 0523     		movs	r3, #5
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2822              		.cfi_endproc
  2823              	.LFE149:
  2825              		.section	.text.SCSI_Verify10,"ax",%progbits
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 87
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 87
 
 
  2826              		.align	1
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2868              	.LVL269:
 1021:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   {
  2869              		.loc 1 1021 6 view .LVU973
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 88
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 88
 
 
  2870 0024 0028     		cmp	r0, #0
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2915              	SCSI_ProcessCmd:
  2916              	.LVL276:
  2917              	.LFB134:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 89
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 89
 
 
  122:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   int8_t ret;
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  2961 002a 61       		.byte	(.L193-.L195)/2
  2962 002b 61       		.byte	(.L193-.L195)/2
  2963 002c 61       		.byte	(.L193-.L195)/2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 90
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 90
 
 
  2964 002d 61       		.byte	(.L193-.L195)/2
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  3018 0063 61       		.byte	(.L193-.L195)/2
  3019 0064 61       		.byte	(.L193-.L195)/2
  3020 0065 61       		.byte	(.L193-.L195)/2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 91
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 91
 
 
  3021 0066 61       		.byte	(.L193-.L195)/2
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  3067              		.loc 1 134 7 view .LVU1003
  134:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       break;
  3068              		.loc 1 134 13 is_stmt 0 view .LVU1004
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 92
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 92
 
 
  3069 0094 FFF7FEFF 		bl	SCSI_TestUnitReady
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  154:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       break;
  3109              		.loc 1 154 7 view .LVU1019
  154:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       break;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 93
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 93
 
 
  3110              		.loc 1 154 13 is_stmt 0 view .LVU1020
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  178:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****       break;
  3150              		.loc 1 178 13 is_stmt 0 view .LVU1035
  3151 00d0 FFF7FEFF 		bl	SCSI_Read12
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 94
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 94
 
 
  3152              	.LVL302:
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  3191              	.LVL311:
  3192              	.L210:
  128:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c ****   }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 95
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 95
 
 
  3193              		.loc 1 128 12 view .LVU1051
@@ -5659,67 +5659,67 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 1
  3208              		.file 7 "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc.h"
  3209              		.file 8 "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_data.h"
  3210              		.file 9 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 96
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 96
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_msc_scsi.c
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:20     .text.SCSI_AllowPreventRemovable:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:25     .text.SCSI_AllowPreventRemovable:00000000 SCSI_AllowPreventRemovable
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:81     .text.SCSI_UpdateBotData:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:86     .text.SCSI_UpdateBotData:00000000 SCSI_UpdateBotData
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:138    .text.SCSI_ModeSense6:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:143    .text.SCSI_ModeSense6:00000000 SCSI_ModeSense6
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:206    .text.SCSI_ModeSense6:0000002c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:211    .text.SCSI_ModeSense10:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:216    .text.SCSI_ModeSense10:00000000 SCSI_ModeSense10
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:279    .text.SCSI_ModeSense10:0000002c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:284    .text.SCSI_SenseCode:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:290    .text.SCSI_SenseCode:00000000 SCSI_SenseCode
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:355    .text.SCSI_TestUnitReady:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:360    .text.SCSI_TestUnitReady:00000000 SCSI_TestUnitReady
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:481    .text.SCSI_RequestSense:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:486    .text.SCSI_RequestSense:00000000 SCSI_RequestSense
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:642    .text.SCSI_Inquiry:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:647    .text.SCSI_Inquiry:00000000 SCSI_Inquiry
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:814    .text.SCSI_Inquiry:0000009c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:820    .text.SCSI_StartStopUnit:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:825    .text.SCSI_StartStopUnit:00000000 SCSI_StartStopUnit
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:930    .text.SCSI_ReadFormatCapacity:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:935    .text.SCSI_ReadFormatCapacity:00000000 SCSI_ReadFormatCapacity
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1110   .text.SCSI_ReadCapacity10:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1115   .text.SCSI_ReadCapacity10:00000000 SCSI_ReadCapacity10
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1249   .text.SCSI_ReadCapacity16:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1254   .text.SCSI_ReadCapacity16:00000000 SCSI_ReadCapacity16
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1453   .text.SCSI_CheckAddressRange:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1458   .text.SCSI_CheckAddressRange:00000000 SCSI_CheckAddressRange
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1519   .text.SCSI_ProcessRead:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1524   .text.SCSI_ProcessRead:00000000 SCSI_ProcessRead
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1677   .text.SCSI_ProcessRead:000000c4 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1682   .text.SCSI_Read10:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1687   .text.SCSI_Read10:00000000 SCSI_Read10
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1885   .text.SCSI_Read12:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:1890   .text.SCSI_Read12:00000000 SCSI_Read12
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2099   .text.SCSI_ProcessWrite:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2104   .text.SCSI_ProcessWrite:00000000 SCSI_ProcessWrite
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2267   .text.SCSI_ProcessWrite:000000d4 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2272   .text.SCSI_Write10:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2277   .text.SCSI_Write10:00000000 SCSI_Write10
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2535   .text.SCSI_Write10:0000014c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2540   .text.SCSI_Write12:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2545   .text.SCSI_Write12:00000000 SCSI_Write12
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2821   .text.SCSI_Write12:00000160 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2826   .text.SCSI_Verify10:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2831   .text.SCSI_Verify10:00000000 SCSI_Verify10
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2909   .text.SCSI_ProcessCmd:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2915   .text.SCSI_ProcessCmd:00000000 SCSI_ProcessCmd
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:2951   .text.SCSI_ProcessCmd:00000020 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:3042   .text.SCSI_ProcessCmd:0000007b $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s:3042   .text.SCSI_ProcessCmd:0000007c $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:20     .text.SCSI_AllowPreventRemovable:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:25     .text.SCSI_AllowPreventRemovable:00000000 SCSI_AllowPreventRemovable
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:81     .text.SCSI_UpdateBotData:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:86     .text.SCSI_UpdateBotData:00000000 SCSI_UpdateBotData
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:138    .text.SCSI_ModeSense6:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:143    .text.SCSI_ModeSense6:00000000 SCSI_ModeSense6
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:206    .text.SCSI_ModeSense6:0000002c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:211    .text.SCSI_ModeSense10:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:216    .text.SCSI_ModeSense10:00000000 SCSI_ModeSense10
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:279    .text.SCSI_ModeSense10:0000002c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:284    .text.SCSI_SenseCode:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:290    .text.SCSI_SenseCode:00000000 SCSI_SenseCode
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:355    .text.SCSI_TestUnitReady:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:360    .text.SCSI_TestUnitReady:00000000 SCSI_TestUnitReady
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:481    .text.SCSI_RequestSense:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:486    .text.SCSI_RequestSense:00000000 SCSI_RequestSense
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:642    .text.SCSI_Inquiry:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:647    .text.SCSI_Inquiry:00000000 SCSI_Inquiry
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:814    .text.SCSI_Inquiry:0000009c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:820    .text.SCSI_StartStopUnit:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:825    .text.SCSI_StartStopUnit:00000000 SCSI_StartStopUnit
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:930    .text.SCSI_ReadFormatCapacity:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:935    .text.SCSI_ReadFormatCapacity:00000000 SCSI_ReadFormatCapacity
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1110   .text.SCSI_ReadCapacity10:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1115   .text.SCSI_ReadCapacity10:00000000 SCSI_ReadCapacity10
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1249   .text.SCSI_ReadCapacity16:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1254   .text.SCSI_ReadCapacity16:00000000 SCSI_ReadCapacity16
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1453   .text.SCSI_CheckAddressRange:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1458   .text.SCSI_CheckAddressRange:00000000 SCSI_CheckAddressRange
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1519   .text.SCSI_ProcessRead:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1524   .text.SCSI_ProcessRead:00000000 SCSI_ProcessRead
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1677   .text.SCSI_ProcessRead:000000c4 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1682   .text.SCSI_Read10:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1687   .text.SCSI_Read10:00000000 SCSI_Read10
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1885   .text.SCSI_Read12:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:1890   .text.SCSI_Read12:00000000 SCSI_Read12
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2099   .text.SCSI_ProcessWrite:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2104   .text.SCSI_ProcessWrite:00000000 SCSI_ProcessWrite
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2267   .text.SCSI_ProcessWrite:000000d4 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2272   .text.SCSI_Write10:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2277   .text.SCSI_Write10:00000000 SCSI_Write10
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2535   .text.SCSI_Write10:0000014c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2540   .text.SCSI_Write12:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2545   .text.SCSI_Write12:00000000 SCSI_Write12
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2821   .text.SCSI_Write12:00000160 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2826   .text.SCSI_Verify10:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2831   .text.SCSI_Verify10:00000000 SCSI_Verify10
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2909   .text.SCSI_ProcessCmd:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2915   .text.SCSI_ProcessCmd:00000000 SCSI_ProcessCmd
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:2951   .text.SCSI_ProcessCmd:00000020 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:3042   .text.SCSI_ProcessCmd:0000007b $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s:3042   .text.SCSI_ProcessCmd:0000007c $t
 
 UNDEFINED SYMBOLS
 MSC_Mode_Sense6_data
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccuWVZL3.s 			page 97
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccLoDday.s 			page 97
 
 
 MSC_Mode_Sense10_data

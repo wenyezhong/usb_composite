@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
   28:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** #include "usbd_msc_scsi.h"
   29:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** #include "usbd_ioreq.h"
   30:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 2
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 2
 
 
   31:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** /** @addtogroup STM32_USB_DEVICE_LIBRARY
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
   85:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
   86:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
   87:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** /** @defgroup MSC_BOT_Private_Functions
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 3
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 3
 
 
   88:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  142:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   MSCInEpAdd  = USBD_CoreGetEPAdd(pdev, USBD_EP_IN, USBD_EP_TYPE_BULK);
  143:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   MSCOutEpAdd = USBD_CoreGetEPAdd(pdev, USBD_EP_OUT, USBD_EP_TYPE_BULK);
  144:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** #endif /* USE_USBD_COMPOSITE */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 4
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 4
 
 
  145:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  199:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****       if (SCSI_ProcessCmd(pdev, hmsc->cbw.bLUN, &hmsc->cbw.CB[0]) < 0)
  200:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****       {
  201:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****         MSC_BOT_SendCSW(pdev, USBD_CSW_CMD_FAILED);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 5
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 5
 
 
  202:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****       }
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  256:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** static void  MSC_BOT_CBW_Decode(USBD_HandleTypeDef *pdev)
  257:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** {
  258:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->clas
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 6
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 6
 
 
  259:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  313:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****       }
  314:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****     }
  315:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****     else
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 7
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 7
 
 
  316:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****     {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
   60              	.LVL3:
   61              		.loc 1 338 17 view .LVU8
   62 001c FFF7FEFF 		bl	USBD_CoreGetEPAdd
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 8
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 8
 
 
   63              	.LVL4:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  102              	.LVL7:
  103              		.loc 1 353 9 view .LVU25
  104 0052 3A46     		mov	r2, r7
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 9
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 9
 
 
  105 0054 0249     		ldr	r1, .L4
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  383:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****                          USBD_BOT_CSW_LENGTH);
  384:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
  385:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   /* Prepare EP to Receive next Cmd */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 10
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 10
 
 
  386:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   (void)USBD_LL_PrepareReceive(pdev, MSCOutEpAdd, (uint8_t *)&hmsc->cbw,
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  167 0022 FFF7FEFF 		bl	USBD_CoreGetEPAdd
  168              	.LVL13:
  169              		.loc 1 404 15 view .LVU38
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 11
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 11
 
 
  170 0026 134B     		ldr	r3, .L12+4
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  424:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****     (void)USBD_LL_StallEP(pdev, MSCOutEpAdd);
  425:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   }
  426:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 12
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 12
 
 
  203              		.loc 1 426 1 view .LVU53
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
   99:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->clas
  252              		.loc 1 99 1 is_stmt 0 view .LVU61
  253 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 13
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 13
 
 
  254              	.LCFI2:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  114:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
  295              		.loc 1 114 3 is_stmt 1 view .LVU75
  114:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 14
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 14
 
 
  296              		.loc 1 114 20 is_stmt 0 view .LVU76
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  126:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****                                USBD_BOT_CBW_LENGTH);
  334              		.loc 1 126 9 is_stmt 0 view .LVU93
  335 0062 1F23     		movs	r3, #31
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 15
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 15
 
 
  336 0064 05F50472 		add	r2, r5, #528
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  142:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   MSCOutEpAdd = USBD_CoreGetEPAdd(pdev, USBD_EP_OUT, USBD_EP_TYPE_BULK);
  385              		.loc 1 142 3 is_stmt 1 view .LVU101
  142:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   MSCOutEpAdd = USBD_CoreGetEPAdd(pdev, USBD_EP_OUT, USBD_EP_TYPE_BULK);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 16
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 16
 
 
  386              		.loc 1 142 17 is_stmt 0 view .LVU102
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  426 0042 2046     		mov	r0, r4
  427 0044 FFF7FEFF 		bl	USBD_LL_ClearStallEP
  428              	.LVL33:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 17
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 17
 
 
  158:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****                                USBD_BOT_CBW_LENGTH);
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  475              		.loc 1 172 3 is_stmt 1 view .LVU126
  172:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   {
  476              		.loc 1 172 6 is_stmt 0 view .LVU127
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 18
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 18
 
 
  477 000c 0BB1     		cbz	r3, .L24
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  523 0014 8021     		movs	r1, #128
  524              	.LVL41:
  369:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   MSCOutEpAdd = USBD_CoreGetEPAdd(pdev, USBD_EP_OUT, USBD_EP_TYPE_BULK);
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 19
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 19
 
 
  525              		.loc 1 369 17 view .LVU138
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  564              		.loc 1 386 3 is_stmt 1 view .LVU153
  386:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****                                USBD_BOT_CBW_LENGTH);
  565              		.loc 1 386 9 is_stmt 0 view .LVU154
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 20
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 20
 
 
  566 004c 1F23     		movs	r3, #31
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  186:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   UNUSED(epnum);
  613              		.loc 1 186 1 view .LVU164
  614 000e 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 21
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 21
 
 
  615              	.LCFI5:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  657 003e FFF7FEFF 		bl	MSC_BOT_SendCSW
  658              	.LVL54:
  659 0042 F1E7     		b	.L31
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 22
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 22
 
 
  660              	.LVL55:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  707              		.loc 1 262 15 view .LVU185
  708 0018 2C4B     		ldr	r3, .L51
  709 001a 1870     		strb	r0, [r3]
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 23
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 23
 
 
  263:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** #endif /* USE_USBD_COMPOSITE */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  748              	.L42:
  279:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c **** 
  749              		.loc 1 279 5 is_stmt 1 view .LVU202
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 24
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 24
 
 
  750 0052 2023     		movs	r3, #32
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  791              		.loc 1 298 10 is_stmt 1 view .LVU215
  298:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****              (hmsc->bot_state != USBD_BOT_DATA_OUT) &&
  792              		.loc 1 298 19 is_stmt 0 view .LVU216
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 25
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 25
 
 
  793 008e 2B7A     		ldrb	r3, [r5, #8]	@ zero_extendqisi2
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  834 00c2 2046     		mov	r0, r4
  835 00c4 FFF7FEFF 		bl	MSC_BOT_SendCSW
  836              	.LVL68:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 26
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 26
 
 
  837 00c8 CFE7     		b	.L40
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  232:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****   {
  883              		.loc 1 232 3 view .LVU240
  884 0014 12B1     		cbz	r2, .L55
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 27
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 27
 
 
  885 0016 012A     		cmp	r2, #1
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  931              		.syntax unified
  932              		.thumb
  933              		.thumb_func
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 28
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 28
 
 
  935              	MSC_BOT_CplClrFeature:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  972              		.loc 1 443 17 is_stmt 0 view .LVU260
  973 001e 0222     		movs	r2, #2
  974 0020 0021     		movs	r1, #0
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 29
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 29
 
 
  975 0022 2046     		mov	r0, r4
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  1007              		.loc 1 453 5 is_stmt 1 view .LVU272
  453:Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c ****     (void)USBD_LL_StallEP(pdev, MSCOutEpAdd);
  1008              		.loc 1 453 11 is_stmt 0 view .LVU273
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 30
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 30
 
 
  1009 0048 054B     		ldr	r3, .L66
@@ -1772,38 +1772,38 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 1
  1036              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_scsi.h"
  1037              		.file 7 "Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc.h"
  1038              		.file 8 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s 			page 31
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s 			page 31
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_msc_bot.c
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:20     .text.MSC_BOT_SendData:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:25     .text.MSC_BOT_SendData:00000000 MSC_BOT_SendData
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:118    .text.MSC_BOT_SendData:00000060 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:124    .text.MSC_BOT_Abort:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:129    .text.MSC_BOT_Abort:00000000 MSC_BOT_Abort
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:233    .text.MSC_BOT_Abort:00000070 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:239    .text.MSC_BOT_Init:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:245    .text.MSC_BOT_Init:00000000 MSC_BOT_Init
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:349    .text.MSC_BOT_Init:00000074 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:355    .text.MSC_BOT_Reset:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:361    .text.MSC_BOT_Reset:00000000 MSC_BOT_Reset
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:445    .text.MSC_BOT_Reset:00000058 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:451    .text.MSC_BOT_DeInit:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:457    .text.MSC_BOT_DeInit:00000000 MSC_BOT_DeInit
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:489    .text.MSC_BOT_SendCSW:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:495    .text.MSC_BOT_SendCSW:00000000 MSC_BOT_SendCSW
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:581    .text.MSC_BOT_SendCSW:00000060 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:588    .text.MSC_BOT_DataIn:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:594    .text.MSC_BOT_DataIn:00000000 MSC_BOT_DataIn
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:672    .text.MSC_BOT_CBW_Decode:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:677    .text.MSC_BOT_CBW_Decode:00000000 MSC_BOT_CBW_Decode
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:841    .text.MSC_BOT_CBW_Decode:000000cc $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:848    .text.MSC_BOT_DataOut:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:854    .text.MSC_BOT_DataOut:00000000 MSC_BOT_DataOut
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:929    .text.MSC_BOT_CplClrFeature:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:935    .text.MSC_BOT_CplClrFeature:00000000 MSC_BOT_CplClrFeature
-C:\Users\ADMINI~1\AppData\Local\Temp\ccWuu7vC.s:1025   .text.MSC_BOT_CplClrFeature:00000060 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:20     .text.MSC_BOT_SendData:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:25     .text.MSC_BOT_SendData:00000000 MSC_BOT_SendData
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:118    .text.MSC_BOT_SendData:00000060 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:124    .text.MSC_BOT_Abort:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:129    .text.MSC_BOT_Abort:00000000 MSC_BOT_Abort
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:233    .text.MSC_BOT_Abort:00000070 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:239    .text.MSC_BOT_Init:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:245    .text.MSC_BOT_Init:00000000 MSC_BOT_Init
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:349    .text.MSC_BOT_Init:00000074 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:355    .text.MSC_BOT_Reset:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:361    .text.MSC_BOT_Reset:00000000 MSC_BOT_Reset
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:445    .text.MSC_BOT_Reset:00000058 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:451    .text.MSC_BOT_DeInit:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:457    .text.MSC_BOT_DeInit:00000000 MSC_BOT_DeInit
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:489    .text.MSC_BOT_SendCSW:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:495    .text.MSC_BOT_SendCSW:00000000 MSC_BOT_SendCSW
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:581    .text.MSC_BOT_SendCSW:00000060 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:588    .text.MSC_BOT_DataIn:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:594    .text.MSC_BOT_DataIn:00000000 MSC_BOT_DataIn
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:672    .text.MSC_BOT_CBW_Decode:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:677    .text.MSC_BOT_CBW_Decode:00000000 MSC_BOT_CBW_Decode
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:841    .text.MSC_BOT_CBW_Decode:000000cc $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:848    .text.MSC_BOT_DataOut:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:854    .text.MSC_BOT_DataOut:00000000 MSC_BOT_DataOut
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:929    .text.MSC_BOT_CplClrFeature:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:935    .text.MSC_BOT_CplClrFeature:00000000 MSC_BOT_CplClrFeature
+C:\Users\ADMINI~1\AppData\Local\Temp\ccbUbWQb.s:1025   .text.MSC_BOT_CplClrFeature:00000060 $d
 
 UNDEFINED SYMBOLS
 USBD_CoreGetEPAdd
