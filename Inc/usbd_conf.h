@@ -75,6 +75,9 @@
 /*---------- -----------*/
 #define USBD_SELF_POWERED     1U
 
+#define MSC_MEDIA_PACKET     512U
+#define CDC_FS_BINTERVAL     0x20U
+
 #define USBD_SUPPORT_USER_STRING_DESC  1U
 
 /****************************************/

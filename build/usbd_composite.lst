@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
   27:Src/usbd_composite.c **** #define USBD_CMPSIT_PRODUCT_STRING_FS     "STM32 Virtual ComPort"
   28:Src/usbd_composite.c **** #define USBD_CMPSIT_CONFIGURATION_STRING_FS     "CDC Config"
   29:Src/usbd_composite.c **** #define USBD_CMPSIT_INTERFACE_STRING_FS     "CDC Interface"
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 2
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 2
 
 
   30:Src/usbd_composite.c **** #endif
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
   84:Src/usbd_composite.c **** 	0x02, 					  /* bNumInterfaces */
   85:Src/usbd_composite.c **** 	USBD_IDX_MFC_STR, 		  /*Index of manufacturer  string*/
   86:Src/usbd_composite.c **** 	USBD_IDX_PRODUCT_STR, 	  /*Index of product string*/
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 3
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 3
 
 
   87:Src/usbd_composite.c **** 	USBD_IDX_SERIAL_STR,		  /*Index of serial number string*/
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
   36              		.loc 1 134 3 view .LVU2
   37              		.loc 1 134 11 is_stmt 0 view .LVU3
   38 0000 1223     		movs	r3, #18
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 4
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 4
 
 
   39 0002 0B80     		strh	r3, [r1]	@ movhi
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
   87              		.align	1
   88              		.syntax unified
   89              		.thumb
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 5
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 5
 
 
   90              		.thumb_func
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  173:Src/usbd_composite.c ****     }
  174:Src/usbd_composite.c ****     else
  175:Src/usbd_composite.c ****     {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 6
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 6
 
 
  176:Src/usbd_composite.c ****       pbuf[2 * idx] = (value >> 28) + 'A' - 10;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  153 0036 0CF1300C 		add	ip, ip, #48
  172:Src/usbd_composite.c ****     }
  154              		.loc 1 172 21 view .LVU40
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 7
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 7
 
 
  155 003a 01F813C0 		strb	ip, [r1, r3, lsl #1]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  191:Src/usbd_composite.c **** 
  192:Src/usbd_composite.c ****   deviceserial0 += deviceserial2;
  202              		.loc 1 192 3 is_stmt 1 view .LVU51
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 8
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 8
 
 
  193:Src/usbd_composite.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  248              		.cfi_startproc
  249              		@ args = 0, pretend = 0, frame = 0
  250              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 9
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 9
 
 
  251              		.loc 1 201 1 is_stmt 0 view .LVU60
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  224:Src/usbd_composite.c ****   return USBD_CMPSIT_StrDesc;
  225:Src/usbd_composite.c **** }
  226:Src/usbd_composite.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 10
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 10
 
 
  227:Src/usbd_composite.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  281:Src/usbd_composite.c ****   0x0B,   /* bDescriptorType: Interface Association Descriptor */
  282:Src/usbd_composite.c ****   0x00,   /* bFirstInterface */
  283:Src/usbd_composite.c ****   0x02,   /* bInterfaceCount */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 11
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 11
 
 
  284:Src/usbd_composite.c ****   0x02,   /* bFunctionClass: Communication Interface Class */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  338:Src/usbd_composite.c ****   /* Data class interface descriptor */
  339:Src/usbd_composite.c ****   0x09,                                       /* bLength: Endpoint Descriptor size */
  340:Src/usbd_composite.c ****   USB_DESC_TYPE_INTERFACE,                    /* bDescriptorType: */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 12
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 12
 
 
  341:Src/usbd_composite.c ****   0x01,                                       /* bInterfaceNumber: Number of Interface */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  395:Src/usbd_composite.c ****   0x00,                                            /* Polling interval in milliseconds */
  396:Src/usbd_composite.c ****   //99
  397:Src/usbd_composite.c ****   0x07,                                            /* Endpoint descriptor length = 7 */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 13
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 13
 
 
  398:Src/usbd_composite.c ****   0x05,                                            /* Endpoint descriptor type */
@@ -771,14 +771,14 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  445:Src/usbd_composite.c **** #ifdef USE_USBD_COMPOSITE
  446:Src/usbd_composite.c **** void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, USBD_CompositeClassT
  447:Src/usbd_composite.c **** {
- 448:Src/usbd_composite.c **** 	printf("classId=%d  : %d\r\n",pdev->classId,classtype);
+ 448:Src/usbd_composite.c **** 	//printf("classId=%d  : %d\r\n",pdev->classId,classtype);
  449:Src/usbd_composite.c **** 	switch(classtype)
  450:Src/usbd_composite.c **** 	{
  451:Src/usbd_composite.c **** 		case CLASS_TYPE_CDC:{
  452:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].ClassType = CLASS_TYPE_CDC;
  453:Src/usbd_composite.c **** 			
  454:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Active = 1U;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 14
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 14
 
 
  455:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].NumEps = 3;
@@ -836,9 +836,9 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  507:Src/usbd_composite.c **** uint8_t * USBD_UsrStrDescriptor(struct _USBD_HandleTypeDef *pdev, uint8_t index,  uint16_t *length)
  508:Src/usbd_composite.c **** {
  509:Src/usbd_composite.c ****   *length = 0;
- 510:Src/usbd_composite.c ****   printf("index=%d\r\n",index);
+ 510:Src/usbd_composite.c ****   //printf("index=%d\r\n",index);
  511:Src/usbd_composite.c ****  /*  if (USBD_IDX_MICROSOFT_DESC_STR == index) {
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 15
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 15
 
 
  512:Src/usbd_composite.c ****     *length = sizeof (USBD_MS_OS_StringDescriptor);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  316              		.loc 1 536 1 is_stmt 1 view -0
  317              		.cfi_startproc
  318              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 16
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 16
 
 
  319              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  369              		.loc 1 544 1 is_stmt 1 view -0
  370              		.cfi_startproc
  371              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 17
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 17
 
 
  372              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  418 0004 034C     		ldr	r4, .L39
  419 0006 2146     		mov	r1, r4
  420              	.LVL28:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 18
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 18
 
 
  147:Src/usbd_composite.c ****   return USBD_CMPSIT_StrDesc;
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  465              		.loc 1 153 5 is_stmt 0 view .LVU99
  466 0004 28B9     		cbnz	r0, .L42
  155:Src/usbd_composite.c ****   }
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 19
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 19
 
 
  467              		.loc 1 155 5 is_stmt 1 view .LVU100
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  510              		.thumb
  511              		.thumb_func
  513              	USBD_CMPSIT_FS_InterfaceStrDescriptor:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 20
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 20
 
 
  514              	.LVL39:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  555              		.loc 1 222 5 view .LVU121
  556 001a F8E7     		b	.L49
  557              	.L52:
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 21
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 21
 
 
  558              		.align	2
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  238:Src/usbd_composite.c **** }
  603              		.loc 1 238 3 is_stmt 1 view .LVU129
  239:Src/usbd_composite.c **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 22
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 22
 
 
  604              		.loc 1 239 1 is_stmt 0 view .LVU130
@@ -1288,605 +1288,580 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 1
  624 0020 00000000 		.word	.LC3
  625              		.cfi_endproc
  626              	.LFE142:
- 628              		.section	.rodata.USBD_CMPSIT_AddClass.str1.4,"aMS",%progbits,1
- 629              		.align	2
- 630              	.LC4:
- 631 0000 636C6173 		.ascii	"classId=%d  : %d\015\012\000"
- 631      7349643D 
- 631      25642020 
- 631      3A202564 
- 631      0D0A00
- 632              		.section	.text.USBD_CMPSIT_AddClass,"ax",%progbits
- 633              		.align	1
- 634              		.global	USBD_CMPSIT_AddClass
- 635              		.syntax unified
- 636              		.thumb
- 637              		.thumb_func
- 639              	USBD_CMPSIT_AddClass:
- 640              	.LVL55:
- 641              	.LFB143:
- 447:Src/usbd_composite.c **** 	printf("classId=%d  : %d\r\n",pdev->classId,classtype);
- 642              		.loc 1 447 1 is_stmt 1 view -0
- 643              		.cfi_startproc
- 644              		@ args = 0, pretend = 0, frame = 0
- 645              		@ frame_needed = 0, uses_anonymous_args = 0
- 447:Src/usbd_composite.c **** 	printf("classId=%d  : %d\r\n",pdev->classId,classtype);
- 646              		.loc 1 447 1 is_stmt 0 view .LVU136
- 647 0000 38B5     		push	{r3, r4, r5, lr}
- 648              	.LCFI8:
- 649              		.cfi_def_cfa_offset 16
- 650              		.cfi_offset 3, -16
- 651              		.cfi_offset 4, -12
- 652              		.cfi_offset 5, -8
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 23
-
-
- 653              		.cfi_offset 14, -4
- 654 0002 0446     		mov	r4, r0
- 655 0004 1546     		mov	r5, r2
- 448:Src/usbd_composite.c **** 	switch(classtype)
- 656              		.loc 1 448 2 is_stmt 1 view .LVU137
- 657 0006 D0F8F812 		ldr	r1, [r0, #760]
- 658              	.LVL56:
- 448:Src/usbd_composite.c **** 	switch(classtype)
- 659              		.loc 1 448 2 is_stmt 0 view .LVU138
- 660 000a 3648     		ldr	r0, .L64
- 661              	.LVL57:
- 448:Src/usbd_composite.c **** 	switch(classtype)
- 662              		.loc 1 448 2 view .LVU139
- 663 000c FFF7FEFF 		bl	printf
- 664              	.LVL58:
+ 628              		.section	.text.USBD_CMPSIT_AddClass,"ax",%progbits
+ 629              		.align	1
+ 630              		.global	USBD_CMPSIT_AddClass
+ 631              		.syntax unified
+ 632              		.thumb
+ 633              		.thumb_func
+ 635              	USBD_CMPSIT_AddClass:
+ 636              	.LVL55:
+ 637              	.LFB143:
+ 447:Src/usbd_composite.c **** 	//printf("classId=%d  : %d\r\n",pdev->classId,classtype);
+ 638              		.loc 1 447 1 is_stmt 1 view -0
+ 639              		.cfi_startproc
+ 640              		@ args = 0, pretend = 0, frame = 0
+ 641              		@ frame_needed = 0, uses_anonymous_args = 0
+ 447:Src/usbd_composite.c **** 	//printf("classId=%d  : %d\r\n",pdev->classId,classtype);
+ 642              		.loc 1 447 1 is_stmt 0 view .LVU136
+ 643 0000 30B5     		push	{r4, r5, lr}
+ 644              	.LCFI8:
+ 645              		.cfi_def_cfa_offset 12
+ 646              		.cfi_offset 4, -12
+ 647              		.cfi_offset 5, -8
+ 648              		.cfi_offset 14, -4
  449:Src/usbd_composite.c **** 	{
- 665              		.loc 1 449 2 is_stmt 1 view .LVU140
- 666 0010 022D     		cmp	r5, #2
- 667 0012 0BD0     		beq	.L60
- 668 0014 032D     		cmp	r5, #3
- 669 0016 3ED0     		beq	.L61
- 670              	.L62:
+ 649              		.loc 1 449 2 is_stmt 1 view .LVU137
+ 650 0002 022A     		cmp	r2, #2
+ 651 0004 0BD0     		beq	.L60
+ 652 0006 032A     		cmp	r2, #3
+ 653 0008 3ED0     		beq	.L61
+ 654              	.LVL56:
+ 655              	.L62:
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 23
+
+
  501:Src/usbd_composite.c **** 		
- 671              		.loc 1 501 2 view .LVU141
+ 656              		.loc 1 501 2 view .LVU138
  501:Src/usbd_composite.c **** 		
- 672              		.loc 1 501 23 is_stmt 0 view .LVU142
- 673 0018 D4F8F802 		ldr	r0, [r4, #760]
+ 657              		.loc 1 501 23 is_stmt 0 view .LVU139
+ 658 000a D0F8F832 		ldr	r3, [r0, #760]
  501:Src/usbd_composite.c **** 		
- 674              		.loc 1 501 46 view .LVU143
- 675 001c C0EBC000 		rsb	r0, r0, r0, lsl #3
- 676 0020 04EBC004 		add	r4, r4, r0, lsl #3
- 677              	.LVL59:
+ 659              		.loc 1 501 46 view .LVU140
+ 660 000e C3EBC303 		rsb	r3, r3, r3, lsl #3
+ 661 0012 00EBC300 		add	r0, r0, r3, lsl #3
+ 662              	.LVL57:
  501:Src/usbd_composite.c **** 		
- 678              		.loc 1 501 46 view .LVU144
- 679 0024 0023     		movs	r3, #0
- 680 0026 C4F83433 		str	r3, [r4, #820]
+ 663              		.loc 1 501 46 view .LVU141
+ 664 0016 0023     		movs	r3, #0
+ 665 0018 C0F83433 		str	r3, [r0, #820]
  503:Src/usbd_composite.c **** 
- 681              		.loc 1 503 1 view .LVU145
- 682 002a 38BD     		pop	{r3, r4, r5, pc}
- 683              	.LVL60:
- 684              	.L60:
+ 666              		.loc 1 503 1 view .LVU142
+ 667 001c 30BD     		pop	{r4, r5, pc}
+ 668              	.LVL58:
+ 669              	.L60:
  452:Src/usbd_composite.c **** 			
- 685              		.loc 1 452 4 is_stmt 1 view .LVU146
+ 670              		.loc 1 452 4 is_stmt 1 view .LVU143
  452:Src/usbd_composite.c **** 			
- 686              		.loc 1 452 25 is_stmt 0 view .LVU147
- 687 002c D4F8F822 		ldr	r2, [r4, #760]
+ 671              		.loc 1 452 25 is_stmt 0 view .LVU144
+ 672 001e D0F8F822 		ldr	r2, [r0, #760]
+ 673              	.LVL59:
  452:Src/usbd_composite.c **** 			
- 688              		.loc 1 452 46 view .LVU148
- 689 0030 C2EBC203 		rsb	r3, r2, r2, lsl #3
- 690 0034 04EBC303 		add	r3, r4, r3, lsl #3
- 691 0038 0220     		movs	r0, #2
- 692 003a 83F80003 		strb	r0, [r3, #768]
+ 674              		.loc 1 452 46 view .LVU145
+ 675 0022 C2EBC203 		rsb	r3, r2, r2, lsl #3
+ 676              	.LVL60:
+ 452:Src/usbd_composite.c **** 			
+ 677              		.loc 1 452 46 view .LVU146
+ 678 0026 00EBC303 		add	r3, r0, r3, lsl #3
+ 679 002a 0224     		movs	r4, #2
+ 680 002c 83F80043 		strb	r4, [r3, #768]
  454:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].NumEps = 3;
- 693              		.loc 1 454 4 is_stmt 1 view .LVU149
+ 681              		.loc 1 454 4 is_stmt 1 view .LVU147
  454:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].NumEps = 3;
- 694              		.loc 1 454 43 is_stmt 0 view .LVU150
- 695 003e 0121     		movs	r1, #1
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 24
-
-
- 696 0040 C3F80813 		str	r1, [r3, #776]
+ 682              		.loc 1 454 43 is_stmt 0 view .LVU148
+ 683 0030 0121     		movs	r1, #1
+ 684              	.LVL61:
+ 454:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].NumEps = 3;
+ 685              		.loc 1 454 43 view .LVU149
+ 686 0032 C3F80813 		str	r1, [r3, #776]
  455:Src/usbd_composite.c **** 			
- 697              		.loc 1 455 4 is_stmt 1 view .LVU151
+ 687              		.loc 1 455 4 is_stmt 1 view .LVU150
  455:Src/usbd_composite.c **** 			
- 698              		.loc 1 455 43 is_stmt 0 view .LVU152
- 699 0044 0325     		movs	r5, #3
- 700 0046 C3F80C53 		str	r5, [r3, #780]
+ 688              		.loc 1 455 43 is_stmt 0 view .LVU151
+ 689 0036 0325     		movs	r5, #3
+ 690 0038 C3F80C53 		str	r5, [r3, #780]
  457:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].type = USBD_EP_TYPE_INTR;
- 701              		.loc 1 457 4 is_stmt 1 view .LVU153
+ 691              		.loc 1 457 4 is_stmt 1 view .LVU152
  457:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].type = USBD_EP_TYPE_INTR;
- 702              		.loc 1 457 47 is_stmt 0 view .LVU154
- 703 004a 4FF0820C 		mov	ip, #130
- 704 004e 83F810C3 		strb	ip, [r3, #784]
+ 692              		.loc 1 457 47 is_stmt 0 view .LVU153
+ 693 003c 4FF0820C 		mov	ip, #130
+ 694 0040 83F810C3 		strb	ip, [r3, #784]
  458:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].size = CDC_CMD_PACKET_SIZE;
- 705              		.loc 1 458 4 is_stmt 1 view .LVU155
+ 695              		.loc 1 458 4 is_stmt 1 view .LVU154
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 24
+
+
  458:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].size = CDC_CMD_PACKET_SIZE;
- 706              		.loc 1 458 48 is_stmt 0 view .LVU156
- 707 0052 83F81153 		strb	r5, [r3, #785]
+ 696              		.loc 1 458 48 is_stmt 0 view .LVU155
+ 697 0044 83F81153 		strb	r5, [r3, #785]
  459:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].is_used = 1U;
- 708              		.loc 1 459 4 is_stmt 1 view .LVU157
+ 698              		.loc 1 459 4 is_stmt 1 view .LVU156
  459:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].is_used = 1U;
- 709              		.loc 1 459 48 is_stmt 0 view .LVU158
- 710 0056 0825     		movs	r5, #8
- 711 0058 83F81253 		strb	r5, [r3, #786]
+ 699              		.loc 1 459 48 is_stmt 0 view .LVU157
+ 700 0048 0825     		movs	r5, #8
+ 701 004a 83F81253 		strb	r5, [r3, #786]
  460:Src/usbd_composite.c **** 			
- 712              		.loc 1 460 4 is_stmt 1 view .LVU159
+ 702              		.loc 1 460 4 is_stmt 1 view .LVU158
  460:Src/usbd_composite.c **** 			
- 713              		.loc 1 460 51 is_stmt 0 view .LVU160
- 714 005c 83F81313 		strb	r1, [r3, #787]
+ 703              		.loc 1 460 51 is_stmt 0 view .LVU159
+ 704 004e 83F81313 		strb	r1, [r3, #787]
  462:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].type = USBD_EP_TYPE_BULK;
- 715              		.loc 1 462 4 is_stmt 1 view .LVU161
+ 705              		.loc 1 462 4 is_stmt 1 view .LVU160
  462:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].type = USBD_EP_TYPE_BULK;
- 716              		.loc 1 462 47 is_stmt 0 view .LVU162
- 717 0060 83F81413 		strb	r1, [r3, #788]
+ 706              		.loc 1 462 47 is_stmt 0 view .LVU161
+ 707 0052 83F81413 		strb	r1, [r3, #788]
  463:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].size = CDC_DATA_FS_MAX_PACKET_SIZE;
- 718              		.loc 1 463 4 is_stmt 1 view .LVU163
+ 708              		.loc 1 463 4 is_stmt 1 view .LVU162
  463:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].size = CDC_DATA_FS_MAX_PACKET_SIZE;
- 719              		.loc 1 463 48 is_stmt 0 view .LVU164
- 720 0064 83F81503 		strb	r0, [r3, #789]
+ 709              		.loc 1 463 48 is_stmt 0 view .LVU163
+ 710 0056 83F81543 		strb	r4, [r3, #789]
  464:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].is_used = 1U;
- 721              		.loc 1 464 4 is_stmt 1 view .LVU165
+ 711              		.loc 1 464 4 is_stmt 1 view .LVU164
  464:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].is_used = 1U;
- 722              		.loc 1 464 48 is_stmt 0 view .LVU166
- 723 0068 4025     		movs	r5, #64
- 724 006a 83F81653 		strb	r5, [r3, #790]
+ 712              		.loc 1 464 48 is_stmt 0 view .LVU165
+ 713 005a 4FF0400C 		mov	ip, #64
+ 714 005e 83F816C3 		strb	ip, [r3, #790]
  465:Src/usbd_composite.c **** 			
- 725              		.loc 1 465 4 is_stmt 1 view .LVU167
+ 715              		.loc 1 465 4 is_stmt 1 view .LVU166
  465:Src/usbd_composite.c **** 			
- 726              		.loc 1 465 51 is_stmt 0 view .LVU168
- 727 006e 83F81713 		strb	r1, [r3, #791]
+ 716              		.loc 1 465 51 is_stmt 0 view .LVU167
+ 717 0062 83F81713 		strb	r1, [r3, #791]
  467:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[2].type = USBD_EP_TYPE_BULK;
- 728              		.loc 1 467 4 is_stmt 1 view .LVU169
+ 718              		.loc 1 467 4 is_stmt 1 view .LVU168
  467:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[2].type = USBD_EP_TYPE_BULK;
- 729              		.loc 1 467 47 is_stmt 0 view .LVU170
- 730 0072 4FF0810C 		mov	ip, #129
- 731 0076 83F818C3 		strb	ip, [r3, #792]
+ 719              		.loc 1 467 47 is_stmt 0 view .LVU169
+ 720 0066 8125     		movs	r5, #129
+ 721 0068 83F81853 		strb	r5, [r3, #792]
  468:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[2].size = CDC_DATA_FS_MAX_PACKET_SIZE;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 25
-
-
- 732              		.loc 1 468 4 is_stmt 1 view .LVU171
+ 722              		.loc 1 468 4 is_stmt 1 view .LVU170
  468:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[2].size = CDC_DATA_FS_MAX_PACKET_SIZE;
- 733              		.loc 1 468 48 is_stmt 0 view .LVU172
- 734 007a 83F81903 		strb	r0, [r3, #793]
+ 723              		.loc 1 468 48 is_stmt 0 view .LVU171
+ 724 006c 83F81943 		strb	r4, [r3, #793]
  469:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[2].is_used = 1U;
- 735              		.loc 1 469 4 is_stmt 1 view .LVU173
+ 725              		.loc 1 469 4 is_stmt 1 view .LVU172
  469:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[2].is_used = 1U;
- 736              		.loc 1 469 48 is_stmt 0 view .LVU174
- 737 007e 83F81A53 		strb	r5, [r3, #794]
+ 726              		.loc 1 469 48 is_stmt 0 view .LVU173
+ 727 0070 83F81AC3 		strb	ip, [r3, #794]
  470:Src/usbd_composite.c **** 
- 738              		.loc 1 470 4 is_stmt 1 view .LVU175
+ 728              		.loc 1 470 4 is_stmt 1 view .LVU174
  470:Src/usbd_composite.c **** 
- 739              		.loc 1 470 51 is_stmt 0 view .LVU176
- 740 0082 83F81B13 		strb	r1, [r3, #795]
+ 729              		.loc 1 470 51 is_stmt 0 view .LVU175
+ 730 0074 83F81B13 		strb	r1, [r3, #795]
  472:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Ifs[0] = 0;
- 741              		.loc 1 472 4 is_stmt 1 view .LVU177
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 25
+
+
+ 731              		.loc 1 472 4 is_stmt 1 view .LVU176
  472:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Ifs[0] = 0;
- 742              		.loc 1 472 42 is_stmt 0 view .LVU178
- 743 0086 C3F82803 		str	r0, [r3, #808]
+ 732              		.loc 1 472 42 is_stmt 0 view .LVU177
+ 733 0078 C3F82843 		str	r4, [r3, #808]
  473:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Ifs[1] = 1;	
- 744              		.loc 1 473 4 is_stmt 1 view .LVU179
+ 734              		.loc 1 473 4 is_stmt 1 view .LVU178
  473:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Ifs[1] = 1;	
- 745              		.loc 1 473 43 is_stmt 0 view .LVU180
- 746 008a 0020     		movs	r0, #0
- 747 008c 83F82C03 		strb	r0, [r3, #812]
+ 735              		.loc 1 473 43 is_stmt 0 view .LVU179
+ 736 007c 0024     		movs	r4, #0
+ 737 007e 83F82C43 		strb	r4, [r3, #812]
  474:Src/usbd_composite.c **** 			
- 748              		.loc 1 474 4 is_stmt 1 view .LVU181
+ 738              		.loc 1 474 4 is_stmt 1 view .LVU180
  474:Src/usbd_composite.c **** 			
- 749              		.loc 1 474 43 is_stmt 0 view .LVU182
- 750 0090 83F82D13 		strb	r1, [r3, #813]
+ 739              		.loc 1 474 43 is_stmt 0 view .LVU181
+ 740 0082 83F82D13 		strb	r1, [r3, #813]
  476:Src/usbd_composite.c **** 
- 751              		.loc 1 476 4 is_stmt 1 view .LVU183
+ 741              		.loc 1 476 4 is_stmt 1 view .LVU182
  476:Src/usbd_composite.c **** 
- 752              		.loc 1 476 3 is_stmt 0 view .LVU184
- 753 0094 C0E7     		b	.L62
- 754              	.L61:
+ 742              		.loc 1 476 3 is_stmt 0 view .LVU183
+ 743 0086 C0E7     		b	.L62
+ 744              	.LVL62:
+ 745              	.L61:
  479:Src/usbd_composite.c **** 			
- 755              		.loc 1 479 4 is_stmt 1 view .LVU185
+ 746              		.loc 1 479 4 is_stmt 1 view .LVU184
  479:Src/usbd_composite.c **** 			
- 756              		.loc 1 479 25 is_stmt 0 view .LVU186
- 757 0096 D4F8F822 		ldr	r2, [r4, #760]
+ 747              		.loc 1 479 25 is_stmt 0 view .LVU185
+ 748 0088 D0F8F822 		ldr	r2, [r0, #760]
+ 749              	.LVL63:
  479:Src/usbd_composite.c **** 			
- 758              		.loc 1 479 46 view .LVU187
- 759 009a C2EBC203 		rsb	r3, r2, r2, lsl #3
- 760 009e 04EBC303 		add	r3, r4, r3, lsl #3
- 761 00a2 4FF0030C 		mov	ip, #3
- 762 00a6 83F800C3 		strb	ip, [r3, #768]
+ 750              		.loc 1 479 46 view .LVU186
+ 751 008c C2EBC203 		rsb	r3, r2, r2, lsl #3
+ 752              	.LVL64:
+ 479:Src/usbd_composite.c **** 			
+ 753              		.loc 1 479 46 view .LVU187
+ 754 0090 00EBC303 		add	r3, r0, r3, lsl #3
+ 755 0094 4FF0030E 		mov	lr, #3
+ 756 0098 83F800E3 		strb	lr, [r3, #768]
  481:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].NumEps = 2;
- 763              		.loc 1 481 4 is_stmt 1 view .LVU188
+ 757              		.loc 1 481 4 is_stmt 1 view .LVU188
  481:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].NumEps = 2;
- 764              		.loc 1 481 43 is_stmt 0 view .LVU189
- 765 00aa 0120     		movs	r0, #1
- 766 00ac C3F80803 		str	r0, [r3, #776]
+ 758              		.loc 1 481 43 is_stmt 0 view .LVU189
+ 759 009c 0124     		movs	r4, #1
+ 760 009e C3F80843 		str	r4, [r3, #776]
  482:Src/usbd_composite.c **** 			
- 767              		.loc 1 482 4 is_stmt 1 view .LVU190
+ 761              		.loc 1 482 4 is_stmt 1 view .LVU190
  482:Src/usbd_composite.c **** 			
- 768              		.loc 1 482 43 is_stmt 0 view .LVU191
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 26
-
-
- 769 00b0 0221     		movs	r1, #2
- 770 00b2 C3F80C13 		str	r1, [r3, #780]
+ 762              		.loc 1 482 43 is_stmt 0 view .LVU191
+ 763 00a2 0221     		movs	r1, #2
+ 764              	.LVL65:
+ 482:Src/usbd_composite.c **** 			
+ 765              		.loc 1 482 43 view .LVU192
+ 766 00a4 C3F80C13 		str	r1, [r3, #780]
  484:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].type = USBD_EP_TYPE_BULK;
- 771              		.loc 1 484 4 is_stmt 1 view .LVU192
+ 767              		.loc 1 484 4 is_stmt 1 view .LVU193
  484:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].type = USBD_EP_TYPE_BULK;
- 772              		.loc 1 484 47 is_stmt 0 view .LVU193
- 773 00b6 8325     		movs	r5, #131
- 774 00b8 83F81053 		strb	r5, [r3, #784]
+ 768              		.loc 1 484 47 is_stmt 0 view .LVU194
+ 769 00a8 8325     		movs	r5, #131
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 26
+
+
+ 770 00aa 83F81053 		strb	r5, [r3, #784]
  485:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].size = MSC_MAX_FS_PACKET;
- 775              		.loc 1 485 4 is_stmt 1 view .LVU194
+ 771              		.loc 1 485 4 is_stmt 1 view .LVU195
  485:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].size = MSC_MAX_FS_PACKET;
- 776              		.loc 1 485 48 is_stmt 0 view .LVU195
- 777 00bc 83F81113 		strb	r1, [r3, #785]
+ 772              		.loc 1 485 48 is_stmt 0 view .LVU196
+ 773 00ae 83F81113 		strb	r1, [r3, #785]
  486:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].is_used = 1U;
- 778              		.loc 1 486 4 is_stmt 1 view .LVU196
+ 774              		.loc 1 486 4 is_stmt 1 view .LVU197
  486:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[0].is_used = 1U;
- 779              		.loc 1 486 48 is_stmt 0 view .LVU197
- 780 00c0 4025     		movs	r5, #64
- 781 00c2 83F81253 		strb	r5, [r3, #786]
+ 775              		.loc 1 486 48 is_stmt 0 view .LVU198
+ 776 00b2 4FF0400C 		mov	ip, #64
+ 777 00b6 83F812C3 		strb	ip, [r3, #786]
  487:Src/usbd_composite.c **** 			
- 782              		.loc 1 487 4 is_stmt 1 view .LVU198
+ 778              		.loc 1 487 4 is_stmt 1 view .LVU199
  487:Src/usbd_composite.c **** 			
- 783              		.loc 1 487 51 is_stmt 0 view .LVU199
- 784 00c6 83F81303 		strb	r0, [r3, #787]
+ 779              		.loc 1 487 51 is_stmt 0 view .LVU200
+ 780 00ba 83F81343 		strb	r4, [r3, #787]
  489:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].type = USBD_EP_TYPE_BULK;
- 785              		.loc 1 489 4 is_stmt 1 view .LVU200
+ 781              		.loc 1 489 4 is_stmt 1 view .LVU201
  489:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].type = USBD_EP_TYPE_BULK;
- 786              		.loc 1 489 47 is_stmt 0 view .LVU201
- 787 00ca 83F814C3 		strb	ip, [r3, #788]
+ 782              		.loc 1 489 47 is_stmt 0 view .LVU202
+ 783 00be 83F814E3 		strb	lr, [r3, #788]
  490:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].size = MSC_MAX_FS_PACKET;
- 788              		.loc 1 490 4 is_stmt 1 view .LVU202
+ 784              		.loc 1 490 4 is_stmt 1 view .LVU203
  490:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].size = MSC_MAX_FS_PACKET;
- 789              		.loc 1 490 48 is_stmt 0 view .LVU203
- 790 00ce 83F81513 		strb	r1, [r3, #789]
+ 785              		.loc 1 490 48 is_stmt 0 view .LVU204
+ 786 00c2 83F81513 		strb	r1, [r3, #789]
  491:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].is_used = 1U;
- 791              		.loc 1 491 4 is_stmt 1 view .LVU204
+ 787              		.loc 1 491 4 is_stmt 1 view .LVU205
  491:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Eps[1].is_used = 1U;
- 792              		.loc 1 491 48 is_stmt 0 view .LVU205
- 793 00d2 83F81653 		strb	r5, [r3, #790]
+ 788              		.loc 1 491 48 is_stmt 0 view .LVU206
+ 789 00c6 83F816C3 		strb	ip, [r3, #790]
  492:Src/usbd_composite.c **** 			
- 794              		.loc 1 492 4 is_stmt 1 view .LVU206
+ 790              		.loc 1 492 4 is_stmt 1 view .LVU207
  492:Src/usbd_composite.c **** 			
- 795              		.loc 1 492 51 is_stmt 0 view .LVU207
- 796 00d6 83F81703 		strb	r0, [r3, #791]
+ 791              		.loc 1 492 51 is_stmt 0 view .LVU208
+ 792 00ca 83F81743 		strb	r4, [r3, #791]
  495:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Ifs[0] = 2;						
- 797              		.loc 1 495 4 is_stmt 1 view .LVU208
+ 793              		.loc 1 495 4 is_stmt 1 view .LVU209
  495:Src/usbd_composite.c **** 			pdev->tclasslist[pdev->classId].Ifs[0] = 2;						
- 798              		.loc 1 495 42 is_stmt 0 view .LVU209
- 799 00da C3F82803 		str	r0, [r3, #808]
+ 794              		.loc 1 495 42 is_stmt 0 view .LVU210
+ 795 00ce C3F82843 		str	r4, [r3, #808]
  496:Src/usbd_composite.c **** 			
- 800              		.loc 1 496 4 is_stmt 1 view .LVU210
+ 796              		.loc 1 496 4 is_stmt 1 view .LVU211
  496:Src/usbd_composite.c **** 			
- 801              		.loc 1 496 43 is_stmt 0 view .LVU211
- 802 00de 83F82C13 		strb	r1, [r3, #812]
+ 797              		.loc 1 496 43 is_stmt 0 view .LVU212
+ 798 00d2 83F82C13 		strb	r1, [r3, #812]
  498:Src/usbd_composite.c **** 		default:break;
- 803              		.loc 1 498 4 is_stmt 1 view .LVU212
+ 799              		.loc 1 498 4 is_stmt 1 view .LVU213
  498:Src/usbd_composite.c **** 		default:break;
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 27
+ 800              		.loc 1 498 3 is_stmt 0 view .LVU214
+ 801 00d6 98E7     		b	.L62
+ 802              		.cfi_endproc
+ 803              	.LFE143:
+ 805              		.section	.rodata.USBD_UsrStrDescriptor.str1.4,"aMS",%progbits,1
+ 806              		.align	2
+ 807              	.LC4:
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 27
 
 
- 804              		.loc 1 498 3 is_stmt 0 view .LVU213
- 805 00e2 99E7     		b	.L62
- 806              	.L65:
- 807              		.align	2
- 808              	.L64:
- 809 00e4 00000000 		.word	.LC4
- 810              		.cfi_endproc
- 811              	.LFE143:
- 813              		.section	.rodata.USBD_UsrStrDescriptor.str1.4,"aMS",%progbits,1
- 814              		.align	2
- 815              	.LC5:
- 816 0000 696E6465 		.ascii	"index=%d\015\012\000"
- 816      783D2564 
- 816      0D0A00
- 817 000b 00       		.align	2
- 818              	.LC6:
- 819 000c 43444320 		.ascii	"CDC Interface\000"
- 819      496E7465 
- 819      72666163 
- 819      6500
- 820 001a 0000     		.align	2
- 821              	.LC7:
- 822 001c 4D534320 		.ascii	"MSC Interface\000"
- 822      496E7465 
- 822      72666163 
- 822      6500
- 823              		.section	.text.USBD_UsrStrDescriptor,"ax",%progbits
- 824              		.align	1
- 825              		.global	USBD_UsrStrDescriptor
- 826              		.syntax unified
- 827              		.thumb
- 828              		.thumb_func
- 830              	USBD_UsrStrDescriptor:
- 831              	.LVL61:
- 832              	.LFB144:
+ 808 0000 43444320 		.ascii	"CDC Interface\000"
+ 808      496E7465 
+ 808      72666163 
+ 808      6500
+ 809 000e 0000     		.align	2
+ 810              	.LC5:
+ 811 0010 4D534320 		.ascii	"MSC Interface\000"
+ 811      496E7465 
+ 811      72666163 
+ 811      6500
+ 812              		.section	.text.USBD_UsrStrDescriptor,"ax",%progbits
+ 813              		.align	1
+ 814              		.global	USBD_UsrStrDescriptor
+ 815              		.syntax unified
+ 816              		.thumb
+ 817              		.thumb_func
+ 819              	USBD_UsrStrDescriptor:
+ 820              	.LVL66:
+ 821              	.LFB144:
  508:Src/usbd_composite.c ****   *length = 0;
- 833              		.loc 1 508 1 is_stmt 1 view -0
- 834              		.cfi_startproc
- 835              		@ args = 0, pretend = 0, frame = 0
- 836              		@ frame_needed = 0, uses_anonymous_args = 0
+ 822              		.loc 1 508 1 is_stmt 1 view -0
+ 823              		.cfi_startproc
+ 824              		@ args = 0, pretend = 0, frame = 0
+ 825              		@ frame_needed = 0, uses_anonymous_args = 0
  508:Src/usbd_composite.c ****   *length = 0;
- 837              		.loc 1 508 1 is_stmt 0 view .LVU215
- 838 0000 38B5     		push	{r3, r4, r5, lr}
- 839              	.LCFI9:
- 840              		.cfi_def_cfa_offset 16
- 841              		.cfi_offset 3, -16
- 842              		.cfi_offset 4, -12
- 843              		.cfi_offset 5, -8
- 844              		.cfi_offset 14, -4
- 845 0002 0C46     		mov	r4, r1
- 846 0004 1546     		mov	r5, r2
- 509:Src/usbd_composite.c ****   printf("index=%d\r\n",index);
- 847              		.loc 1 509 3 is_stmt 1 view .LVU216
- 509:Src/usbd_composite.c ****   printf("index=%d\r\n",index);
- 848              		.loc 1 509 11 is_stmt 0 view .LVU217
- 849 0006 0023     		movs	r3, #0
- 850 0008 1380     		strh	r3, [r2]	@ movhi
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 28
-
-
- 510:Src/usbd_composite.c ****  /*  if (USBD_IDX_MICROSOFT_DESC_STR == index) {
- 851              		.loc 1 510 3 is_stmt 1 view .LVU218
- 852 000a 0C48     		ldr	r0, .L73
- 853              	.LVL62:
- 510:Src/usbd_composite.c ****  /*  if (USBD_IDX_MICROSOFT_DESC_STR == index) {
- 854              		.loc 1 510 3 is_stmt 0 view .LVU219
- 855 000c FFF7FEFF 		bl	printf
- 856              	.LVL63:
+ 826              		.loc 1 508 1 is_stmt 0 view .LVU216
+ 827 0000 10B5     		push	{r4, lr}
+ 828              	.LCFI9:
+ 829              		.cfi_def_cfa_offset 8
+ 830              		.cfi_offset 4, -8
+ 831              		.cfi_offset 14, -4
+ 509:Src/usbd_composite.c ****   //printf("index=%d\r\n",index);
+ 832              		.loc 1 509 3 is_stmt 1 view .LVU217
+ 509:Src/usbd_composite.c ****   //printf("index=%d\r\n",index);
+ 833              		.loc 1 509 11 is_stmt 0 view .LVU218
+ 834 0002 0023     		movs	r3, #0
+ 835 0004 1380     		strh	r3, [r2]	@ movhi
  518:Src/usbd_composite.c ****     USBD_GetString((uint8_t *)USBD_CDC_INTERFACE_STRING_FS, USBD_CMPSIT_StrDesc, length);
- 857              		.loc 1 518 3 is_stmt 1 view .LVU220
+ 836              		.loc 1 518 3 is_stmt 1 view .LVU219
  518:Src/usbd_composite.c ****     USBD_GetString((uint8_t *)USBD_CDC_INTERFACE_STRING_FS, USBD_CMPSIT_StrDesc, length);
- 858              		.loc 1 518 6 is_stmt 0 view .LVU221
- 859 0010 062C     		cmp	r4, #6
- 860 0012 03D0     		beq	.L71
+ 837              		.loc 1 518 6 is_stmt 0 view .LVU220
+ 838 0006 0629     		cmp	r1, #6
+ 839 0008 03D0     		beq	.L69
  522:Src/usbd_composite.c ****     USBD_GetString((uint8_t *)USBD_MSC_INTERFACE_STRING_FS, USBD_CMPSIT_StrDesc, length);
- 861              		.loc 1 522 8 is_stmt 1 view .LVU222
+ 840              		.loc 1 522 8 is_stmt 1 view .LVU221
  522:Src/usbd_composite.c ****     USBD_GetString((uint8_t *)USBD_MSC_INTERFACE_STRING_FS, USBD_CMPSIT_StrDesc, length);
- 862              		.loc 1 522 11 is_stmt 0 view .LVU223
- 863 0014 072C     		cmp	r4, #7
- 864 0016 09D0     		beq	.L72
+ 841              		.loc 1 522 11 is_stmt 0 view .LVU222
+ 842 000a 0729     		cmp	r1, #7
+ 843 000c 08D0     		beq	.L70
  526:Src/usbd_composite.c **** }
- 865              		.loc 1 526 10 view .LVU224
- 866 0018 0020     		movs	r0, #0
- 867              	.L66:
+ 844              		.loc 1 526 10 view .LVU223
+ 845 000e 0020     		movs	r0, #0
+ 846              	.LVL67:
+ 847              	.L64:
  527:Src/usbd_composite.c **** 
- 868              		.loc 1 527 1 view .LVU225
- 869 001a 38BD     		pop	{r3, r4, r5, pc}
- 870              	.LVL64:
- 871              	.L71:
+ 848              		.loc 1 527 1 view .LVU224
+ 849 0010 10BD     		pop	{r4, pc}
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 28
+
+
+ 850              	.LVL68:
+ 851              	.L69:
  519:Src/usbd_composite.c ****     return USBD_CMPSIT_StrDesc;
- 872              		.loc 1 519 5 is_stmt 1 view .LVU226
- 873 001c 084C     		ldr	r4, .L73+4
- 874 001e 2A46     		mov	r2, r5
- 875 0020 2146     		mov	r1, r4
- 876 0022 0848     		ldr	r0, .L73+8
- 877 0024 FFF7FEFF 		bl	USBD_GetString
- 878              	.LVL65:
+ 852              		.loc 1 519 5 is_stmt 1 view .LVU225
+ 853 0012 074C     		ldr	r4, .L71
+ 854 0014 2146     		mov	r1, r4
+ 855              	.LVL69:
+ 519:Src/usbd_composite.c ****     return USBD_CMPSIT_StrDesc;
+ 856              		.loc 1 519 5 is_stmt 0 view .LVU226
+ 857 0016 0748     		ldr	r0, .L71+4
+ 858              	.LVL70:
+ 519:Src/usbd_composite.c ****     return USBD_CMPSIT_StrDesc;
+ 859              		.loc 1 519 5 view .LVU227
+ 860 0018 FFF7FEFF 		bl	USBD_GetString
+ 861              	.LVL71:
  520:Src/usbd_composite.c ****   }  
- 879              		.loc 1 520 5 view .LVU227
+ 862              		.loc 1 520 5 is_stmt 1 view .LVU228
  520:Src/usbd_composite.c ****   }  
- 880              		.loc 1 520 12 is_stmt 0 view .LVU228
- 881 0028 2046     		mov	r0, r4
- 882 002a F6E7     		b	.L66
- 883              	.L72:
+ 863              		.loc 1 520 12 is_stmt 0 view .LVU229
+ 864 001c 2046     		mov	r0, r4
+ 865 001e F7E7     		b	.L64
+ 866              	.LVL72:
+ 867              	.L70:
  523:Src/usbd_composite.c ****     return USBD_CMPSIT_StrDesc;
- 884              		.loc 1 523 5 is_stmt 1 view .LVU229
- 885 002c 044C     		ldr	r4, .L73+4
- 886 002e 2A46     		mov	r2, r5
- 887 0030 2146     		mov	r1, r4
- 888 0032 0548     		ldr	r0, .L73+12
- 889 0034 FFF7FEFF 		bl	USBD_GetString
- 890              	.LVL66:
+ 868              		.loc 1 523 5 is_stmt 1 view .LVU230
+ 869 0020 034C     		ldr	r4, .L71
+ 870 0022 2146     		mov	r1, r4
+ 871              	.LVL73:
+ 523:Src/usbd_composite.c ****     return USBD_CMPSIT_StrDesc;
+ 872              		.loc 1 523 5 is_stmt 0 view .LVU231
+ 873 0024 0448     		ldr	r0, .L71+8
+ 874              	.LVL74:
+ 523:Src/usbd_composite.c ****     return USBD_CMPSIT_StrDesc;
+ 875              		.loc 1 523 5 view .LVU232
+ 876 0026 FFF7FEFF 		bl	USBD_GetString
+ 877              	.LVL75:
  524:Src/usbd_composite.c ****   }  
- 891              		.loc 1 524 5 view .LVU230
+ 878              		.loc 1 524 5 is_stmt 1 view .LVU233
  524:Src/usbd_composite.c ****   }  
- 892              		.loc 1 524 12 is_stmt 0 view .LVU231
- 893 0038 2046     		mov	r0, r4
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 29
+ 879              		.loc 1 524 12 is_stmt 0 view .LVU234
+ 880 002a 2046     		mov	r0, r4
+ 881 002c F0E7     		b	.L64
+ 882              	.L72:
+ 883 002e 00BF     		.align	2
+ 884              	.L71:
+ 885 0030 00000000 		.word	.LANCHOR5
+ 886 0034 00000000 		.word	.LC4
+ 887 0038 10000000 		.word	.LC5
+ 888              		.cfi_endproc
+ 889              	.LFE144:
+ 891              		.global	USBD_CMPSIT
+ 892              		.global	USBD_CMPSIT_StringSerial
+ 893              		.global	USBD_CMPSIT_StrDesc
+ 894              		.global	USBD_CMPSIT_LangIDDesc
+ 895              		.global	USBD_CMPSIT_FS_DeviceDesc
+ 896              		.global	usbCmpsitFS_Desc
+ 897              		.section	.bss.USBD_CMPSIT_StrDesc,"aw",%nobits
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 29
 
 
- 894 003a EEE7     		b	.L66
- 895              	.L74:
- 896              		.align	2
- 897              	.L73:
- 898 003c 00000000 		.word	.LC5
- 899 0040 00000000 		.word	.LANCHOR5
- 900 0044 0C000000 		.word	.LC6
- 901 0048 1C000000 		.word	.LC7
- 902              		.cfi_endproc
- 903              	.LFE144:
- 905              		.global	USBD_CMPSIT
- 906              		.global	USBD_CMPSIT_StringSerial
- 907              		.global	USBD_CMPSIT_StrDesc
- 908              		.global	USBD_CMPSIT_LangIDDesc
- 909              		.global	USBD_CMPSIT_FS_DeviceDesc
- 910              		.global	usbCmpsitFS_Desc
- 911              		.section	.bss.USBD_CMPSIT_StrDesc,"aw",%nobits
- 912              		.align	2
- 913              		.set	.LANCHOR5,. + 0
- 916              	USBD_CMPSIT_StrDesc:
- 917 0000 00000000 		.space	512
- 917      00000000 
- 917      00000000 
- 917      00000000 
- 917      00000000 
- 918              		.section	.data.USBD_CMPSIT,"aw"
- 919              		.align	2
- 922              	USBD_CMPSIT:
- 923 0000 00000000 		.word	0
- 924 0004 00000000 		.word	0
- 925 0008 00000000 		.word	0
- 926 000c 00000000 		.word	0
- 927 0010 00000000 		.word	0
- 928 0014 00000000 		.word	0
- 929 0018 00000000 		.word	0
- 930 001c 00000000 		.word	0
- 931 0020 00000000 		.word	0
- 932 0024 00000000 		.word	0
- 933 0028 00000000 		.word	USBD_CMPSIT_GetHSCfgDesc
- 934 002c 00000000 		.word	USBD_CMPSIT_GetFSCfgDesc
- 935 0030 00000000 		.word	USBD_CMPSIT_GetOtherSpeedCfgDesc
- 936 0034 00000000 		.word	USBD_CMPSIT_GetDeviceQualifierDescriptor
- 937 0038 00000000 		.space	4
- 938              		.section	.data.USBD_CMPSIT_CfgDesc,"aw"
+ 898              		.align	2
+ 899              		.set	.LANCHOR5,. + 0
+ 902              	USBD_CMPSIT_StrDesc:
+ 903 0000 00000000 		.space	512
+ 903      00000000 
+ 903      00000000 
+ 903      00000000 
+ 903      00000000 
+ 904              		.section	.data.USBD_CMPSIT,"aw"
+ 905              		.align	2
+ 908              	USBD_CMPSIT:
+ 909 0000 00000000 		.word	0
+ 910 0004 00000000 		.word	0
+ 911 0008 00000000 		.word	0
+ 912 000c 00000000 		.word	0
+ 913 0010 00000000 		.word	0
+ 914 0014 00000000 		.word	0
+ 915 0018 00000000 		.word	0
+ 916 001c 00000000 		.word	0
+ 917 0020 00000000 		.word	0
+ 918 0024 00000000 		.word	0
+ 919 0028 00000000 		.word	USBD_CMPSIT_GetHSCfgDesc
+ 920 002c 00000000 		.word	USBD_CMPSIT_GetFSCfgDesc
+ 921 0030 00000000 		.word	USBD_CMPSIT_GetOtherSpeedCfgDesc
+ 922 0034 00000000 		.word	USBD_CMPSIT_GetDeviceQualifierDescriptor
+ 923 0038 00000000 		.space	4
+ 924              		.section	.data.USBD_CMPSIT_CfgDesc,"aw"
+ 925              		.align	2
+ 926              		.set	.LANCHOR3,. + 0
+ 929              	USBD_CMPSIT_CfgDesc:
+ 930 0000 09026A00 		.ascii	"\011\002j\000\003\001\000\3002\010\013\000\002\002\002"
+ 930      030100C0 
+ 930      32080B00 
+ 930      020202
+ 931 000f 01060904 		.ascii	"\001\006\011\004\000\000\001\002\002\001\006\005$\000"
+ 931      00000102 
+ 931      02010605 
+ 931      2400
+ 932 001d 10010524 		.ascii	"\020\001\005$\001\000\001\004$\002\002\005$\006\000"
+ 932      01000104 
+ 932      24020205 
+ 932      240600
+ 933 002c 01070582 		.ascii	"\001\007\005\202\003\010\000 \011\004\001\000\002\012"
+ 933      03080020 
+ 933      09040100 
+ 933      020A
+ 934 003a 00000607 		.ascii	"\000\000\006\007\005\001\002@\000\000\007\005\201\002"
+ 934      05010240 
+ 934      00000705 
+ 934      8102
+ 935 0048 40000008 		.ascii	"@\000\000\010\013\002\001\010\006P\007\011\004\002\000"
+ 935      0B020108 
+ 935      06500709 
+ 935      040200
+ 936 0057 02080650 		.ascii	"\002\010\006P\007\007\005\203\002@\000\000\007\005\003"
+ 936      07070583 
+ 936      02400000 
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 30
+
+
+ 936      070503
+ 937 0066 02400000 		.ascii	"\002@\000\000"
+ 938              		.section	.data.USBD_CMPSIT_DeviceQualifierDesc,"aw"
  939              		.align	2
- 940              		.set	.LANCHOR3,. + 0
- 943              	USBD_CMPSIT_CfgDesc:
- 944 0000 09026A00 		.ascii	"\011\002j\000\003\001\000\3002\010\013\000\002\002\002"
- 944      030100C0 
- 944      32080B00 
- 944      020202
- 945 000f 01060904 		.ascii	"\001\006\011\004\000\000\001\002\002\001\006\005$\000"
- 945      00000102 
- 945      02010605 
- 945      2400
- 946 001d 10010524 		.ascii	"\020\001\005$\001\000\001\004$\002\002\005$\006\000"
- 946      01000104 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 30
-
-
- 946      24020205 
- 946      240600
- 947 002c 01070582 		.ascii	"\001\007\005\202\003\010\000\020\011\004\001\000\002"
- 947      03080010 
- 947      09040100 
- 947      02
- 948 0039 0A000006 		.ascii	"\012\000\000\006\007\005\001\002@\000\000\007\005\201"
- 948      07050102 
- 948      40000007 
- 948      0581
- 949 0047 02400000 		.ascii	"\002@\000\000\010\013\002\001\010\006P\007\011\004\002"
- 949      080B0201 
- 949      08065007 
- 949      090402
- 950 0056 00020806 		.ascii	"\000\002\010\006P\007\007\005\203\002@\000\000\007\005"
- 950      50070705 
- 950      83024000 
- 950      000705
- 951 0065 03024000 		.ascii	"\003\002@\000\000"
- 951      00
- 952              		.section	.data.USBD_CMPSIT_DeviceQualifierDesc,"aw"
- 953              		.align	2
- 954              		.set	.LANCHOR4,. + 0
- 957              	USBD_CMPSIT_DeviceQualifierDesc:
- 958 0000 0A060002 		.ascii	"\012\006\000\002\000\000\000@\001\000"
- 958      00000040 
- 958      0100
- 959              		.section	.data.USBD_CMPSIT_FS_DeviceDesc,"aw"
- 960              		.align	2
- 961              		.set	.LANCHOR0,. + 0
- 964              	USBD_CMPSIT_FS_DeviceDesc:
- 965 0000 12010002 		.ascii	"\022\001\000\002\357\002\001@\203\004@W\000\002\001"
- 965      EF020140 
- 965      83044057 
- 965      000201
- 966 000f 020301   		.ascii	"\002\003\001"
- 967              		.section	.data.USBD_CMPSIT_LangIDDesc,"aw"
- 968              		.align	2
- 969              		.set	.LANCHOR1,. + 0
- 972              	USBD_CMPSIT_LangIDDesc:
- 973 0000 04030904 		.ascii	"\004\003\011\004"
- 974              		.section	.data.USBD_CMPSIT_StringSerial,"aw"
- 975              		.align	2
- 976              		.set	.LANCHOR2,. + 0
- 979              	USBD_CMPSIT_StringSerial:
- 980 0000 1A0300   		.ascii	"\032\003\000"
- 981 0003 00000000 		.space	23
- 981      00000000 
- 981      00000000 
- 981      00000000 
- 981      00000000 
- 982              		.section	.data.usbCmpsitFS_Desc,"aw"
- 983              		.align	2
- 986              	usbCmpsitFS_Desc:
- 987 0000 00000000 		.word	USBD_CMPSIT_FS_DeviceDescriptor
- 988 0004 00000000 		.word	USBD_CMPSIT_FS_LangIDStrDescriptor
- 989 0008 00000000 		.word	USBD_CMPSIT_FS_ManufacturerStrDescriptor
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 31
-
-
- 990 000c 00000000 		.word	USBD_CMPSIT_FS_ProductStrDescriptor
- 991 0010 00000000 		.word	USBD_CMPSIT_FS_SerialStrDescriptor
- 992 0014 00000000 		.word	USBD_CMPSIT_FS_ConfigStrDescriptor
- 993 0018 00000000 		.word	USBD_CMPSIT_FS_InterfaceStrDescriptor
- 994              		.text
- 995              	.Letext0:
- 996              		.file 2 "e:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 997              		.file 3 "e:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 998              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
- 999              		.file 5 "Inc/usbd_composite.h"
- 1000              		.file 6 "e:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 1001              		.file 7 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 32
+ 940              		.set	.LANCHOR4,. + 0
+ 943              	USBD_CMPSIT_DeviceQualifierDesc:
+ 944 0000 0A060002 		.ascii	"\012\006\000\002\000\000\000@\001\000"
+ 944      00000040 
+ 944      0100
+ 945              		.section	.data.USBD_CMPSIT_FS_DeviceDesc,"aw"
+ 946              		.align	2
+ 947              		.set	.LANCHOR0,. + 0
+ 950              	USBD_CMPSIT_FS_DeviceDesc:
+ 951 0000 12010002 		.ascii	"\022\001\000\002\357\002\001@\203\004@W\000\002\001"
+ 951      EF020140 
+ 951      83044057 
+ 951      000201
+ 952 000f 020301   		.ascii	"\002\003\001"
+ 953              		.section	.data.USBD_CMPSIT_LangIDDesc,"aw"
+ 954              		.align	2
+ 955              		.set	.LANCHOR1,. + 0
+ 958              	USBD_CMPSIT_LangIDDesc:
+ 959 0000 04030904 		.ascii	"\004\003\011\004"
+ 960              		.section	.data.USBD_CMPSIT_StringSerial,"aw"
+ 961              		.align	2
+ 962              		.set	.LANCHOR2,. + 0
+ 965              	USBD_CMPSIT_StringSerial:
+ 966 0000 1A0300   		.ascii	"\032\003\000"
+ 967 0003 00000000 		.space	23
+ 967      00000000 
+ 967      00000000 
+ 967      00000000 
+ 967      00000000 
+ 968              		.section	.data.usbCmpsitFS_Desc,"aw"
+ 969              		.align	2
+ 972              	usbCmpsitFS_Desc:
+ 973 0000 00000000 		.word	USBD_CMPSIT_FS_DeviceDescriptor
+ 974 0004 00000000 		.word	USBD_CMPSIT_FS_LangIDStrDescriptor
+ 975 0008 00000000 		.word	USBD_CMPSIT_FS_ManufacturerStrDescriptor
+ 976 000c 00000000 		.word	USBD_CMPSIT_FS_ProductStrDescriptor
+ 977 0010 00000000 		.word	USBD_CMPSIT_FS_SerialStrDescriptor
+ 978 0014 00000000 		.word	USBD_CMPSIT_FS_ConfigStrDescriptor
+ 979 0018 00000000 		.word	USBD_CMPSIT_FS_InterfaceStrDescriptor
+ 980              		.text
+ 981              	.Letext0:
+ 982              		.file 2 "e:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 983              		.file 3 "e:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 984              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
+ 985              		.file 5 "Inc/usbd_composite.h"
+ 986              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 31
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_composite.c
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:20     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:26     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 USBD_CMPSIT_FS_DeviceDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:49     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:54     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:60     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 USBD_CMPSIT_FS_LangIDStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:82     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:87     .text.IntToUnicode:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:92     .text.IntToUnicode:00000000 IntToUnicode
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:170    .text.Get_CMPSIT_SerialNum:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:175    .text.Get_CMPSIT_SerialNum:00000000 Get_CMPSIT_SerialNum
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:232    .text.Get_CMPSIT_SerialNum:00000030 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:238    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:244    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 USBD_CMPSIT_FS_SerialStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:272    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000010 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:277    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:282    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 USBD_CMPSIT_GetFSCfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:303    .text.USBD_CMPSIT_GetFSCfgDesc:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:308    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:313    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 USBD_CMPSIT_GetHSCfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:329    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:334    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 USBD_CMPSIT_GetOtherSpeedCfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:355    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:360    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:366    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 USBD_CMPSIT_GetDeviceQualifierDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:387    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000008 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:392    .rodata.USBD_CMPSIT_FS_ManufacturerStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:396    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:402    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 USBD_CMPSIT_FS_ManufacturerStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:434    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000014 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:440    .rodata.USBD_CMPSIT_FS_ProductStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:444    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:450    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 USBD_CMPSIT_FS_ProductStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:497    .text.USBD_CMPSIT_FS_ProductStrDescriptor:0000001c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:503    .rodata.USBD_CMPSIT_FS_InterfaceStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:507    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:513    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 USBD_CMPSIT_FS_InterfaceStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:560    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:0000001c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:566    .rodata.USBD_CMPSIT_FS_ConfigStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:570    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:576    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 USBD_CMPSIT_FS_ConfigStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:623    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:0000001c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:629    .rodata.USBD_CMPSIT_AddClass.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:633    .text.USBD_CMPSIT_AddClass:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:639    .text.USBD_CMPSIT_AddClass:00000000 USBD_CMPSIT_AddClass
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:809    .text.USBD_CMPSIT_AddClass:000000e4 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:814    .rodata.USBD_UsrStrDescriptor.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:824    .text.USBD_UsrStrDescriptor:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:830    .text.USBD_UsrStrDescriptor:00000000 USBD_UsrStrDescriptor
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:898    .text.USBD_UsrStrDescriptor:0000003c $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:922    .data.USBD_CMPSIT:00000000 USBD_CMPSIT
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:979    .data.USBD_CMPSIT_StringSerial:00000000 USBD_CMPSIT_StringSerial
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:916    .bss.USBD_CMPSIT_StrDesc:00000000 USBD_CMPSIT_StrDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:972    .data.USBD_CMPSIT_LangIDDesc:00000000 USBD_CMPSIT_LangIDDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:964    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 USBD_CMPSIT_FS_DeviceDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:986    .data.usbCmpsitFS_Desc:00000000 usbCmpsitFS_Desc
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s 			page 33
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:20     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:26     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000000 USBD_CMPSIT_FS_DeviceDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:49     .text.USBD_CMPSIT_FS_DeviceDescriptor:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:54     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:60     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000000 USBD_CMPSIT_FS_LangIDStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:82     .text.USBD_CMPSIT_FS_LangIDStrDescriptor:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:87     .text.IntToUnicode:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:92     .text.IntToUnicode:00000000 IntToUnicode
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:170    .text.Get_CMPSIT_SerialNum:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:175    .text.Get_CMPSIT_SerialNum:00000000 Get_CMPSIT_SerialNum
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:232    .text.Get_CMPSIT_SerialNum:00000030 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:238    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:244    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000000 USBD_CMPSIT_FS_SerialStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:272    .text.USBD_CMPSIT_FS_SerialStrDescriptor:00000010 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:277    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:282    .text.USBD_CMPSIT_GetFSCfgDesc:00000000 USBD_CMPSIT_GetFSCfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:303    .text.USBD_CMPSIT_GetFSCfgDesc:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:308    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:313    .text.USBD_CMPSIT_GetHSCfgDesc:00000000 USBD_CMPSIT_GetHSCfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:329    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:334    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000000 USBD_CMPSIT_GetOtherSpeedCfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:355    .text.USBD_CMPSIT_GetOtherSpeedCfgDesc:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:360    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:366    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000000 USBD_CMPSIT_GetDeviceQualifierDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:387    .text.USBD_CMPSIT_GetDeviceQualifierDescriptor:00000008 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:392    .rodata.USBD_CMPSIT_FS_ManufacturerStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:396    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:402    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000000 USBD_CMPSIT_FS_ManufacturerStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:434    .text.USBD_CMPSIT_FS_ManufacturerStrDescriptor:00000014 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:440    .rodata.USBD_CMPSIT_FS_ProductStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:444    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:450    .text.USBD_CMPSIT_FS_ProductStrDescriptor:00000000 USBD_CMPSIT_FS_ProductStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:497    .text.USBD_CMPSIT_FS_ProductStrDescriptor:0000001c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:503    .rodata.USBD_CMPSIT_FS_InterfaceStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:507    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:513    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:00000000 USBD_CMPSIT_FS_InterfaceStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:560    .text.USBD_CMPSIT_FS_InterfaceStrDescriptor:0000001c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:566    .rodata.USBD_CMPSIT_FS_ConfigStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:570    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:576    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:00000000 USBD_CMPSIT_FS_ConfigStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:623    .text.USBD_CMPSIT_FS_ConfigStrDescriptor:0000001c $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:629    .text.USBD_CMPSIT_AddClass:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:635    .text.USBD_CMPSIT_AddClass:00000000 USBD_CMPSIT_AddClass
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:806    .rodata.USBD_UsrStrDescriptor.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:813    .text.USBD_UsrStrDescriptor:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:819    .text.USBD_UsrStrDescriptor:00000000 USBD_UsrStrDescriptor
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:885    .text.USBD_UsrStrDescriptor:00000030 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:908    .data.USBD_CMPSIT:00000000 USBD_CMPSIT
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:965    .data.USBD_CMPSIT_StringSerial:00000000 USBD_CMPSIT_StringSerial
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:902    .bss.USBD_CMPSIT_StrDesc:00000000 USBD_CMPSIT_StrDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:958    .data.USBD_CMPSIT_LangIDDesc:00000000 USBD_CMPSIT_LangIDDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:950    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 USBD_CMPSIT_FS_DeviceDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:972    .data.usbCmpsitFS_Desc:00000000 usbCmpsitFS_Desc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:898    .bss.USBD_CMPSIT_StrDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:905    .data.USBD_CMPSIT:00000000 $d
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s 			page 32
 
 
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:912    .bss.USBD_CMPSIT_StrDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:919    .data.USBD_CMPSIT:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:939    .data.USBD_CMPSIT_CfgDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:943    .data.USBD_CMPSIT_CfgDesc:00000000 USBD_CMPSIT_CfgDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:953    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:957    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 USBD_CMPSIT_DeviceQualifierDesc
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:960    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:968    .data.USBD_CMPSIT_LangIDDesc:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:975    .data.USBD_CMPSIT_StringSerial:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccM9zIut.s:983    .data.usbCmpsitFS_Desc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:925    .data.USBD_CMPSIT_CfgDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:929    .data.USBD_CMPSIT_CfgDesc:00000000 USBD_CMPSIT_CfgDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:939    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:943    .data.USBD_CMPSIT_DeviceQualifierDesc:00000000 USBD_CMPSIT_DeviceQualifierDesc
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:946    .data.USBD_CMPSIT_FS_DeviceDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:954    .data.USBD_CMPSIT_LangIDDesc:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:961    .data.USBD_CMPSIT_StringSerial:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccmRKgXr.s:969    .data.usbCmpsitFS_Desc:00000000 $d
 
 UNDEFINED SYMBOLS
 USBD_GetString
-printf

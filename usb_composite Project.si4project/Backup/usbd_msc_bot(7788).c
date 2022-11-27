@@ -192,7 +192,7 @@ void MSC_BOT_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
   {
     return;
   }
-  //printf("MSC_BOT_DataIn %d\r\n",hmsc->bot_state);
+
   switch (hmsc->bot_state)
   {
     case USBD_BOT_DATA_IN:
@@ -223,19 +223,19 @@ void MSC_BOT_DataOut(USBD_HandleTypeDef *pdev, uint8_t epnum)
   UNUSED(epnum);
 
   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->classId];
-  
+
   if (hmsc == NULL)
   {
     return;
   }
-  
+
   switch (hmsc->bot_state)
   {
     case USBD_BOT_IDLE:
       MSC_BOT_CBW_Decode(pdev);
       break;
 
-    case USBD_BOT_DATA_OUT:      
+    case USBD_BOT_DATA_OUT:
       if (SCSI_ProcessCmd(pdev, hmsc->cbw.bLUN, &hmsc->cbw.CB[0]) < 0)
       {
         MSC_BOT_SendCSW(pdev, USBD_CSW_CMD_FAILED);
@@ -299,10 +299,8 @@ static void  MSC_BOT_CBW_Decode(USBD_HandleTypeDef *pdev)
              (hmsc->bot_state != USBD_BOT_DATA_OUT) &&
              (hmsc->bot_state != USBD_BOT_LAST_DATA_IN))
     {
-      
       if (hmsc->bot_data_length > 0U)
       {
-      	
         MSC_BOT_SendData(pdev, hmsc->bot_data, hmsc->bot_data_length);
       }
       else if (hmsc->bot_data_length == 0U)
@@ -347,7 +345,7 @@ static void  MSC_BOT_SendData(USBD_HandleTypeDef *pdev, uint8_t *pbuf, uint32_t 
   }
 
   length = MIN(hmsc->cbw.dDataLength, len);
-  
+
   hmsc->csw.dDataResidue -= len;
   hmsc->csw.bStatus = USBD_CSW_CMD_PASSED;
   hmsc->bot_state = USBD_BOT_SEND_DATA;

@@ -127,7 +127,7 @@ int8_t SCSI_ProcessCmd(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *cmd)
   {
     return -1;
   }
-  
+
   switch (cmd[0])
   {
     case SCSI_TEST_UNIT_READY:
@@ -258,17 +258,18 @@ static int8_t SCSI_Inquiry(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *param
   uint8_t *pPage;
   uint16_t len;
   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->classId];
-  
+
   if (hmsc == NULL)
   {
     return -1;
   }
- 
+
   if (hmsc->cbw.dDataLength == 0U)
   {
     SCSI_SenseCode(pdev, hmsc->cbw.bLUN, ILLEGAL_REQUEST, INVALID_CDB);
     return -1;
   }
+
   if ((params[1] & 0x01U) != 0U) /* Evpd is set */
   {
     if (params[2] == 0U) /* Request for Supported Vital Product Data Pages*/
@@ -289,10 +290,10 @@ static int8_t SCSI_Inquiry(USBD_HandleTypeDef *pdev, uint8_t lun, uint8_t *param
   }
   else
   {
-	   
+
     pPage = (uint8_t *) & ((USBD_StorageTypeDef *)pdev->pUserData[pdev->classId])->pInquiry[lun * STANDARD_INQUIRY_DATA_LEN];
     len = (uint16_t)pPage[4] + 5U;
-    
+
     if (params[4] <= len)
     {
       len = params[4];
@@ -1170,14 +1171,14 @@ static int8_t SCSI_UpdateBotData(USBD_MSC_BOT_HandleTypeDef *hmsc,
                                  uint8_t *pBuff, uint16_t length)
 {
   uint16_t len = length;
-  
+
   if (hmsc == NULL)
   {
     return -1;
   }
 
   hmsc->bot_data_length = len;
-  
+
   while (len != 0U)
   {
     len--;

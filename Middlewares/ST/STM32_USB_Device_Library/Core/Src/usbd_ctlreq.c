@@ -732,7 +732,7 @@ static USBD_StatusTypeDef USBD_SetConfig(USBD_HandleTypeDef *pdev, USBD_SetupReq
   static uint8_t cfgidx;
 
   cfgidx = (uint8_t)(req->wValue);
-  printf("idx=%d--%d\r\n",cfgidx,pdev->dev_state);
+  //printf("idx=%d--%d\r\n",cfgidx,pdev->dev_state);
   if (cfgidx > USBD_MAX_NUM_CONFIGURATION)
   {
     USBD_CtlError(pdev, req);

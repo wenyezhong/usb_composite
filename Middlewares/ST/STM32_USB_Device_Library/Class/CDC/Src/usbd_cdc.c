@@ -441,7 +441,7 @@ static uint8_t USBD_CDC_Setup(USBD_HandleTypeDef *pdev,
   uint8_t ifalt = 0U;
   uint16_t status_info = 0U;
   USBD_StatusTypeDef ret = USBD_OK;
-  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+  //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   if (hcdc == NULL)
   {
     return (uint8_t)USBD_FAIL;
@@ -541,7 +541,7 @@ static uint8_t USBD_CDC_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
 {
   USBD_CDC_HandleTypeDef *hcdc;
   PCD_HandleTypeDef *hpcd = (PCD_HandleTypeDef *)pdev->pData;
-  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+  //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   if (pdev->pClassDataCmsit[pdev->classId] == NULL)
   {
     return (uint8_t)USBD_FAIL;
@@ -586,7 +586,7 @@ static uint8_t USBD_CDC_DataOut(USBD_HandleTypeDef *pdev, uint8_t epnum)
   {
     return (uint8_t)USBD_FAIL;
   }
- printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+ //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   /* Get the received data length */
   hcdc->RxLength = USBD_LL_GetRxDataSize(pdev, epnum);
 

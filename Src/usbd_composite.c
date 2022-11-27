@@ -445,7 +445,7 @@ USBD_ClassTypeDef USBD_CMPSIT=
 #ifdef USE_USBD_COMPOSITE
 void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, USBD_CompositeClassTypeDef classtype, uint8_t *EpAddr)
 {
-	printf("classId=%d  : %d\r\n",pdev->classId,classtype);
+	//printf("classId=%d  : %d\r\n",pdev->classId,classtype);
 	switch(classtype)
 	{
 		case CLASS_TYPE_CDC:{
@@ -507,7 +507,7 @@ void USBD_CMPSIT_AddClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass, U
 uint8_t * USBD_UsrStrDescriptor(struct _USBD_HandleTypeDef *pdev, uint8_t index,  uint16_t *length)
 {
   *length = 0;
-  printf("index=%d\r\n",index);
+  //printf("index=%d\r\n",index);
  /*  if (USBD_IDX_MICROSOFT_DESC_STR == index) {
     *length = sizeof (USBD_MS_OS_StringDescriptor);
     return USBD_MS_OS_StringDescriptor;

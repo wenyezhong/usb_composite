@@ -313,7 +313,7 @@ uint8_t USBD_MSC_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
   USBD_MSC_BOT_HandleTypeDef *hmsc = (USBD_MSC_BOT_HandleTypeDef *)pdev->pClassDataCmsit[pdev->classId];
   USBD_StatusTypeDef ret = USBD_OK;
   uint16_t status_info = 0U;
-  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+  //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
 #ifdef USE_USBD_COMPOSITE
   /* Get the Endpoints addresses allocated for this class instance */
   MSCInEpAdd  = USBD_CoreGetEPAdd(pdev, USBD_EP_IN, USBD_EP_TYPE_BULK);
@@ -443,7 +443,7 @@ uint8_t USBD_MSC_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
   */
 uint8_t USBD_MSC_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
 {
-  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+ // printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   MSC_BOT_DataIn(pdev, epnum);
 
   return (uint8_t)USBD_OK;
@@ -458,7 +458,7 @@ uint8_t USBD_MSC_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
   */
 uint8_t USBD_MSC_DataOut(USBD_HandleTypeDef *pdev, uint8_t epnum)
 {
-  printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+  //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
   MSC_BOT_DataOut(pdev, epnum);
 
   return (uint8_t)USBD_OK;

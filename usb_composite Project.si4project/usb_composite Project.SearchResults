@@ -1,5 +1,49 @@
----- USBD_StdEPReq Matches (4 in 3 files) ----
-USBD_LL_SetupStage in usbd_core.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :       ret = USBD_StdEPReq(pdev, &pdev->request);
-usbd_ctlreq.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) line 233 :   * @brief  USBD_StdEPReq
-usbd_ctlreq.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) line 239 : USBD_StatusTypeDef USBD_StdEPReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req)
-usbd_ctlreq.h (Middlewares\ST\STM32_USB_Device_Library\Core\Inc) line 77 : USBD_StatusTypeDef USBD_StdEPReq(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req);
+---- printf Matches (48 in 11 files) ----
+main in main.c (Src) :   printf("usb composite product coming...\r\n");
+assert_failed in main.c (Src) :      ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+HAL_PCD_EP_Transmit in stm32f4xx_hal_pcd.c (Drivers\STM32F4xx_HAL_Driver\Src) :   printf("ep = %x\r\n",ep->num);
+USBD_CDC_Setup in usbd_cdc.c (Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src) :   //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+USBD_CDC_DataIn in usbd_cdc.c (Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src) :   //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+USBD_CDC_DataOut in usbd_cdc.c (Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src) :  //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+CDC_Init_FS in usbd_cdc_if.c (Src) :   //printf("cdc init\r\n");
+CDC_Receive_FS in usbd_cdc_if.c (Src) :     printf("%.2x ",Buf[i]);
+CDC_Receive_FS in usbd_cdc_if.c (Src) :   printf("\r\n");
+USBD_CMPSIT_AddClass in usbd_composite.c (Src) : 	printf("classId=%d  : %d\r\n",pdev->classId,classtype);
+USBD_UsrStrDescriptor in usbd_composite.c (Src) :   //printf("index=%d\r\n",index);
+usbd_conf.h (Inc) line 116 : #define USBD_UsrLog(...)    printf(__VA_ARGS__);\
+usbd_conf.h (Inc) line 117 :                             printf("\n");
+usbd_conf.h (Inc) line 124 : #define USBD_ErrLog(...)    printf("ERROR: ") ;\
+usbd_conf.h (Inc) line 125 :                             printf(__VA_ARGS__);\
+usbd_conf.h (Inc) line 126 :                             printf("\n");
+usbd_conf.h (Inc) line 132 : #define USBD_DbgLog(...)    printf("DEBUG : ") ;\
+usbd_conf.h (Inc) line 133 :                             printf(__VA_ARGS__);\
+usbd_conf.h (Inc) line 134 :                             printf("\n");
+USBD_StdDevReq in usbd_ctlreq.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :     //printf("bRequest=%x\r\n",req->bRequest);
+USBD_SetConfig in usbd_ctlreq.c (Middlewares\ST\STM32_USB_Device_Library\Core\Src) :   //printf("idx=%d--%d\r\n",cfgidx,pdev->dev_state);
+USBD_MSC_Setup in usbd_msc.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+USBD_MSC_DataIn in usbd_msc.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :  // printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+USBD_MSC_DataOut in usbd_msc.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   //printf("%s:%d\r\n",__FUNCTION__,__LINE__);
+MSC_BOT_DataIn in usbd_msc_bot.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("MSC_BOT_DataIn %d\r\n",hmsc->bot_state);
+MSC_BOT_DataOut in usbd_msc_bot.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("111");
+MSC_BOT_DataOut in usbd_msc_bot.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("222");
+MSC_BOT_CBW_Decode in usbd_msc_bot.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :       printf("MSC_BOT_SendData %d\r\n",hmsc->bot_data_length);
+MSC_BOT_SendData in usbd_msc_bot.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("length %d  %x\r\n",hmsc->bot_data_length,MSCInEpAdd);
+SCSI_ProcessCmd in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("cmd=%x\r\n",cmd[0]);
+SCSI_Inquiry in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("555\r\n");
+SCSI_Inquiry in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("666\r\n");
+SCSI_Inquiry in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("77 %x %x \r\n",params[1],params[2]);
+SCSI_Inquiry in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) : 	   printf("888 %x\r\n",lun);
+SCSI_Inquiry in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :     	printf("%x ",pPage[i]);
+SCSI_Inquiry in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :     printf("len %d\r\n",len);
+SCSI_Inquiry in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :     printf("params[4] %d\r\n",params[4]);
+SCSI_UpdateBotData in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("999\r\n");
+SCSI_UpdateBotData in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("1010\r\n");
+SCSI_UpdateBotData in usbd_msc_scsi.c (Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src) :   printf("len=%d\r\n",len);
+STORAGE_Init_FS in usbd_storage_if.c (Src) :  printf("STORAGE_Init_FS \r\n");
+STORAGE_GetCapacity_FS in usbd_storage_if.c (Src) :   printf("STORAGE_GetCapacity_FS \r\n");
+STORAGE_GetCapacity_FS in usbd_storage_if.c (Src) :    printf("%s : %d\r\n",__FUNCTION__,__LINE__);
+STORAGE_IsReady_FS in usbd_storage_if.c (Src) :  printf("%s : %d\r\n",__FUNCTION__,__LINE__);
+STORAGE_IsWriteProtected_FS in usbd_storage_if.c (Src) :  printf("%s : %d\r\n",__FUNCTION__,__LINE__);
+STORAGE_Read_FS in usbd_storage_if.c (Src) :  printf("%s : %d\r\n",__FUNCTION__,__LINE__);
+STORAGE_Write_FS in usbd_storage_if.c (Src) :    printf("%s : %d\r\n",__FUNCTION__,__LINE__);
+STORAGE_GetMaxLun_FS in usbd_storage_if.c (Src) :   printf("%s : %d\r\n",__FUNCTION__,__LINE__);

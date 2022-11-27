@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
   27:Src/main.c    **** #include <stdio.h>
   28:Src/main.c    **** /* USER CODE END Includes */
   29:Src/main.c    **** 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 2
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 2
 
 
   30:Src/main.c    **** /* Private typedef -----------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
   62:Src/main.c    **** }
   52              		.loc 1 62 1 is_stmt 0 view .LVU6
   53 0010 2046     		mov	r0, r4
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 3
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 3
 
 
   54 0012 10BD     		pop	{r4, pc}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  100:Src/main.c    **** 
  101:Src/main.c    ****   /* Infinite loop */
  102:Src/main.c    ****   /* USER CODE BEGIN WHILE */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 4
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 4
 
 
  103:Src/main.c    ****   while (1)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  157:Src/main.c    **** /* USER CODE BEGIN 4 */
  158:Src/main.c    **** 
  159:Src/main.c    **** /* USER CODE END 4 */
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 5
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 5
 
 
  160:Src/main.c    **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
   35:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __has_builtin
   36:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __has_builtin(x) (0)
   37:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 6
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 6
 
 
   38:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
   92:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT16_READ(addr)          (((const struct T_UINT16_READ *)(const void *)(add
   93:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   94:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32_WRITE
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 7
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 7
 
 
   95:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
   89              	@ 0 "" 2
   90              		.thumb
   91              		.syntax unified
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 8
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 8
 
 
   92              	.L6:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  138              	.LBB6:
  123:Src/main.c    ****   __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
  139              		.loc 1 123 3 view .LVU21
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 9
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 9
 
 
  140 001a 0193     		str	r3, [sp, #4]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  179              		.loc 1 131 3 is_stmt 1 view .LVU36
  131:Src/main.c    ****   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
  180              		.loc 1 131 34 is_stmt 0 view .LVU37
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 10
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 10
 
 
  181 0050 0223     		movs	r3, #2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  217              		.loc 1 147 3 is_stmt 1 view .LVU55
  147:Src/main.c    ****   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
  218              		.loc 1 147 35 is_stmt 0 view .LVU56
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 11
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 11
 
 
  219 0078 0023     		movs	r3, #0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  264              	.LC0:
  265 0000 75736220 		.ascii	"usb composite product coming...\015\000"
  265      636F6D70 
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 12
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 12
 
 
  265      6F736974 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  308 001c FEE7     		b	.L16
  309              	.L19:
  310 001e 00BF     		.align	2
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 13
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 13
 
 
  311              	.L18:
@@ -740,23 +740,23 @@ ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 1
  328              		.file 13 "Inc/usart.h"
  329              		.file 14 "Inc/usb_device.h"
  330              		.file 15 "<built-in>"
-ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s 			page 14
+ARM GAS  C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:20     .text._write:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:26     .text._write:00000000 _write
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:60     .text._write:00000014 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:65     .text.Error_Handler:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:71     .text.Error_Handler:00000000 Error_Handler
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:103    .text.SystemClock_Config:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:109    .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:257    .text.SystemClock_Config:000000a0 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:263    .rodata.main.str1.4:00000000 $d
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:267    .text.main:00000000 $t
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:273    .text.main:00000000 main
-C:\Users\ADMINI~1\AppData\Local\Temp\ccGL8YhT.s:312    .text.main:00000020 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:20     .text._write:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:26     .text._write:00000000 _write
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:60     .text._write:00000014 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:65     .text.Error_Handler:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:71     .text.Error_Handler:00000000 Error_Handler
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:103    .text.SystemClock_Config:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:109    .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:257    .text.SystemClock_Config:000000a0 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:263    .rodata.main.str1.4:00000000 $d
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:267    .text.main:00000000 $t
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:273    .text.main:00000000 main
+C:\Users\ADMINI~1\AppData\Local\Temp\ccQTXkrP.s:312    .text.main:00000020 $d
 
 UNDEFINED SYMBOLS
 HAL_UART_Transmit
